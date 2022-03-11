@@ -7,7 +7,7 @@ Previous meeting agendas are available [here](./PAST_MEETINGS.md).
 [Joshua Hakakian](https://github.com/jhakakian), VA is the working group lead.
 
 ACT-IAC members: please feel free to add: questions, topics, speaker requests or offers, and publicly
-shareable resources by (creating an issue)[https://github.com/ACT-IAC-BWG/agendas/issues].
+shareable resources by [creating an issue](https://github.com/ACT-IAC-BWG/agendas/issues).
 
 # Upcoming Agendas
 

@@ -21,7 +21,7 @@ Let's connect with GBA and the Blockchain Association for a response to Executiv
 
 # Links
 
-* [Key Bridge Advisors report on Report on Executive Order for Responsible Development of Digital Assets](./assets/files/key-bridge-advisors-report-on-executive order-for-responsible-development-of digital-assets.pdf)
+* [Key Bridge Advisors report on Report on Executive Order for Responsible Development of Digital Assets](./assets/files/key-bridge-advisors-report-on-executive-order-for-responsible-development-of-digital-assets.pdf)
 * [Executive Order on Digital Assets](https://www.whitehouse.gov/briefing-room/presidential-actions/2022/03/09/executive-order-on-ensuring-responsible-development-of-digital-assets/)
 * [Project Hamilton](https://www.hamiltonproject.org/)
 * [learnmeabitcoin.com](https://learnmeabitcoin.com/)
