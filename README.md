@@ -1,10 +1,15 @@
-## Past meetings
+## ACT-IAC Blockchain Working Group Agendas
 
-## Blockchain Working Group Agenda
+Meeting occur Fridays at 10am -11am EST.
 
-Fridays 10am -11am EST
+Previous meeting agendas are available [here](./previous_agendas/).
 
-VA SHAREPOINT: Blockchain - Subject (sharepoint.com)
+[Joshua Hakakian](https://github.com/jhakakian), VA is the working group lead.
+
+ACT-IAC members: please feel free to add: questions, topics, speaker requests or offers, and publicly
+shareable resources by [creating an issue](https://github.com/ACT-IAC-BWG/agendas/issues).
+
+# Upcoming Agendas
 
 ### 03/18/2022
 
@@ -29,4 +34,4 @@ VA SHAREPOINT: Blockchain - Subject (sharepoint.com)
 
 ##### Maintenance
 
-Each week, paste the last meeting here to [PAST_MEETINGS](./PAST_MEETINGS.md).
+Each week, paste the last meeting here to [PAST_MEETINGS](./previous_agendas/).

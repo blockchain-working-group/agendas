@@ -8,9 +8,11 @@
 * 10:50am to 11:00am - Wrap up
 
 # Notes
-Let's connect with GBA and the Blockchain Association? for a response to Executive Order on Ensuring Responsible Development of Digital Assets
+
+Let's connect with GBA and the Blockchain Association for a response to Executive Order on Ensuring Responsible Development of Digital Assets
+
 * Don Lovett will connect us with GBA (Ingrid) on EO
-* Marquis Allen - March 14th testifying before Congress regarding digital assets: 
+* Marquis Allen - March 14th testifying before Congress regarding digital assets:
 * Invited Frederic - will need to connect with Fred and Ryan to merge this organization with the blockchain playbook group
 * Consider Ransomeware and Sanctions (FBI RFI and EO) - digital assets
 * Difficulty in getting trained blockchain coders/engineers - Victoria Adams; what are different strategies that other teams have found effective in overcoming this obstacle?
@@ -18,16 +20,19 @@ Let's connect with GBA and the Blockchain Association? for a response to Executi
 * NUCSL discussion - use cases to promote fed acceptance to help push initiative/education
 
 # Links
-* Executive Order on Digital Assets - https://www.whitehouse.gov/briefing-room/presidential-actions/2022/03/09/executive-order-on-ensuring-responsible-development-of-digital-assets/
-* Project Hamilton - https://www.hamiltonproject.org/
-* Learn about BITCOIN - https://learnmeabitcoin.com/
-* Blockchain Courses - https://blockchain101.com/
-* Cryptography of Electronic Cash - https://groups.csail.mit.edu/mac/classes/6.805/articles/money/nsamint/nsamint.htm
-* Hyperledger Courses - https://www.edx.org/course/introduction-to-hyperledger-blockchain-technologie
-* Solidity Python Full Course (16 hours) - https://www.youtube.com/watch?v=M576WGiDBdQ
-* CQRS Course - https://www.youtube.com/watch?v=JHGkaShoyNs
-* Bitcoin Math course (96 videos) - https://www.youtube.com/channel/UCW7L2NGmFUEsZoPReKW_4iQ/playlists
 
+* [Key Bridge Advisors report on Report on Executive Order for Responsible Development of Digital Assets](./assets/files/key-bridge-advisors-report-on-executive-order-for-responsible-development-of-digital-assets.pdf)
+* [Executive Order on Digital Assets](https://www.whitehouse.gov/briefing-room/presidential-actions/2022/03/09/executive-order-on-ensuring-responsible-development-of-digital-assets/)
+* [Project Hamilton](https://www.hamiltonproject.org/)
+* [learnmeabitcoin.com](https://learnmeabitcoin.com/)
+* [blockchain101.com](https://blockchain101.com/)
+* [Cryptography of Electronic Cash](https://groups.csail.mit.edu/mac/classes/6.805/articles/money/nsamint/nsamint.htm)
+* [Hyperledger Courses at EDX](https://www.edx.org/learn/hyperledger)
+* [Hyperledger Course on EDX](https://www.edx.org/course/introduction-to-hyperledger-blockchain-technologie)
+* [Solidity Python Full Course](https://www.youtube.com/watch?v=M576WGiDBdQ) (16 hours)
+* YouTube video: [CQRS Presentation by Greg Young](https://www.youtube.com/watch?v=JHGkaShoyNs)
+* YouTube: [Bitcoin Math videos](https://www.youtube.com/channel/UCW7L2NGmFUEsZoPReKW_4iQ/playlists) (96 videos)
+* [BitcoinSV Academy](https://bitcoinsv.academy/)
 
 ### 03/04/2022 Blockchain Working Group Agenda
 
@@ -57,4 +62,3 @@ Let's connect with GBA and the Blockchain Association? for a response to Executi
 
 * https://nymetroacm.app.neoncrm.com/np/clients/nymetroacm/event.jsp?event=85& - It's free membership, due to pandemic time, Free membership is offered right now. So click on join, follow the steps, select free membership.  Then go back and register for the 5G event.
 * https://www.himss.org/global-conference - Those presenting are related to the DoD Spectrum efforts.
-
