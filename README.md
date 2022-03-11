@@ -1,6 +1,6 @@
-## Blockchain Working Group Agenda
+## ACT-IAC Blockchain Working Group Agendas
 
-Fridays 10am -11am EST
+Meeting occur Fridays at 10am -11am EST.
 
 Previous meeting agendas are available [here](./PAST_MEETINGS.md).
 
