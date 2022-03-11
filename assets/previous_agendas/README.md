@@ -29,7 +29,7 @@ Let's connect with GBA and the Blockchain Association for a response to Executiv
 * [Cryptography of Electronic Cash](https://groups.csail.mit.edu/mac/classes/6.805/articles/money/nsamint/nsamint.htm)
 * [Hyperledger Courses at EDX](https://www.edx.org/learn/hyperledger)
 * [Hyperledger Course on EDX](https://www.edx.org/course/introduction-to-hyperledger-blockchain-technologie)
-* [Solidity Python Full Course](https://www.youtube.com/watch?v=M576WGiDBdQ) (16 hours) -
+* [Solidity Python Full Course](https://www.youtube.com/watch?v=M576WGiDBdQ) (16 hours)
 * YouTube video: [CQRS Presentation by Greg Young](https://www.youtube.com/watch?v=JHGkaShoyNs)
 * YouTube: [Bitcoin Math videos](https://www.youtube.com/channel/UCW7L2NGmFUEsZoPReKW_4iQ/playlists) (96 videos)
 * [BitcoinSV Academy](https://bitcoinsv.academy/)

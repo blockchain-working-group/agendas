@@ -2,7 +2,7 @@
 
 Meeting occur Fridays at 10am -11am EST.
 
-Previous meeting agendas are available [here](./PAST_MEETINGS.md).
+Previous meeting agendas are available [here](./previous_agendas/).
 
 [Joshua Hakakian](https://github.com/jhakakian), VA is the working group lead.
 
@@ -34,4 +34,4 @@ shareable resources by [creating an issue](https://github.com/ACT-IAC-BWG/agenda
 
 ##### Maintenance
 
-Each week, paste the last meeting here to [PAST_MEETINGS](./PAST_MEETINGS.md).
+Each week, paste the last meeting here to [PAST_MEETINGS](./previous_agendas/).
