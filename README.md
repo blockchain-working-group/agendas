@@ -36,7 +36,7 @@ shareable resources by [creating an issue](https://github.com/ACT-IAC-BWG/agenda
 * Jason and Whitney open to presenting after Bitcoin Conference
 * John Gostomski has volunteered to present on Web3.0 on 4/22
 * Dr. Ann Ingraham will be presenting to our group on 4/29 regarding their Healthcare Pilot
-* 
+* Amora is scheduled to present on May 6
 
 ### 04/01/2022
 
