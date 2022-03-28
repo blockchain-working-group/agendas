@@ -32,8 +32,9 @@ shareable resources by [creating an issue](https://github.com/ACT-IAC-BWG/agenda
 * 
 * Blockchain Primer will be completed this week, looking to receive edits/reviews for final draft to be submitted to ACT-IAC from April 11-15
 * Will be making available via email and another avenue (Box?, GDrive?, GitHub?)
-* 
+# Upcoming Speakers
 * Jason and Whitney open to presenting after Bitcoin Conference
+* Gerard Dache (GBA) is speaking on the Blockchain Maturity Model on 4/8
 * John Gostomski has volunteered to present on Web3.0 on 4/22
 * Dr. Ann Ingraham will be presenting to our group on 4/29 regarding their Healthcare Pilot
 * Amora is scheduled to present on May 6
