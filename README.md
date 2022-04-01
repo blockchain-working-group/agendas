@@ -25,6 +25,7 @@ shareable resources by [creating an issue](https://github.com/ACT-IAC-BWG/agenda
 * Please continue reviewing/editing/commenting over this coming week
 
 * Significant interest in Marquis Allen's curricula regarding blockchain for middle school students
+* Mike Moore (Treasury POC) - new to blockchain working group
 
 ### 04/08/2022
 
