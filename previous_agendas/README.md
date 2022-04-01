@@ -1,4 +1,30 @@
+### 03/25/2022 Blockchain Working Group Agenda
 
+* 10:00am to 10:10am - Opening meeting, reintroductions, upcoming events
+* 10:10am to 10:40am - Speaker?
+* 10:40am to 10:50am - Update from Blockchain Primer Group
+* 10:50am to 11:00am - Wrap up
+
+#### Notes 3/25/2022:
+
+* Will be merging this repository with Blockchain Working Group - Playbook (Frederic/Ryan)
+* Contact Cheryl Lohman for blockchain meetup group/venue (Don Lovett asking for connection)
+* Blockchain Primer will be completed this week, looking to receive edits/reviews for final draft to be submitted to ACT-IAC from April 11-15
+* Will be making available via email and another avenue (Box?, GDrive?, GitHub?)
+
+### Upcoming Speakers
+* Jason and Whitney open to presenting after Bitcoin Conference
+* Gerard Dache (GBA) is speaking on the Blockchain Maturity Model on 4/8
+* John Gostomski has volunteered to present on Web3.0 on 4/22
+* Dr. Ann Ingraham will be presenting to our group on 4/29 regarding their Healthcare Pilot
+* Amora is scheduled to present on May 6
+
+### 03/18/2022 Blockchain Working Group Agenda
+
+* 10:00am to 10:10am - Opening meeting, reintroductions, upcoming events
+* 10:10am to 10:40am - Speaker: Mark Montoya (FDIC) – DLT in a Virtual Environment
+* 10:40am to 10:50am - Update from Blockchain Primer Group
+* 10:50am to 11:00am - Wrap up
 
 ### 03/11/2022 Blockchain Working Group Agenda
 
@@ -7,7 +33,7 @@
 * 10:40am to 10:50am - Update from Blockchain Primer Group
 * 10:50am to 11:00am - Wrap up
 
-# Notes
+#### Notes
 
 Let's connect with GBA and the Blockchain Association for a response to Executive Order on Ensuring Responsible Development of Digital Assets
 
