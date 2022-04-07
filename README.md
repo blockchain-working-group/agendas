@@ -59,6 +59,13 @@ CANCELLED MEETING
 * 10:40am to 10:50am - Update from Blockchain Primer Group
 * 10:50am to 11:00am - Wrap up
 
+### 05/13/2022
+
+* 10:00am to 10:10am - Opening meeting, reintroductions, upcoming events
+* 10:10am to 10:40am - Victoria (Tori) Adams - Simbachain
+* 10:40am to 10:50am - Update from Blockchain Primer Group
+* 10:50am to 11:00am - Wrap up
+
 ##### Maintenance
 
 Each week, paste the last meeting here to [PAST_MEETINGS](./previous_agendas/).
