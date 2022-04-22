@@ -1,3 +1,30 @@
+### 04/15/2022
+
+CANCELLED MEETING
+
+### 04/08/2022
+
+* 10:00am to 10:10am - Opening meeting, reintroductions, upcoming events
+* 10:10am to 10:40am - Gerard Dache (GBA) is speaking on the Blockchain Maturity Model
+* 10:40am to 10:50am - Update from Blockchain Primer Group
+* 10:50am to 11:00am - Wrap up
+
+### 04/01/2022
+
+* 10:00am to 10:10am - Opening meeting, reintroductions, upcoming events
+* 10:10am to 10:40am - Speaker?
+* 10:40am to 10:50am - Update from Blockchain Primer Group
+* 10:50am to 11:00am - Wrap up
+
+#### Notes 04/01/2022
+
+* Request that Primer be viewed by non-technical folks to ascertain value/readability/understandability
+* We are targeting submission to ACT-IAC by/on April 15th
+* Please continue reviewing/editing/commenting over this coming week
+
+* Significant interest in Marquis Allen's curricula regarding blockchain for middle school students
+* Mike Moore (Treasury POC) - new to blockchain working group
+
 ### 03/25/2022 Blockchain Working Group Agenda
 
 * 10:00am to 10:10am - Opening meeting, reintroductions, upcoming events
