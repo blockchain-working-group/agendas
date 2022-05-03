@@ -11,20 +11,6 @@ shareable resources by [creating an issue](https://github.com/ACT-IAC-BWG/agenda
 
 # Upcoming Agendas
 
-### 04/22/2022
-
-* 10:00am to 10:10am - Opening meeting, reintroductions, upcoming events
-* 10:10am to 10:40am - John Gostomski has volunteered to present on Web3.0 on 4/22
-* 10:40am to 10:50am - Update from Blockchain Primer Group
-* 10:50am to 11:00am - Wrap up
-
-### 04/29/2022
-
-* 10:00am to 10:10am - Opening meeting, reintroductions, upcoming events
-* 10:10am to 10:40am - Dr. Ann Ingraham will be presenting to our group on 4/29 regarding their Healthcare Pilot
-* 10:40am to 10:50am - Update from Blockchain Primer Group
-* 10:50am to 11:00am - Wrap up
-
 ### 05/06/2022
 
 * 10:00am to 10:10am - Opening meeting, reintroductions, upcoming events
