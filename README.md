@@ -25,16 +25,14 @@ CANCELLED DUE TO HOLIDAY WEEKEND - MEMORIAL DAY
 ### 06/03/2022
 
 * 10:00am to 10:10am - Opening meeting, reintroductions, upcoming events
-* 10:10am to 10:40am - Open Discussion and Speaker Recommendations
-* 10:40am to 10:50am - Update from Blockchain Primer Group
-* 10:50am to 11:00am - Wrap up
+* 10:10am to 10:50am - Open Discussion and Speaker Recommendations
+* 10:50am to 11:00am - Update from Blockchain Primer Group and Wrap Up
 
 ### 06/10/2022
 
 * 10:00am to 10:10am - Opening meeting, reintroductions, upcoming events
-* 10:10am to 10:40am - Open Discussion and Speaker Recommendations
-* 10:40am to 10:50am - Update from Blockchain Primer Group
-* 10:50am to 11:00am - Wrap up
+* 10:10am to 10:50am - Open Discussion and Speaker Recommendations
+* 10:50am to 11:00am - Update from Blockchain Primer Group and Wrap Up
 
 ### 06/17/2022
 CANCELLED DUE TO HOLIDAY WEEKEND - JUNETEENTH
@@ -42,9 +40,8 @@ CANCELLED DUE TO HOLIDAY WEEKEND - JUNETEENTH
 ### 06/24/2022
 
 * 10:00am to 10:10am - Opening meeting, reintroductions, upcoming events
-* 10:10am to 10:40am - Sameer Sood (Speaker)
-* 10:40am to 10:50am - Update from Blockchain Playbook Group
-* 10:50am to 11:00am - Wrap up
+* 10:10am to 10:50am - Sameer Sood (Speaker)
+* 10:50am to 11:00am - Update from Blockchain Primer Group and Wrap Up
 
 ### 07/01/2022
 CANCELLED DUE TO HOLIDAY WEEKEND - INDEPENDENCE DAY
@@ -52,10 +49,8 @@ CANCELLED DUE TO HOLIDAY WEEKEND - INDEPENDENCE DAY
 ### 07/08/2022
 
 * 10:00am to 10:10am - Opening meeting, reintroductions, upcoming events
-* 10:10am to 10:40am - Jim St. Clair (Speaker)
-* 10:40am to 10:50am - Update from Blockchain Playbook Group
-* 10:50am to 11:00am - Wrap up
+* 10:10am to 10:50am - Jim St. Clair (Speaker)
+* 10:50am to 11:00am - Update from Blockchain Primer Group and Wrap Up
 
 ##### Maintenance
-
 Each week, paste the last meeting here to [PAST_MEETINGS](./previous_agendas/).
