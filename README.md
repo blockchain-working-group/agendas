@@ -46,6 +46,16 @@ CANCELLED DUE TO HOLIDAY WEEKEND - JUNETEENTH
 * 10:40am to 10:50am - Update from Blockchain Playbook Group
 * 10:50am to 11:00am - Wrap up
 
+### 07/01/2022
+CANCELLED DUE TO HOLIDAY WEEKEND - INDEPENDENCE DAY
+
+### 07/08/2022
+
+* 10:00am to 10:10am - Opening meeting, reintroductions, upcoming events
+* 10:10am to 10:40am - Jim St. Clair (Speaker)
+* 10:40am to 10:50am - Update from Blockchain Playbook Group
+* 10:50am to 11:00am - Wrap up
+
 ##### Maintenance
 
 Each week, paste the last meeting here to [PAST_MEETINGS](./previous_agendas/).
