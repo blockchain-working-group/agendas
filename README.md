@@ -49,5 +49,17 @@ CANCELLED DUE TO HOLIDAY WEEKEND - INDEPENDENCE DAY
 * 10:10am to 10:50am - Shiv Aggarwal - My Earth ID (Speaker)
 * 10:50am to 11:00am - Update from Blockchain Primer Group and Wrap Up
 
+### 07/29/2022
+
+* 10:00am to 10:10am - Opening meeting, reintroductions, upcoming events
+* 10:10am to 10:50am - OPEN (Speaker)
+* 10:50am to 11:00am - Update from Blockchain Primer Group and Wrap Up
+
+### 08/05/2022
+
+* 10:00am to 10:10am - Opening meeting, reintroductions, upcoming events
+* 10:10am to 10:50am - Nimit Sawhney - VoATZ (Speaker)
+* 10:50am to 11:00am - Update from Blockchain Primer Group and Wrap Up
+
 ##### Maintenance
 Each week, paste the last meeting here to [PAST_MEETINGS](./previous_agendas/).
