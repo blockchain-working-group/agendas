@@ -1,3 +1,20 @@
+### 06/03/2022
+
+* 10:00am to 10:10am - Opening meeting, reintroductions, upcoming events
+* 10:10am to 10:50am - Open Discussion and Speaker Recommendations
+* 10:50am to 11:00am - Update from Blockchain Primer Group and Wrap Up
+
+### 05/27/2022
+
+CANCELLED DUE TO HOLIDAY WEEKEND - MEMORIAL DAY
+
+### 05/20/2022 (Josh Hakakian will be OOO this day)
+
+* 10:00am to 10:10am - Opening meeting, reintroductions, upcoming events
+* 10:10am to 10:40am - Ted Coyle - Oracle (Web 3.0)
+* 10:40am to 10:50am - Update from Blockchain Primer Group
+* 10:50am to 11:00am - Wrap up
+
 ### 05/13/2022
 
 * 10:00am to 10:10am - Opening meeting, reintroductions, upcoming events
