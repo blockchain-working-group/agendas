@@ -40,6 +40,12 @@ CANCELLED DUE TO HOLIDAY WEEKEND - INDEPENDENCE DAY
 ### 07/15/2022
 
 * 10:00am to 10:10am - Opening meeting, reintroductions, upcoming events
+* 10:10am to 10:50am - Eugene Morozov - Everscale (Speaker)
+* 10:50am to 11:00am - Update from Blockchain Primer Group and Wrap Up
+
+### 07/22/2022
+
+* 10:00am to 10:10am - Opening meeting, reintroductions, upcoming events
 * 10:10am to 10:50am - Shiv Aggarwal - My Earth ID (Speaker)
 * 10:50am to 11:00am - Update from Blockchain Primer Group and Wrap Up
 
