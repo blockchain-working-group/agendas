@@ -31,6 +31,8 @@ CANCELLED DUE TO HOLIDAY WEEKEND - MEMORIAL DAY
 ### 06/10/2022
 
 * 10:00am to 10:10am - Opening meeting, reintroductions, upcoming events
+*   Introduction of Lori Fena and Laura Whelan
+*   Introduction of other upcoming speakers (if present)
 * 10:10am to 10:50am - Open Discussion and Speaker Recommendations
 * 10:50am to 11:00am - Update from Blockchain Primer Group and Wrap Up
 
