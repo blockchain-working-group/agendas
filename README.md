@@ -19,6 +19,11 @@ shareable resources by [creating an issue](https://github.com/ACT-IAC-BWG/agenda
 * 10:10am to 10:50am - Open Discussion and Speaker Recommendations
 * 10:50am to 11:00am - Update from Blockchain Primer Group and Wrap Up
 
+## Notes
+* Introductions, soft invites to contact Josh Hakakian and Jorge Ferrer regarding HIMSS Blockchain in Healthcare presentations
+* Discussion of gov only meeting - Josh Hakakian and Jorge Ferrer POCs
+* Follow up re: legislation
+
 ### 06/17/2022
 CANCELLED DUE TO HOLIDAY WEEKEND - JUNETEENTH
 
