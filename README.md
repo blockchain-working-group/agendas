@@ -61,5 +61,11 @@ CANCELLED DUE TO HOLIDAY WEEKEND - INDEPENDENCE DAY
 * 10:10am to 10:50am - Nimit Sawhney - VoATZ (Speaker)
 * 10:50am to 11:00am - Update from Blockchain Primer Group and Wrap Up
 
+### 08/12/2022
+
+* 10:00am to 10:10am - Opening meeting, reintroductions, upcoming events
+* 10:10am to 10:50am - Nathan Wosnack - Ubitquity (Speaker)
+* 10:50am to 11:00am - Update from Blockchain Primer Group and Wrap Up
+
 ##### Maintenance
 Each week, paste the last meeting here to [PAST_MEETINGS](./previous_agendas/).
