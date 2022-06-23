@@ -41,7 +41,7 @@ CANCELLED DUE TO HOLIDAY WEEKEND - INDEPENDENCE DAY
 ### 07/29/2022
 
 * 10:00am to 10:10am - Opening meeting, reintroductions, upcoming events
-* 10:10am to 10:50am - OPEN (Speaker)
+* 10:10am to 10:50am - Adelle Nazarian - American Blockchain PAC (Speaker)
 * 10:50am to 11:00am - Update from Blockchain Primer Group and Wrap Up
 
 ### 08/05/2022
