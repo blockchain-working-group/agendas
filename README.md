@@ -12,21 +12,6 @@ shareable resources by [creating an issue](https://github.com/ACT-IAC-BWG/agenda
 
 # Upcoming Agendas
 
-### 06/24/2022
-
-* 10:00am to 10:10am - Opening meeting, reintroductions, upcoming events
-* 10:10am to 10:50am - Sameer Sood and Micheal Levy (Speakers)
-* 10:50am to 11:00am - Update from Blockchain Primer Group and Wrap Up
-
-### 07/01/2022
-CANCELLED DUE TO HOLIDAY WEEKEND - INDEPENDENCE DAY
-
-### 07/08/2022
-
-* 10:00am to 10:10am - Opening meeting, reintroductions, upcoming events
-* 10:10am to 10:50am - Jim St. Clair - LINUX Foundation (Speaker)
-* 10:50am to 11:00am - Update from Blockchain Primer Group and Wrap Up
-
 ### 07/15/2022
 
 * 10:00am to 10:10am - Opening meeting, reintroductions, upcoming events
