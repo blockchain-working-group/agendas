@@ -1,3 +1,39 @@
+### 08/19/2022
+
+* 10:00am to 10:10am - Opening meeting, reintroductions, upcoming events
+* 10:10am to 10:50am - William Crawford - Solve.Care (Speaker)
+* 10:50am to 11:00am - Update from Blockchain Primer Group and Wrap Up
+
+### 08/12/2022
+
+* 10:00am to 10:10am - Opening meeting, reintroductions, upcoming events
+* 10:10am to 10:50am - Nathan Wosnack - Ubitquity (Speaker)
+* 10:50am to 11:00am - Update from Blockchain Primer Group and Wrap Up
+
+### 08/05/2022
+
+* 10:00am to 10:10am - Opening meeting, reintroductions, upcoming events
+* 10:10am to 10:50am - Nimit Sawhney - VoATZ (Speaker)
+* 10:50am to 11:00am - Update from Blockchain Primer Group and Wrap Up
+
+### 07/29/2022
+
+* 10:00am to 10:10am - Opening meeting, reintroductions, upcoming events
+* 10:10am to 10:50am - Adelle Nazarian - American Blockchain PAC (Speaker)
+* 10:50am to 11:00am - Update from Blockchain Primer Group and Wrap Up
+
+### 07/22/2022
+
+* 10:00am to 10:10am - Opening meeting, reintroductions, upcoming events
+* 10:10am to 10:50am - Shiv Aggarwal - My Earth ID (Speaker)
+* 10:50am to 11:00am - Update from Blockchain Primer Group and Wrap Up
+
+### 07/15/2022
+
+* 10:00am to 10:10am - Opening meeting, reintroductions, upcoming events
+* 10:10am to 10:50am - Eugene Morozov - Everscale (Speaker)
+* 10:50am to 11:00am - Update from Blockchain Primer Group and Wrap Up
+
 ### 07/08/2022
 
 * 10:00am to 10:10am - Opening meeting, reintroductions, upcoming events
@@ -5,6 +41,7 @@
 * 10:50am to 11:00am - Update from Blockchain Primer Group and Wrap Up
 
 ### 07/01/2022
+
 CANCELLED DUE TO HOLIDAY WEEKEND - INDEPENDENCE DAY
 
 ### 06/24/2022
@@ -19,8 +56,8 @@ CANCELLED DUE TO HOLIDAY WEEKEND - JUNETEENTH
 ### 06/10/2022
 
 * 10:00am to 10:10am - Opening meeting, reintroductions, upcoming events
-*   Introduction of Lori Fena and Laura Whelan
-*   Introduction of other upcoming speakers (if present)
+	* Introduction of Lori Fena and Laura Whelan
+	* Introduction of other upcoming speakers (if present)
 * 10:10am to 10:50am - Open Discussion and Speaker Recommendations
 * 10:50am to 11:00am - Update from Blockchain Primer Group and Wrap Up
 
