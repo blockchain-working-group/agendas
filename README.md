@@ -14,6 +14,11 @@ shareable resources by [creating an issue](https://github.com/ACT-IAC-BWG/agenda
 
 ### 11/04/2022
 
+* 10:00am to 11:00am - Introductions and reconnect
+* 10:30am to 11:30am - Reconnect on Primer and Use Cases
+
+### 11/04/2022
+
 * 10:00am to 11:00am - Panel discussion/Presentation for Digital ID's
 
 ##### Maintenance
