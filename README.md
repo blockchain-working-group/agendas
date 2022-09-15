@@ -12,42 +12,6 @@ shareable resources by [creating an issue](https://github.com/ACT-IAC-BWG/agenda
 
 # Upcoming Agendas
 
-### 07/15/2022
-
-* 10:00am to 10:10am - Opening meeting, reintroductions, upcoming events
-* 10:10am to 10:50am - Eugene Morozov - Everscale (Speaker)
-* 10:50am to 11:00am - Update from Blockchain Primer Group and Wrap Up
-
-### 07/22/2022
-
-* 10:00am to 10:10am - Opening meeting, reintroductions, upcoming events
-* 10:10am to 10:50am - Shiv Aggarwal - My Earth ID (Speaker)
-* 10:50am to 11:00am - Update from Blockchain Primer Group and Wrap Up
-
-### 07/29/2022
-
-* 10:00am to 10:10am - Opening meeting, reintroductions, upcoming events
-* 10:10am to 10:50am - Adelle Nazarian - American Blockchain PAC (Speaker)
-* 10:50am to 11:00am - Update from Blockchain Primer Group and Wrap Up
-
-### 08/05/2022
-
-* 10:00am to 10:10am - Opening meeting, reintroductions, upcoming events
-* 10:10am to 10:50am - Nimit Sawhney - VoATZ (Speaker)
-* 10:50am to 11:00am - Update from Blockchain Primer Group and Wrap Up
-
-### 08/12/2022
-
-* 10:00am to 10:10am - Opening meeting, reintroductions, upcoming events
-* 10:10am to 10:50am - Nathan Wosnack - Ubitquity (Speaker)
-* 10:50am to 11:00am - Update from Blockchain Primer Group and Wrap Up
-
-### 08/19/2022
-
-* 10:00am to 10:10am - Opening meeting, reintroductions, upcoming events
-* 10:10am to 10:50am - William Crawford - Solve.Care (Speaker)
-* 10:50am to 11:00am - Update from Blockchain Primer Group and Wrap Up
-
 ### 08/26/2022
 
 * 10:00am to 10:10am - Opening meeting, reintroductions, upcoming events
