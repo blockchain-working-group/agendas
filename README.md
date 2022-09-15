@@ -12,23 +12,15 @@ shareable resources by [creating an issue](https://github.com/ACT-IAC-BWG/agenda
 
 # Upcoming Agendas
 
-### 08/26/2022
-
-* 10:00am to 10:10am - Opening meeting, reintroductions, upcoming events
-* 10:10am to 10:50am - Wen Zhu - NIRA (Speaker)
-* 10:50am to 11:00am - Wrap Up
-
-### 09/02/2022
+### 09/15/2022
 
 * 10:00am to 10:10am - Opening meeting, reintroductions, upcoming events
 * 10:10am to 10:50am - TBD
 * 10:50am to 11:00am - Wrap Up
+=======
+### 11/04/2022
 
-### 09/07/2022
-
-* 10:00am to 10:10am - Opening meeting, reintroductions, upcoming events
-* 10:10am to 10:50am - TBD
-* 10:50am to 11:00am - Wrap Up
+* 10:00am to 11:00am - Panel discussion/Presentation for Digital ID's
 
 ##### Maintenance
 
