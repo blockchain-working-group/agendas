@@ -12,7 +12,7 @@ shareable resources by [creating an issue](https://github.com/ACT-IAC-BWG/agenda
 
 # Upcoming Agendas
 
-### 11/04/2022
+### 09/16/2022
 
 * 10:00am to 11:00am - Introductions and reconnect
 * 10:30am to 11:30am - Reconnect on Primer and Use Cases
