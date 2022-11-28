@@ -21,5 +21,20 @@ shareable resources by [creating an issue](https://github.com/ACT-IAC-BWG/agenda
 
 * 10:00am to 11:00am - Panel discussion/Presentation for Digital ID's
 
+### 12/02/2022
+
+* 10:00am to 10:15am - Update and introduction for BWG
+* 10:15am to 10:55am - Ralph and Dawn presentation on "Redefining the Future of the Economy: Governance Blocks and Economic Architecture"
+
+### 12/09/2022
+
+* 10:00am to 10:15am - Update and introduction for BWG
+* 10:15am to 10:55am - Gerard Dache presentation on "GBA's Blockchain Maturity Model and Foundations Course"
+
+### 12/16/2022
+
+* 10:00am to 10:15am - Update and introduction for BWG
+* 10:15am to 10:55am - Carole House presentation (pending)
+
 ##### Maintenance
 Each week, paste the last meeting here to [PAST_MEETINGS](./previous_agendas/).
