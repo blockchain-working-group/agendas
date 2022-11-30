@@ -16,12 +16,12 @@ shareable resources by [creating an issue](https://github.com/ACT-IAC-BWG/agenda
 
 * 10:00am to 10:10am - Update and introduction for BWG
 * 10:10am to 10:15am - Circle back to GAO paper and discussion subgroup
-* 10:15am to 10:55am - Ralph and Dawn presentation on "Redefining the Future of the Economy: Governance Blocks and Economic Architecture"
+* 10:15am to 10:55am - Ralph Benko and Dawn Talbot presentation on "Redefining the Future of the Economy: Governance Blocks and Economic Architecture"
 
 ### 12/09/2022
 
 * 10:00am to 10:15am - Update and introduction for BWG
-* 10:15am to 10:55am - Gerard Dache presentation on "GBA's Blockchain Maturity Model and Foundations Course"
+* 10:15am to 10:55am - Gerard Dache and Dino Cataldo Dell’Accio on "GBA's Blockchain Maturity Model and Foundations Course"
 
 ### 12/16/2022
 
