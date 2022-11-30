@@ -12,7 +12,6 @@ shareable resources by [creating an issue](https://github.com/ACT-IAC-BWG/agenda
 
 # Upcoming Agendas
 
-
 ### 12/02/2022
 
 * 10:00am to 10:10am - Update and introduction for BWG
@@ -29,7 +28,15 @@ shareable resources by [creating an issue](https://github.com/ACT-IAC-BWG/agenda
 * 10:00am to 10:15am - Update and introduction for BWG
 * 10:15am to 10:55am - Carole House presentation (pending)
 
+### 12/23/2022
+*Meeting Cancelled - Christmas Holiday*
 
+### 12/30/2022
+*Meeting Cancelled - New Year's Holiday*
+
+### 01/06/2023
+* 10:00am to 10:15am - Update and introduction for BWG
+* 10:15am to 10:55am - Reconnect on GAO, Primer, Efforts, Open Forum
 
 ##### Maintenance
 Each week, paste the last meeting here to [PAST_MEETINGS](./previous_agendas/).
