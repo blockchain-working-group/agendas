@@ -12,18 +12,11 @@ shareable resources by [creating an issue](https://github.com/ACT-IAC-BWG/agenda
 
 # Upcoming Agendas
 
-### 09/16/2022
-
-* 10:00am to 11:00am - Introductions and reconnect (Use Case Summit on Tuesday)
-* 10:30am to 11:30am - Reconnect on Primer and Use Cases
-
-### 11/04/2022
-
-* 10:00am to 11:00am - Panel discussion/Presentation for Digital ID's
 
 ### 12/02/2022
 
-* 10:00am to 10:15am - Update and introduction for BWG
+* 10:00am to 10:10am - Update and introduction for BWG
+* 10:10am to 10:15am - Circle back to GAO paper and discussion subgroup
 * 10:15am to 10:55am - Ralph and Dawn presentation on "Redefining the Future of the Economy: Governance Blocks and Economic Architecture"
 
 ### 12/09/2022
@@ -35,6 +28,8 @@ shareable resources by [creating an issue](https://github.com/ACT-IAC-BWG/agenda
 
 * 10:00am to 10:15am - Update and introduction for BWG
 * 10:15am to 10:55am - Carole House presentation (pending)
+
+
 
 ##### Maintenance
 Each week, paste the last meeting here to [PAST_MEETINGS](./previous_agendas/).
