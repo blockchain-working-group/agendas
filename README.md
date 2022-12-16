@@ -27,6 +27,7 @@ shareable resources by [creating an issue](https://github.com/ACT-IAC-BWG/agenda
 
 * 10:00am to 10:15am - Update and introduction for BWG
 * 10:15am to 10:55am - Carole House presentation (pending)
+Notes: upcoming discussion FEDRAMP becomming law; IT asset management
 
 ### 12/23/2022
 *Meeting Cancelled - Christmas Holiday*
