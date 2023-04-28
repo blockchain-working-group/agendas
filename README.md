@@ -12,28 +12,10 @@ shareable resources by [creating an issue](https://github.com/ACT-IAC-BWG/agenda
 
 # Upcoming Agendas
 
-### 01/06/2023
+
+### 04/28/2023
 * 10:00am to 10:15am - Update and introduction for BWG
-* 10:15am to 10:55am - Reconnect on GAO, Primer, Efforts, Open Forum
-
-### 01/13/2023
-*Meeting Cancelled - MLK Day*
-
-### 01/20/2023
-* 10:00am to 10:15am - Update and introduction for BWG
-* 10:15am to 10:55am - Reconnect on GAO, Primer, Efforts, Open Forum
-
-### 01/27/2023
-* 10:00am to 10:10am - Update and introduction for BWG, Intro for GBA Money, Governance, and Law
-* 10:10am to 10:55am - Presentation and Q&A - DoD Secure Blockchain Logistics Tracking - David Verhey and Iqbal Aasim
-
-### 02/03/2023
-* 10:00am to 10:15am - Update and introduction for BWG
-* 10:15am to 10:55am - Reconnect on GAO, Primer, Efforts, Open Forum
-
-### 02/10/2023
-* 10:00am to 10:15am - Update and introduction for BWG
-* 10:15am to 10:55am - Presentation and Q&A - CGI Federal
+* 10:15am to 10:55am - Discussion and Notes
 
 ##### Maintenance
 Each week, paste the last meeting here to [PAST_MEETINGS](./previous_agendas/).
