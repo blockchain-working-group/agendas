@@ -15,7 +15,7 @@ shareable resources by [creating an issue](https://github.com/ACT-IAC-BWG/agenda
 
 ### 06/09/2023
 * 10:00am to 10:10am - Update and introduction for BWG
-* 10:10am to 10:50am - Presenter: L. Greg Lucius
+* 10:10am to 10:50am - Presenter: L. Greg Meredith
 
 ### 06/16/2023
 * Cancelled for Holiday Weekend
