@@ -18,7 +18,7 @@ shareable resources by [creating an issue](https://github.com/ACT-IAC-BWG/agenda
 * 10:10am to 10:50am - Presenter: L. Greg Lucius
 
 ### 06/16/2023
-Potentially cancel for Juneteenth Weekend?
+* Cancelled for Holiday Weekend
 
 ### 06/23/2023
 * 10:00am to 10:10am - Update and introduction for BWG
