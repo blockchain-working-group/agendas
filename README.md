@@ -28,6 +28,13 @@ shareable resources by [creating an issue](https://github.com/ACT-IAC-BWG/agenda
 * 10:00am to 10:10am - Update and introduction for BWG
 * 10:10am to 10:50am - Presenter: Omar Bouaichii
 
+### 07/07/2023
+* 10:00am to 10:10am - 
+* 10:10am to 10:50am - Presenter: 
+
+### 07/14/2023
+* 10:00am to 10:10am - Update and introduction for BWG
+* 10:10am to 10:50am - Presenter: Ian Grigg
 
 ##### Maintenance
 Each week, paste the last meeting here to [PAST_MEETINGS](./previous_agendas/).
