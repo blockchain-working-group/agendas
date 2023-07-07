@@ -42,7 +42,7 @@ shareable resources by [creating an issue](https://github.com/ACT-IAC-BWG/agenda
 
 ### 07/28/2023
 * 10:00am to 10:10am - Update and introduction for BWG
-* 10:10am to 10:50am - Open discussion/Accelerator Presentation
+* 10:10am to 10:50am - Accelerator Presentation
 
 * 
 ##### Maintenance
