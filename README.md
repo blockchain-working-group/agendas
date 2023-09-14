@@ -5,7 +5,7 @@ The ACT-IAC Blockchain Working Group Meeting occurs regularly on Fridays at 10am
 Previous meeting agendas are available [here](./previous_agendas/).
 
 * Government lead: [Joshua Hakakian](mailto:joshua.hakakian@va.gov), VA
-* Industry lead: [Frederic de Vaulx](mailto:f.devaulx@prometheuscomputing.com)
+* Industry lead: [Frederic de Vaulx](mailto:f.devaulx@prometheuscomputing.com), Prometheus Computing LLC
 
 ACT-IAC members: please feel free to add: questions, topics, speaker requests or offers, and publicly
 shareable resources by [creating an issue](https://github.com/ACT-IAC-BWG/agendas/issues/new).
@@ -13,8 +13,10 @@ shareable resources by [creating an issue](https://github.com/ACT-IAC-BWG/agenda
 ## Upcoming Agendas
 
 ### 09/15/2023
-* 10:00am to 10:10am - Update and introduction for BWG
-* 10:10am to 10:50am - TBD
+* 10:00am to 10:15am - Update and introduction for BWG
+* 10:15am to 10:50am - Presentation from Silvio and his team
+   * Presentation name: Open Tree Protocol and Planting Trees with Silvi in Miami
+   * Presenters: Silvio Pupo-Casco and Djimo Serodio
 
 ## Previous agendas
 
