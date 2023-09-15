@@ -20,6 +20,10 @@ shareable resources by [creating an issue](https://github.com/ACT-IAC-BWG/agenda
 
 ## Previous agendas
 
+### 09/08/2023
+* 10:00am to 11:00am - Open conversation
+    * [minutes](https://github.com/blockchain-working-group/agendas/blob/main/assets/20230908-meeting-notes.md#09082023)
+
 ### 06/09/2023
 * 10:00am to 10:10am - Update and introduction for BWG
 * 10:10am to 10:50am - Presenter: L. Greg Meredith
