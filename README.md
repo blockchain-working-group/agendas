@@ -4,7 +4,7 @@ The ACT-IAC Blockchain Working Group Meeting occurs regularly on Fridays at 10am
 
 Previous meeting agendas are available [here](./previous_agendas/).
 
-* Government lead: [Joshua Hakakian](mailto:joshua.hakakian@va.gov), VA
+* Government lead: [Jorge Ferrer](mailto:jorge.Ferrer@va.gov), VHA
 * Industry lead: [Frederic de Vaulx](mailto:f.devaulx@prometheuscomputing.com), Prometheus Computing LLC
 
 ACT-IAC members: please feel free to add: questions, topics, speaker requests or offers, and publicly
