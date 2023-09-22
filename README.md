@@ -12,13 +12,19 @@ shareable resources by [creating an issue](https://github.com/ACT-IAC-BWG/agenda
 
 ## Upcoming Agendas
 
+### 09/22/2023
+* 10:00am to 10:05am - Welcome
+* 10:05am to 10:15am - Community updates
+* 10:15am to 10:50am - Planning short terms deliverables
+* 10:50am to 11:00am - Closeout
+
+## Previous agendas
+
 ### 09/15/2023
 * 10:00am to 10:15am - Update and introduction for BWG
 * 10:15am to 10:50am - Presentation from Silvio and his team
    * Presentation name: Open Tree Protocol and Planting Trees with Silvi in Miami
    * Presenters: Silvio Pupo-Casco and Djimo Serodio
-
-## Previous agendas
 
 ### 09/08/2023
 * 10:00am to 11:00am - Open conversation
