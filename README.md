@@ -12,13 +12,25 @@ shareable resources by [creating an issue](https://github.com/ACT-IAC-BWG/agenda
 
 ## Upcoming Agendas
 
+### 10/20/2023
+* 10:00am to 10:05am - Welcome
+* 10:05am to 10:15am - Community updates
+* 10:15am to 10:50am - Presentation: Feng Hou - WhiteFish™ Verified Learning Credentials (VC)
+* 10:50am to 11:00am - Closeout
+
+## Previous agendas
+
+### 10/13/2023
+* 10:00am to 10:05am - Welcome
+* 10:05am to 10:15am - Community updates
+* 10:15am to 10:50am - Discussion about government blockchain adoption challenges
+* 10:50am to 11:00am - Closeout
+
 ### 10/06/2023
 * 10:00am to 10:05am - Welcome
 * 10:05am to 10:15am - Community updates
 * 10:15am to 10:50am - Presentation: book - ten ideas to beneficially regulate the blockchain sector - from authors Ralph Benko and Todd White
 * 10:50am to 11:00am - Closeout
-
-## Previous agendas
 
 ### 09/22/2023
 * 10:00am to 10:05am - Welcome
