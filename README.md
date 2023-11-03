@@ -12,13 +12,19 @@ shareable resources by [creating an issue](https://github.com/ACT-IAC-BWG/agenda
 
 ## Upcoming Agendas
 
+### 11/03/2023
+* 10:00am to 10:05am - Welcome
+* 10:05am to 10:15am - Community updates
+* 10:15am to 10:50am - Open discussion
+* 10:50am to 11:00am - Closeout
+
+## Previous agendas
+
 ### 10/27/2023
 * 10:00am to 10:05am - Welcome
 * 10:05am to 10:15am - Community updates
 * 10:15am to 10:50am - Presentation: Ryan Wold - Blockchain as an event stream
 * 10:50am to 11:00am - Closeout
-
-## Previous agendas
 
 ### 10/20/2023
 * 10:00am to 10:05am - Welcome
