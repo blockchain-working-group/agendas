@@ -23,7 +23,7 @@ shareable resources by [creating an issue](https://github.com/ACT-IAC-BWG/agenda
 ### 10/27/2023
 * 10:00am to 10:05am - Welcome
 * 10:05am to 10:15am - Community updates
-* 10:15am to 10:50am - Presentation: Ryan Wold - [Blockchain as an event stream](./assets/blockchain-as-an-event-source-ryan-wold.pdf)
+* 10:15am to 10:50am - Presentation: Ryan Wold - [Blockchain as an event stream](./assets/files/blockchain-as-an-event-source-ryan-wold.pdf)
 * 10:50am to 11:00am - Closeout
 
 ### 10/20/2023
