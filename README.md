@@ -1,8 +1,6 @@
 ## ACT-IAC Blockchain Working Group Agendas
 
-The ACT-IAC Blockchain Working Group Meeting occurs regularly on Fridays at 10am -11am EST.
-
-Previous meeting agendas are available [here](./previous_agendas/).
+The ACT-IAC Blockchain Working Group Meeting occurs regularly on Fridays at 10am - 11am EST.
 
 * Government lead: [Jorge Ferrer](mailto:jorge.Ferrer@va.gov), VHA
 * Industry lead: [Frederic de Vaulx](mailto:f.devaulx@prometheuscomputing.com), Prometheus Computing LLC
@@ -12,14 +10,30 @@ shareable resources by [creating an issue](https://github.com/ACT-IAC-BWG/agenda
 
 ## Upcoming Agendas
 
+### 01/26/2024
+* 10:00am to 10:05am - Welcome
+* 10:05am to 10:15am - Community updates
+* 10:15am to 10:40am - Presentation: Ryan Wold - LiveWallet show & tell
+* 10:40am to 10:50am - Open discussion - topic prompts: identity, DIDs, tokenization of assets or for services
+* 10:50am to 11:00am - Closeout
+
+## Previous agendas
+
+### 01/19/2023
+* 10:00am to 10:05am - Welcome
+
+### 01/12/2023
+* 10:00am to 10:05am - Welcome 
+
+### 11/10/2023
+* 10:00am to 10:05am - Welcome
+* 
 ### 11/03/2023
 * 10:00am to 10:05am - Welcome
 * 10:05am to 10:15am - Community updates
 * 10:15am to 10:50am - Open discussion
 * 10:50am to 11:00am - Closeout
-
-## Previous agendas
-
+ 
 ### 10/27/2023
 * 10:00am to 10:05am - Welcome
 * 10:05am to 10:15am - Community updates
@@ -99,8 +113,4 @@ shareable resources by [creating an issue](https://github.com/ACT-IAC-BWG/agenda
 ### 09/08/2023
 * 10:00am to 10:10am - Update and introduction for BWG
 
----
-
-##### Maintenance
-
-Each week, paste the last meeting here to [PAST_MEETINGS](./previous_agendas/).
+Additional previous meeting agendas are available [here](./previous_agendas/).
