@@ -9,5 +9,10 @@ Tools like Livebooks, Jupyter notebooks can be used to develop such demos.
 
 - Bitcoin wallet 101 - https://www.livewallet.app/ - credit: Ryan Wold
 - Data governance
-- Identity management
+- Identity management - self sovereign id
 - Smart contract deployment
+- third ledger entry
+- Asset Registries
+- Event Bus
+- Smart Contract (escrow, time release, multi-sig, with conditions)
+- A simple example, like a Registry
