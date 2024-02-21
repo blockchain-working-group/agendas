@@ -10,13 +10,25 @@ shareable resources by [creating an issue](https://github.com/ACT-IAC-BWG/agenda
 
 ## Upcoming Agendas
 
-### 02/09/2024
+### 02/23/2024
 * 10:00am to 10:05am - Welcome
 * 10:05am to 10:15am - Community updates
 * 10:15am to 10:50am - TBD
 * 10:50am to 11:00am - Closeout
 
 ## Previous agendas
+
+### 02/16/2024
+* 10:00am to 10:05am - Welcome
+* 10:05am to 10:15am - Community updates
+* 10:15am to 10:50am - TBD
+* 10:50am to 11:00am - Closeout
+
+### 02/09/2024
+* 10:00am to 10:05am - Welcome
+* 10:05am to 10:15am - Community updates
+* 10:15am to 10:50am - TBD
+* 10:50am to 11:00am - Closeout
 
 ### 02/02/2024
 * 10:00am to 10:05am - Welcome
