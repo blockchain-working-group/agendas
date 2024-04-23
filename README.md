@@ -1,6 +1,6 @@
 ## ACT-IAC Blockchain Working Group Agendas
 
-The ACT-IAC Blockchain Working Group Meeting occurs regularly on Fridays at 10am - 11am EST.
+The [ACT-IAC Blockchain Working Group](https://www.actiac.org/groups/blockchain-working-group) Meeting occurs regularly on Fridays at 10am - 11am EST.
 
 * Government lead: [Jorge Ferrer](mailto:jorge.Ferrer@va.gov), VHA
 * Industry lead: [Frederic de Vaulx](mailto:f.devaulx@prometheuscomputing.com), Prometheus Computing LLC
