@@ -12,15 +12,15 @@ shareable resources by [creating an issue](https://github.com/ACT-IAC-BWG/agenda
 
 ### 04/26/2024
 
-* 10:00am to 10:05am - Welcome
-* 10:05am to 10:15am - Community updates
-* 10:15am to 10:50am - Discuss WG items and open discussion
-  * Open call for Speakers & Presentations
-  * Attention on [Issues](https://github.com/blockchain-working-group/agendas/issues)
-  * Tasks & working group interests
-* 10:50am to 11:00am - Closeout
+ACT-IAC blockchain working group
+Friday, April 26 · 10:00 – 11:00am
+Time zone: America/New_York
 
-### 03/14/2024
+Video call link: https://meet.google.com/ttq-ikvg-wat
+
+Or dial: ‪(US) +1 443-671-8815‬ PIN: ‪443 970 976‬#
+More phone numbers: https://tel.meet/ttq-ikvg-wat?pin=3271990139345
+
 * 10:00am to 10:05am - Welcome
 * 10:05am to 10:15am - Community updates
 * 10:15am to 10:50am - Discuss WG items and open discussion
@@ -30,6 +30,15 @@ shareable resources by [creating an issue](https://github.com/ACT-IAC-BWG/agenda
 * 10:50am to 11:00am - Closeout
 
 ## Previous agendas
+
+### 03/14/2024
+* 10:00am to 10:05am - Welcome
+* 10:05am to 10:15am - Community updates
+* 10:15am to 10:50am - Discuss WG items and open discussion
+  * Open call for Speakers & Presentations
+  * Attention on [Issues](https://github.com/blockchain-working-group/agendas/issues)
+  * Tasks & working group interests
+* 10:50am to 11:00am - Closeout
 
 ### 03/08/2024
 * 10:00am to 10:05am - Welcome
