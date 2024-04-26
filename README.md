@@ -23,6 +23,13 @@ More phone numbers: https://tel.meet/ttq-ikvg-wat?pin=3271990139345
 
 * 10:00am to 10:05am - Welcome
 * 10:05am to 10:15am - Community updates
+  * https://eblockchainconvention.com/
+  * Blockchain in France & Europe:
+    * https://www.esma.europa.eu/esmas-activities/digital-finance-and-innovation/markets-crypto-assets-regulation-mica
+    * https://www.centralbank.ie/regulation/markets-in-crypto-assets-regulation
+  * Zero-Knowledge Proof - https://www.encode.club/zk-bootcamp/
+  * Schemes to enable users to control who has access to data (and how)
+  * GSA Lab - potential opportunity to prototype and demonstrate proof of concepts.
 * 10:15am to 10:50am - Discuss WG items and open discussion
   * Open call for Speakers & Presentations
   * Attention on [Issues](https://github.com/blockchain-working-group/agendas/issues)
