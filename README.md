@@ -1,6 +1,6 @@
 ## ACT-IAC Blockchain Working Group Agendas
 
-The [ACT-IAC Blockchain Working Group](https://www.actiac.org/groups/blockchain-working-group) Meeting occurs regularly on Fridays at 10am - 11am EST.
+The [ACT-IAC Blockchain Working Group](https://www.actiac.org/groups/blockchain-working-group) meeting occurs regularly on Fridays at 10am - 11am EST.
 
 * Government lead: [Jorge Ferrer](mailto:jorge.Ferrer@va.gov), VHA
 * Industry lead: [Frederic de Vaulx](mailto:f.devaulx@prometheuscomputing.com), Prometheus Computing LLC
@@ -10,11 +10,9 @@ shareable resources by [creating an issue](https://github.com/ACT-IAC-BWG/agenda
 
 ## Upcoming Agendas
 
-### 06/07/2024
+### 06/21/2024
 
-ACT-IAC blockchain working group
-Friday, June 07 · 10:00 – 11:00am
-Time zone: America/New_York
+Friday, June 07 · 10:00 – 11:00am EST
 
 Video call link: https://meet.google.com/ttq-ikvg-wat
 
@@ -28,8 +26,29 @@ More phone numbers: https://tel.meet/ttq-ikvg-wat?pin=3271990139345
   * Tasks & working group interests
 * 10:50am to 11:00am - Closeout
 
-
 ## Previous agendas
+
+### 06/14/2024
+
+Friday, June 07 · 10:00 – 11:00am EST
+
+* 10:00am to 10:05am - Welcome
+* 10:05am to 10:15am - Community updates
+* 10:15am to 10:50am - Discuss WG items and open discussion
+  * Attention on [Issues](https://github.com/blockchain-working-group/agendas/issues)
+  * Tasks & working group interests
+* 10:50am to 11:00am - Closeout
+
+### 06/07/2024
+
+Friday, June 07 · 10:00 – 11:00am EST
+
+* 10:00am to 10:05am - Welcome
+* 10:05am to 10:15am - Community updates
+* 10:15am to 10:50am - Discuss WG items and open discussion
+  * Attention on [Issues](https://github.com/blockchain-working-group/agendas/issues)
+  * Tasks & working group interests
+* 10:50am to 11:00am - Closeout
 
 ### 05/31/2024
 
