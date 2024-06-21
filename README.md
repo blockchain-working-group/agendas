@@ -10,9 +10,9 @@ shareable resources by [creating an issue](https://github.com/ACT-IAC-BWG/agenda
 
 ## Upcoming Agendas
 
-### 06/21/2024
+### 06/28/2024
 
-Friday, June 07 · 10:00 – 11:00am EST
+Friday, June 28 · 10:00 – 11:00am EST
 
 Video call link: https://meet.google.com/ttq-ikvg-wat
 
@@ -28,9 +28,74 @@ More phone numbers: https://tel.meet/ttq-ikvg-wat?pin=3271990139345
 
 ## Previous agendas
 
+### 06/21/2024
+
+Friday, June 21 · 10:00 – 11:00am EST
+
+* 10:00am to 10:05am - Welcome
+* 10:05am to 10:15am - Community updates
+* 10:15am to 10:50am - Discuss WG items and open discussion
+  * Attention on [Issues](https://github.com/blockchain-working-group/agendas/issues)
+  * Tasks & working group interests
+* 10:50am to 11:00am - Closeout
+
+##### Minutes
+
+* Sandy
+  * Going to UK
+  * Tying together AI and blockchain, ZTA - Zero trust architecture
+  * Advantages of hashing in permissioned environments (Navy example using .stl files)
+* Ralph
+  * F1r3fly.io can substantively reduce power consumption in data centers
+  * Using blockchain for hyperdimensional compute
+  * Rho Calculus which extends Pi Calculus
+  * LLMs can integrate feedback in more real-time, due to greater concurrency
+  * Bring the data to the metal - rather than the metal to the data
+  * https://judiciary.house.gov/sites/evo-subsites/republicans-judiciary.house.gov/files/evo-media-document/2024-06-03%20JDJ%20to%20Cole%20re%20Appropriations%20Riders%20List.pdf
+  * https://www.westernjournal.com/benko-ballot-fraud-voter-suppression-not-fast/
+  * https://www.westernjournal.com/op-ed-georgia-officials-may-preparing-indict-trump-one-glaring-issue/
+* Cheryl
+  * blockchains used to verify the source of information, prior to being fed to AI models
+  * committee on disinformation being defunded
+  * data provenance related to elections
+* Fred
+  * 
+* Bob
+  * Stornetta to have an event about election integrity, maybe in July?
+  * August 16 at the Fairfax Town Hall - Blockchain Showcase - more info on the GBA website [https://gbaglobal.org](https://gbaglobal.org/)
+* Eric
+  * re: Elections - proof of information
+  * the role of government
+* Lilia
+  * Reading "The age of surveillance capitalism"
+* Thompson
+  * 
+* Juby
+  * Working in health care, interoperabilty, bi-directional data exchange, EHR systems, insurance-facing, gov-facing, 
+  * patient-owned data
+  * Can Medicare data be monetized for the beneficiaries, using a DLT?
+  * Mandatory prior authorization (legislation) goes into effect Jan 2025
+  * MITRE is also supporting the Medicare & Medicaid work
+  * 
+* Jon
+ * > Elections are to me the integrity of the result of the vote and the technological accuracy the count. All votes will be influenced before the vote then they vote.
+ * focused more on AI, aware of biases
+ * Denton County has a decent approach regarding integrity of the vote
+ * blockchain w/could be applied to integrity of the vote - be able to verify
+* Jorge
+  * VA Digital Health Office, Emerging Technologies - trying to get the office up and running smoothly
+  * Emerging technologies is mostly about AI currently
+* Ryan
+  * Sharing prototype work for GBA Infrastructure group:
+    * https://civil-registry-cfc85eba344c.herokuapp.com/
+    * Example transaction: https://test.whatsonchain.com/tx/e54acfef04eb08b8e8144f2b8a131a2c4e824158930af8601157fcd09e6a642e
+    * Example Schema.org MarryAction: https://test.whatsonchain.com/tx/be3dd1f67b9b7f71e6862db055a697b2d73758a70498e69e9f982c901079eef8
+   
+The group will consider an automated transcription tool in the future. This will need ACT-IAC's approval.
+
 ### 06/14/2024
 
-Friday, June 07 · 10:00 – 11:00am EST
+Friday, June 14 · 10:00 – 11:00am EST
 
 * 10:00am to 10:05am - Welcome
 * 10:05am to 10:15am - Community updates
