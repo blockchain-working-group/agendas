@@ -14,10 +14,7 @@ shareable resources by [creating an issue](https://github.com/ACT-IAC-BWG/agenda
 
 Friday, June 28 · 10:00 – 11:00am EST
 
-Video call link: https://meet.google.com/ttq-ikvg-wat
-
-Or dial: ‪(US) +1 443-671-8815‬ PIN: ‪443 970 976‬#
-More phone numbers: https://tel.meet/ttq-ikvg-wat?pin=3271990139345
+Video call link: https://meet.google.com/fed-hekq-bva
 
 * 10:00am to 10:05am - Welcome
 * 10:05am to 10:15am - Community updates
