@@ -10,6 +10,10 @@ shareable resources by [creating an issue](https://github.com/ACT-IAC-BWG/agenda
 
 ## Upcoming Agendas
 
+### 07/05/2024
+
+Friday, July 5 - MEETING CANCELED following July 4th Holiday
+
 ### 06/28/2024
 
 Friday, June 28 · 10:00 – 11:00am EST
