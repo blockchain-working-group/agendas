@@ -16,10 +16,12 @@ shareable resources by [creating an issue](https://github.com/ACT-IAC-BWG/agenda
 Video call link: https://meet.google.com/fed-hekq-bva
 
 * 10:00am to 10:05am - Welcome
-* 10:05am to 10:15am - Community updates
-* 10:15am to 10:50am - Discuss WG items and open discussion
-  * Attention on [Issues](https://github.com/blockchain-working-group/agendas/issues)
-  * Tasks & working group interests
+* 10:05am to 10:20am - Community updates
+* 10:20am to 10:50am - Discuss WG items and open discussion
+  * CFTC Conference this week (July 11) - highlighted "blockchaina analytics"
+  * Any topics to add? https://github.com/blockchain-working-group/agendas/issues/new
+  * Meeting time: Is there a better time for this meeting?
+  * [Group areas of interest](https://github.com/blockchain-working-group/agendas/issues/30)  
 * 10:50am to 11:00am - Closeout
   
 ### 07/05/2024
