@@ -10,6 +10,18 @@ shareable resources by [creating an issue](https://github.com/ACT-IAC-BWG/agenda
 
 ## Upcoming Agendas
 
+
+### Friday 07/12/2024 · 10:00 – 11:00am EST
+
+Video call link: https://meet.google.com/fed-hekq-bva
+
+* 10:00am to 10:05am - Welcome
+* 10:05am to 10:15am - Community updates
+* 10:15am to 10:50am - Discuss WG items and open discussion
+  * Attention on [Issues](https://github.com/blockchain-working-group/agendas/issues)
+  * Tasks & working group interests
+* 10:50am to 11:00am - Closeout
+  
 ### 07/05/2024
 
 Friday, July 5 - MEETING CANCELED following July 4th Holiday
