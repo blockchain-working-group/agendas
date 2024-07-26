@@ -11,6 +11,14 @@ shareable resources by [creating an issue](https://github.com/ACT-IAC-BWG/agenda
 ## Upcoming Agendas
 
 
+### Friday 07/16/2024 · 10:00 – 11:00am EST
+
+Meeting canceled.
+
+There is another ACT-IAC Quantum meeting scheduled at this time.
+
+## Previous agendas
+
 ### Friday 07/19/2024 · 10:00 – 11:00am EST
 
 Video call link: https://meet.google.com/fed-hekq-bva
@@ -21,8 +29,6 @@ Video call link: https://meet.google.com/fed-hekq-bva
   * [Submit agenda items or topics of interest here](https://github.com/blockchain-working-group/agendas/issues/new)  
 * 10:50am to 11:00am - Closeout
 
-
-## Previous agendas
 
 ### Friday 07/12/2024 · 10:00 – 11:00am EST
 
