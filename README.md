@@ -11,7 +11,7 @@ shareable resources by [creating an issue](https://github.com/ACT-IAC-BWG/agenda
 ## Upcoming Agendas
 
 
-### Friday 07/16/2024 · 10:00 – 11:00am EST
+### Friday 07/26/2024 · 10:00 – 11:00am EST
 
 Meeting canceled.
 
