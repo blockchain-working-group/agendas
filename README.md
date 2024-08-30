@@ -10,11 +10,16 @@ shareable resources by [creating an issue](https://github.com/ACT-IAC-BWG/agenda
 
 ## Upcoming Agendas
 
-### Friday 08/16/2024 · 10:00 – 11:00am EST
+### Friday 08/30/2024 · 10:00 – 11:00am EST
 
-Meeting canceled.
+Video call link: https://meet.google.com/txi-iyvp-sea
 
-There is another GBA event at that time.
+* 10:00am to 10:05am - Welcome
+* 10:05am to 10:20am - Community updates
+* 10:20am to 10:50am - Discuss blockchain based grant management
+* 10:50am to 11:00am - Closeout
+
+## Previous agendas
 
 ### Friday 08/23/2024 · 10:00 – 11:00am EST
 
@@ -25,7 +30,11 @@ Video call link: https://meet.google.com/txi-iyvp-sea
 * 10:20am to 10:50am - Jasmine Faubert from MITRE will talk about the status of blockchain grant management projects at MITRE.
 * 10:50am to 11:00am - Closeout
 
-## Previous agendas
+### Friday 08/16/2024 · 10:00 – 11:00am EST
+
+Meeting canceled.
+
+There is another GBA event at that time.
 
 ### Friday 08/09/2024 · 10:00 – 11:00am EST
 
