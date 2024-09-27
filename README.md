@@ -12,6 +12,17 @@ If you need assistance with GitHub, please contact Jorge or Fred via email, and 
 
 ## Upcoming Agendas
 
+### Friday 09/27/2024 · 10:00 – 11:00am EST
+
+Video call link: https://meet.google.com/txi-iyvp-sea
+
+* 10:00am to 10:05am - Welcome
+* 10:05am to 10:10am - Community updates
+* 10:10am to 10:50am - brainstorming about requirements of a citizen accessible federal DLT
+* 10:50am - Closeout
+
+## Previous agendas
+
 ### Friday 09/20/2024 · 10:00 – 11:00am EST
 
 Video call link: https://meet.google.com/txi-iyvp-sea
@@ -20,8 +31,6 @@ Video call link: https://meet.google.com/txi-iyvp-sea
 * 10:05am to 10:10am - Community updates
 * 10:10am to 10:50am - github issues updates
 * 10:50am - Closeout
-
-## Previous agendas
 
 ### Friday 09/13/2024 · 10:00 – 11:00am EST
 
