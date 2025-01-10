@@ -26,7 +26,14 @@ Video call link: https://meet.google.com/txi-iyvp-sea
 
 ## Previous agendas
 
-## Friday 01/03/2025 · No meeting
+## Friday 01/03/2025 · 10:00 – 11:00am EST
+
+Video call link: https://meet.google.com/txi-iyvp-sea
+
+* 10:00am to 10:05am - Welcome
+* 10:05am to 10:10am - Community updates
+* 10:10am to 10:50am - Open discussion
+* 10:50am - Closeout
 
 ### Friday 12/13/2024 · 10:00 – 11:00am EST
 
