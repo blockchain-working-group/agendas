@@ -12,16 +12,21 @@ If you need assistance with GitHub, please contact Jorge or Fred via email, and 
 
 ## Upcoming Agendas
 
-### Friday 01/03/2025 · 10:00 – 11:00am EST
+### Friday 01/10/2025 · 10:00 – 11:00am EST
 
 Video call link: https://meet.google.com/txi-iyvp-sea
 
 * 10:00am to 10:05am - Welcome
 * 10:05am to 10:10am - Community updates
-* 10:10am to 10:50am - brainstorming about requirements of a citizen accessible federal DLT
+* 10:10am to 10:50am - Open discussion
+  * digital identity
+  * public agency IT security requirements
+  * 2025 goals and aspirations 
 * 10:50am - Closeout
 
 ## Previous agendas
+
+## Friday 01/03/2025 · No meeting
 
 ### Friday 12/13/2024 · 10:00 – 11:00am EST
 
