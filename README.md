@@ -12,6 +12,18 @@ If you need assistance with GitHub, please contact Jorge or Fred via email, and 
 
 ## Upcoming Agendas
 
+### Friday 02/07/2025 · 10:00 – 11:00am EST
+
+Video call link: https://meet.google.com/txi-iyvp-sea
+
+* 10:00am to 10:05am - Welcome
+* 10:05am to 10:10am - Community updates
+* 10:10am to 10:50am - Open discussion
+  * New EO
+* 10:50am - Closeout
+
+## Previous agendas
+
 ### Friday 01/31/2025 · 10:00 – 11:00am EST
 
 Video call link: https://meet.google.com/dvz-mskf-hew
@@ -32,8 +44,6 @@ Video call link: TBD
 * 10:10am to 10:50am - Open discussion
   * New EO
 * 10:50am - Closeout
-
-## Previous agendas
 
 ### Friday 01/24/2025 · 10:00 – 11:00am EST
 
