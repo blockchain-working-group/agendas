@@ -12,7 +12,7 @@ If you need assistance with GitHub, please contact Jorge or Fred via email, and 
 
 ## Upcoming Agendas
 
-### Friday 04/04/2025 · 10:00 – 10:45am EST
+### Friday 04/11/2025 · 10:00 – 10:45am EST
 
 Video call link: https://meet.google.com/txi-iyvp-sea
 
@@ -25,6 +25,18 @@ Video call link: https://meet.google.com/txi-iyvp-sea
 * 10:50am - Closeout
 
 ## Previous agendas
+
+### Friday 04/04/2025 · 10:00 – 10:45am EST
+
+Video call link: https://meet.google.com/txi-iyvp-sea
+
+* 10:00am to 10:05am - Welcome
+* 10:05am to 10:10am - Community updates
+* 10:10am to 10:50am - Discussion
+  * Crypto agility
+  * Public budgets on a blockchain
+  * Wallets for public sector organizations and employees
+* 10:50am - Closeout
 
 ### Friday 03/28/2025 · 10:00 – 10:45am EST
 
