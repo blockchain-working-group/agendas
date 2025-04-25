@@ -12,6 +12,19 @@ If you need assistance with GitHub, please contact Jorge or Fred via email, and 
 
 ## Upcoming Agendas
 
+### Friday 04/25/2025 · 10:00 – 10:45am EST
+
+Video call link: [https://meet.google.com/iyg-zqve-wne](https://meet.google.com/txi-iyvp-sea)
+
+* 10:00am to 10:05am - Welcome
+* 10:05am to 10:10am - Community updates
+* 10:10am to 10:45am - Discussion
+  * Digital IDs
+  * Blockchain economics
+  * Batching data/payments, or not
+ 
+## Previous agendas
+
 ### Friday 04/18/2025 · 10:00 – 10:45am EST
 
 Video call link: https://meet.google.com/iyg-zqve-wne
@@ -22,8 +35,6 @@ Video call link: https://meet.google.com/iyg-zqve-wne
   * Digital IDs
   * Blockchain economics
   * Batching data/payments, or not
- 
-## Previous agendas
     
 ### Friday 04/11/2025 · 10:00 – 10:45am EST
 
