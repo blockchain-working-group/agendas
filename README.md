@@ -12,6 +12,27 @@ If you need assistance with GitHub, please contact Jorge or Fred via email, and 
 
 ## Upcoming Agendas
 
+### Friday 05/16/2025 · 10:00 – 10:45am EST
+
+Video call link: https://meet.google.com/txi-iyvp-sea
+
+* 10:00am to 10:05am - Welcome
+* 10:05am to 10:10am - Community updates
+* 10:10am to 10:45am - Discussion
+  * Digital IDs
+  * Blockchain economics
+  * Batching data/payments, or not
+
+### Friday 05/23/2025 · 10:00 – 10:45am EST
+
+Video call link: https://meet.google.com/txi-iyvp-sea
+
+* 10:00am to 10:05am - Welcome
+* 10:05am to 10:10am - Community updates
+* 10:10am to 10:45am - Ryan to present on his wallet project
+ 
+## Previous agendas
+
 ### Friday 05/09/2025 · 10:00 – 10:45am EST
 
 Video call link: https://meet.google.com/txi-iyvp-sea
@@ -22,8 +43,6 @@ Video call link: https://meet.google.com/txi-iyvp-sea
   * Digital IDs
   * Blockchain economics
   * Batching data/payments, or not
- 
-## Previous agendas
 
 ### Friday 05/02/2025 · 10:00 – 10:45am EST
 
