@@ -12,6 +12,16 @@ If you need assistance with GitHub, please contact Jorge or Fred via email, and 
 
 ## Upcoming Agendas
 
+### Friday 07/11/2025 · 10:00 – 10:45am EST
+
+Video call link: https://meet.google.com/txi-iyvp-sea
+
+* 10:00am to 10:05am - Welcome
+* 10:05am to 10:10am - Community updates
+* 10:10am to 10:45am - Discussion
+ 
+## Previous agendas
+
 ### Friday 06/13/2025 · 10:00 – 10:45am EST
 
 Video call link: https://meet.google.com/txi-iyvp-sea
@@ -27,8 +37,6 @@ Video call link: https://meet.google.com/txi-iyvp-sea
 * 10:00am to 10:05am - Welcome
 * 10:05am to 10:10am - Community updates
 * 10:10am to 10:45am - Presentation from Kelly Schulz about the Maryland Tech Council
- 
-## Previous agendas
 
 ### Friday 06/06/2025 · 10:00 – 10:45am EST
 
