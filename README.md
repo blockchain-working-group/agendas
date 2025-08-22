@@ -12,7 +12,7 @@ If you need assistance with GitHub, please contact Jorge or Fred via email, and 
 
 ## Upcoming Agendas
 
-### Friday 08/15/2025 · 10:00 – 10:45am EST
+### Friday 08/22/2025 · 10:00 – 10:45am EST
 
 Video call link: https://meet.google.com/txi-iyvp-sea
 
