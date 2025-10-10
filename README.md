@@ -14,7 +14,7 @@ If you need assistance with GitHub, please contact Jorge or Fred via email, and 
 
 ### Friday 10/10/2025 · 10:00 – 10:45am EST
 
-Video call link: https://meet.google.com/txi-iyvp-sea](https://meet.google.com/iyg-zqve-wne)
+Video call link: https://meet.google.com/iyg-zqve-wne
 
 * 10:00am to 10:05am - Welcome
 * 10:05am to 10:10am - Community updates
