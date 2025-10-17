@@ -8,7 +8,7 @@ The [ACT-IAC Blockchain Working Group](https://www.actiac.org/groups/blockchain-
 ACT-IAC members: Please feel free to add: questions, topics, speaker requests or offers, and publicly
 shareable resources by [creating an issue](https://github.com/ACT-IAC-BWG/agendas/issues/new). 
 
-If you need assistance with GitHub, please contact Jorge or Fred via email, and a group member can lend a hand.
+Just getting started with GitHub? Contact Jorge or Fred via email, and a group member can help.
 
 ## Upcoming Agendas
 
