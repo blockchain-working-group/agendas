@@ -28,3 +28,11 @@ or submit a Pull Request.
 * Ian Grigg's 2005 on Triple Entry Accounting - https://iang.org/papers/triple_entry.html
 * https://www.mdpi.com/1911-8074/17/2/76
 * Papers from the 2023 TEA Conf (Triple-entry accounting) - https://www.mdpi.com/journal/jrfm/special_issues/S0ZR60SZUX
+
+### News
+
+* https://ag.ny.gov/press-release/2024/attorney-general-james-expands-lawsuit-against-cryptocurrency-company-digital
+* https://www.cbp.gov/sites/default/files/assets/documents/2020-Mar/IPR%20POC%20Report%20-%20Final%20V2.pdf
+* https://www.whitehouse.gov/wp-content/uploads/2021/08 - M-21-31-Improving-the-Federal-Governments-Investigative-and-Remediation-Capabilities-Related-to-Cybersecurity-Incidents.pdf
+* a use case related to security and provenance of data and publications:
+https://www.sciencedirect.com/science/article/pii/S2665963823000118
