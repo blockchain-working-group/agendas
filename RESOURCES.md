@@ -23,6 +23,15 @@ or submit a Pull Request.
 * https://www.fsmb.org/blockchain/ - FSMB (Federation of State Medical Boards) - may be looking into similar issues
 * https://www.nist.gov/news-events/news/2024/08/nist-releases-second-public-draft-digital-identity-guidelines-final-review - NIST is looking for comments on its Digital Identity Guidelines papers:
 
+##### Decentralized identifiers
+
+* https://www.usaid.gov/sites/default/files/2022-05/IDENTITY_IN_A_DIGITAL_AGE.pdf
+* https://www.usaid.gov/digital-development/digital-id
+* https://pages.nist.gov/800-63-3/
+* https://www.dhs.gov/sites/default/files/2022-01/22_0131_st_next_generation_identity_mobile_drivers_license_factSheet_11.4.21.pdf
+* https://www.dhs.gov/science-and-technology/idm
+* https://www.tsa.gov/digital-id
+
 ##### Triple entry accounting
 
 * Ian Grigg's 2005 on Triple Entry Accounting - https://iang.org/papers/triple_entry.html
