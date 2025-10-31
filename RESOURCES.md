@@ -12,6 +12,17 @@ or submit a Pull Request.
 
 ### Topics
 
+##### Digital identity
+
+* https://public-inspection.federalregister.gov/2024-03772.pdf
+* [W3C - A Primer for Decentralized Identifiers](https://w3c-ccg.github.io/did-primer/)
+  * https://www.w3.org/TR/did-core/
+* https://www.idmanagement.gov/
+  * [Federal identity, credential, and access management](https://www.gsa.gov/technology/government-it-initiatives/federal-identity-credential-and-access-management)
+  * [FICAM Playbooks](https://github.com/GSA/idmanagement.gov)
+* https://www.fsmb.org/blockchain/ - FSMB (Federation of State Medical Boards) - may be looking into similar issues
+* https://www.nist.gov/news-events/news/2024/08/nist-releases-second-public-draft-digital-identity-guidelines-final-review - NIST is looking for comments on its Digital Identity Guidelines papers:
+
 ##### Triple entry accounting
 
 * Ian Grigg's 2005 on Triple Entry Accounting - https://iang.org/papers/triple_entry.html
