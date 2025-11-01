@@ -4,13 +4,16 @@ Blockchain Working Group
 
 Initial Release: April 2, 2018
 Updated: June 5, 2019
-Synopsis
+
+# Synopsis
+
 This Playbook comes right after the Primer1 and proposes a process and a series of
 phases to support the United States Federal Government in its understanding and
 application of blockchain and distributed ledger technologies for its mission. Each
 phase contains a set of key activities organized in functional areas that go beyond
 just the technical aspects of blockchain but include management, people, process,
 and acquisition areas.
+
 Blockchain has the potential to help government mitigate fraud, reduce errors,
 and lower the cost of paper-intensive processes, while enabling collaboration
 across multiple divisions and agencies to provide more effective and efficient
@@ -18,17 +21,17 @@ services to citizens. Moreover, the adoption of blockchain may also allow
 governmental agencies to provide new value-added services to businesses and
 others which can generate new sources of revenue for these agencies.
 
-This page is intentionally blank
-
-Blockchain Playbook for the U.S. Federal Government
+# Blockchain Playbook for the U.S. Federal Government
 
 American Council for Technology-Industry Advisory Council (ACT-IAC)
+
 The American Council for Technology (ACT) is a nonprofit educational organization established
 to create a more effective and innovative government. ACT-IAC provides a unique, objective,
 and trusted forum where government and industry executives are working together to improve
 public services and agency operations through the use of technology. ACT-IAC contributes to
 better communications between government and industry, collaborative and innovative
 problem solving, and a more professional and qualified workforce.
+
 The information, conclusions, and recommendations contained in this publication were
 produced by volunteers from government and industry who share the ACT-IAC vision of a more
 effective and innovative government. ACT-IAC volunteers represent a wide diversity of
@@ -38,10 +41,13 @@ consensus based. The findings and recommendations contained in this report are b
 consensus and do not represent the views of any particular individual or organization.
 To maintain the objectivity and integrity of its collaborative process, ACT-IAC does not accept
 government funding.
+
 ACT-IAC welcomes the participation of all public and private organizations committed to
 improving the delivery of public services through the effective and efficient use of IT. For
 additional information, visit the ACT-IAC website at www.actiac.org.
+
 Emerging Technology Community of Interest
+
 ACT-IAC, through the Emerging Technology Community of Interest, formed a Blockchain
 Working Group to give voice to and provide an authoritative resource for government agencies
 looking to understand and incorporate blockchain technology and functionality into their
@@ -51,7 +57,9 @@ COI) mission is to provide an energetic, collaborative consortium comprised of l
 practitioners in data science, technology, and research, engaged with industry, academia, and
 public officials and executives focused on emerging and leading technologies which transform
 public sector capabilities.
-Disclaimer
+
+## Disclaimer
+
 This document has been prepared to contribute to a more effective, efficient, and innovative
 government. The information contained in this report is the result of a collaborative process in
 which a number of individuals participated. This document does not – nor is it intended to –
@@ -65,9 +73,6 @@ American Council for Technology-Industry Advisory Council (ACT-IAC)
 www.actiac.org ● (p) (703) 208.4800 ● (f) (703) 208.4805
 Advancing Government Through Education, Leadership, and Collaboration
 
-2
-
-Blockchain Playbook for the U.S. Federal Government
 
 Copyright
 ©American Council for Technology, 2019. This document may not be quoted, reproduced,
@@ -84,7 +89,6 @@ Advancing Government Through Education, Leadership, and Collaboration
 
 3
 
-Blockchain Playbook for the U.S. Federal Government
 
 Table of Contents
 INTRODUCTION .................................................................................................................................6
@@ -133,7 +137,6 @@ Advancing Government Through Education, Leadership, and Collaboration
 
 4
 
-Blockchain Playbook for the U.S. Federal Government
 
 APPENDICES ....................................................................................................................................61
 APPENDIX A – BLOCKCHAIN TYPES & BEST FIT ................................................................................................. 61
@@ -154,7 +157,6 @@ Advancing Government Through Education, Leadership, and Collaboration
 
 5
 
-Blockchain Playbook for the U.S. Federal Government
 
 Introduction
 
@@ -210,7 +212,6 @@ Advancing Government Through Education, Leadership, and Collaboration
 
 6
 
-Blockchain Playbook for the U.S. Federal Government
 
 It is also important to note that at scale and fully implemented, a distributed ledger technology
 will probably not be a party of one or even two – more like a party of 5, 25, 100, 1,000. A
@@ -242,7 +243,6 @@ Advancing Government Through Education, Leadership, and Collaboration
 
 7
 
-Blockchain Playbook for the U.S. Federal Government
 
 Phase 2 Organizational Readiness: Engage blockchain subject matter experts and consider the
 nuances that accompany a blockchain solution to prepare the organization(s). This includes
@@ -271,7 +271,6 @@ Advancing Government Through Education, Leadership, and Collaboration
 
 8
 
-Blockchain Playbook for the U.S. Federal Government
 
 Phase 1 – Problem Assessment
 
@@ -308,7 +307,6 @@ Advancing Government Through Education, Leadership, and Collaboration
 
 9
 
-Blockchain Playbook for the U.S. Federal Government
 
 Figure 3: assessment phase (1) summary
 
@@ -340,7 +338,6 @@ American Council for Technology-Industry Advisory Council (ACT-IAC)
 www.actiac.org ● (p) (703) 208.4800 ● (f) (703) 208.4805
 Advancing Government Through Education, Leadership, and Collaboration
 
-Blockchain Playbook for the U.S. Federal Government
 
 **Note: This is a notional table and the level of importance associated with each question may
 be tied to the use case being assessed. Assign Points based on the Attribute Importance Rank
@@ -475,7 +472,6 @@ Advancing Government Through Education, Leadership, and Collaboration
 5
 (Critical)
 
-Blockchain Playbook for the U.S. Federal Government
 
 7. Can your organization benefit from transforming respective business capabilities into a
 decentralized organization?
@@ -628,7 +624,6 @@ Advancing Government Through Education, Leadership, and Collaboration
 -5
 (Critical)
 
-Blockchain Playbook for the U.S. Federal Government
 
 Results:
 Provided here are common questions and relative weights for answers to serve as a preliminary
@@ -673,7 +668,6 @@ American Council for Technology-Industry Advisory Council (ACT-IAC)
 www.actiac.org ● (p) (703) 208.4800 ● (f) (703) 208.4805
 Advancing Government Through Education, Leadership, and Collaboration
 
-Blockchain Playbook for the U.S. Federal Government
 
 Practical Advice and Best Practices for Blockchain Assessment
 With blockchain near the top of the hype cycle in 20172, it
@@ -713,7 +707,6 @@ American Council for Technology-Industry Advisory Council (ACT-IAC)
 www.actiac.org ● (p) (703) 208.4800 ● (f) (703) 208.4805
 Advancing Government Through Education, Leadership, and Collaboration
 
-Blockchain Playbook for the U.S. Federal Government
 
 Build Blockchain Architectural Blueprint for Future Phases
 Develop a vision and a plan for the additional requirements and challenges that will need to be
@@ -766,7 +759,6 @@ American Council for Technology-Industry Advisory Council (ACT-IAC)
 www.actiac.org ● (p) (703) 208.4800 ● (f) (703) 208.4805
 Advancing Government Through Education, Leadership, and Collaboration
 
-Blockchain Playbook for the U.S. Federal Government
 
 Impact of Modernizing Government Technology (MGT) Act
 The MGT Act4 (incorporated as Subtitle G to Title X of the National Defense Authorization Act
@@ -813,7 +805,6 @@ American Council for Technology-Industry Advisory Council (ACT-IAC)
 www.actiac.org ● (p) (703) 208.4800 ● (f) (703) 208.4805
 Advancing Government Through Education, Leadership, and Collaboration
 
-Blockchain Playbook for the U.S. Federal Government
 
 Assess the Current State of the Customer Experience
 As with most transformative efforts, the blockchain initiative should also be leveraged as an
@@ -865,7 +856,6 @@ American Council for Technology-Industry Advisory Council (ACT-IAC)
 www.actiac.org ● (p) (703) 208.4800 ● (f) (703) 208.4805
 Advancing Government Through Education, Leadership, and Collaboration
 
-Blockchain Playbook for the U.S. Federal Government
 
 Phase Outputs
 
@@ -892,7 +882,6 @@ American Council for Technology-Industry Advisory Council (ACT-IAC)
 www.actiac.org ● (p) (703) 208.4800 ● (f) (703) 208.4805
 Advancing Government Through Education, Leadership, and Collaboration
 
-Blockchain Playbook for the U.S. Federal Government
 
 Phase 2 – Organizational Readiness
 
@@ -949,7 +938,6 @@ American Council for Technology-Industry Advisory Council (ACT-IAC)
 www.actiac.org ● (p) (703) 208.4800 ● (f) (703) 208.4805
 Advancing Government Through Education, Leadership, and Collaboration
 
-Blockchain Playbook for the U.S. Federal Government
 
 The participants may contain other stakeholders in part or whole of this phase. For example,
 end users could serve as the voice of the customer during requirements discovery and
@@ -983,7 +971,6 @@ American Council for Technology-Industry Advisory Council (ACT-IAC)
 www.actiac.org ● (p) (703) 208.4800 ● (f) (703) 208.4805
 Advancing Government Through Education, Leadership, and Collaboration
 
-Blockchain Playbook for the U.S. Federal Government
 
 •
 
@@ -1066,7 +1053,6 @@ American Council for Technology-Industry Advisory Council (ACT-IAC)
 www.actiac.org ● (p) (703) 208.4800 ● (f) (703) 208.4805
 Advancing Government Through Education, Leadership, and Collaboration
 
-Blockchain Playbook for the U.S. Federal Government
 
 No.
 
@@ -1215,7 +1201,6 @@ American Council for Technology-Industry Advisory Council (ACT-IAC)
 www.actiac.org ● (p) (703) 208.4800 ● (f) (703) 208.4805
 Advancing Government Through Education, Leadership, and Collaboration
 
-Blockchain Playbook for the U.S. Federal Government
 
 No.
 
@@ -1369,7 +1354,6 @@ American Council for Technology-Industry Advisory Council (ACT-IAC)
 www.actiac.org ● (p) (703) 208.4800 ● (f) (703) 208.4805
 Advancing Government Through Education, Leadership, and Collaboration
 
-Blockchain Playbook for the U.S. Federal Government
 
 No.
 
@@ -1521,7 +1505,6 @@ American Council for Technology-Industry Advisory Council (ACT-IAC)
 www.actiac.org ● (p) (703) 208.4800 ● (f) (703) 208.4805
 Advancing Government Through Education, Leadership, and Collaboration
 
-Blockchain Playbook for the U.S. Federal Government
 
 No.
 
@@ -1595,7 +1578,6 @@ American Council for Technology-Industry Advisory Council (ACT-IAC)
 www.actiac.org ● (p) (703) 208.4800 ● (f) (703) 208.4805
 Advancing Government Through Education, Leadership, and Collaboration
 
-Blockchain Playbook for the U.S. Federal Government
 
 •
 •
@@ -1669,7 +1651,6 @@ American Council for Technology-Industry Advisory Council (ACT-IAC)
 www.actiac.org ● (p) (703) 208.4800 ● (f) (703) 208.4805
 Advancing Government Through Education, Leadership, and Collaboration
 
-Blockchain Playbook for the U.S. Federal Government
 
 Phase 3 – Solution Selection
 
@@ -1729,7 +1710,6 @@ American Council for Technology-Industry Advisory Council (ACT-IAC)
 www.actiac.org ● (p) (703) 208.4800 ● (f) (703) 208.4805
 Advancing Government Through Education, Leadership, and Collaboration
 
-Blockchain Playbook for the U.S. Federal Government
 
 Figure 6: Selection Phase (3) summary
 
@@ -1769,7 +1749,6 @@ American Council for Technology-Industry Advisory Council (ACT-IAC)
 www.actiac.org ● (p) (703) 208.4800 ● (f) (703) 208.4805
 Advancing Government Through Education, Leadership, and Collaboration
 
-Blockchain Playbook for the U.S. Federal Government
 
 •
 
@@ -1834,7 +1813,6 @@ American Council for Technology-Industry Advisory Council (ACT-IAC)
 www.actiac.org ● (p) (703) 208.4800 ● (f) (703) 208.4805
 Advancing Government Through Education, Leadership, and Collaboration
 
-Blockchain Playbook for the U.S. Federal Government
 
 increasing storage requirements with the increase of blocks, increasing computational
 requirements for the participating / consensus node, and no clear ‘ownership’ of the ledger.
@@ -1891,7 +1869,6 @@ American Council for Technology-Industry Advisory Council (ACT-IAC)
 www.actiac.org ● (p) (703) 208.4800 ● (f) (703) 208.4805
 Advancing Government Through Education, Leadership, and Collaboration
 
-Blockchain Playbook for the U.S. Federal Government
 
 All three types of blockchains use cryptography to allow each participant on any given network
 to manage the ledger in a secure way without the need for a central authority to enforce the
@@ -1949,7 +1926,6 @@ American Council for Technology-Industry Advisory Council (ACT-IAC)
 www.actiac.org ● (p) (703) 208.4800 ● (f) (703) 208.4805
 Advancing Government Through Education, Leadership, and Collaboration
 
-Blockchain Playbook for the U.S. Federal Government
 
 on the chain. IT operations should consider the procedures and infrastructure needed to
 manage this data as well.
@@ -2004,7 +1980,6 @@ American Council for Technology-Industry Advisory Council (ACT-IAC)
 www.actiac.org ● (p) (703) 208.4800 ● (f) (703) 208.4805
 Advancing Government Through Education, Leadership, and Collaboration
 
-Blockchain Playbook for the U.S. Federal Government
 
 Deployment Models
 There are various deployment models for blockchains in the market. Government should
@@ -2055,7 +2030,6 @@ American Council for Technology-Industry Advisory Council (ACT-IAC)
 www.actiac.org ● (p) (703) 208.4800 ● (f) (703) 208.4805
 Advancing Government Through Education, Leadership, and Collaboration
 
-Blockchain Playbook for the U.S. Federal Government
 
 Buy small, build small, test, and iterate
 Set up each contract for a quick win, then determine how to scale that success or pivot quickly.
@@ -2103,7 +2077,6 @@ American Council for Technology-Industry Advisory Council (ACT-IAC)
 www.actiac.org ● (p) (703) 208.4800 ● (f) (703) 208.4805
 Advancing Government Through Education, Leadership, and Collaboration
 
-Blockchain Playbook for the U.S. Federal Government
 
 Develop Acquisition Models and Milestones
 You have assessed and selected the blockchain technology. You have determined the readiness
@@ -2153,7 +2126,6 @@ American Council for Technology-Industry Advisory Council (ACT-IAC)
 www.actiac.org ● (p) (703) 208.4800 ● (f) (703) 208.4805
 Advancing Government Through Education, Leadership, and Collaboration
 
-Blockchain Playbook for the U.S. Federal Government
 
 •
 •
@@ -2209,7 +2181,6 @@ American Council for Technology-Industry Advisory Council (ACT-IAC)
 www.actiac.org ● (p) (703) 208.4800 ● (f) (703) 208.4805
 Advancing Government Through Education, Leadership, and Collaboration
 
-Blockchain Playbook for the U.S. Federal Government
 
 •
 •
@@ -2241,7 +2212,6 @@ American Council for Technology-Industry Advisory Council (ACT-IAC)
 www.actiac.org ● (p) (703) 208.4800 ● (f) (703) 208.4805
 Advancing Government Through Education, Leadership, and Collaboration
 
-Blockchain Playbook for the U.S. Federal Government
 
 Phase 4 – Blockchain Implementation
 This phase ensures that the inner workings of the solution are completed and tested. It closely
@@ -2281,7 +2251,6 @@ American Council for Technology-Industry Advisory Council (ACT-IAC)
 www.actiac.org ● (p) (703) 208.4800 ● (f) (703) 208.4805
 Advancing Government Through Education, Leadership, and Collaboration
 
-Blockchain Playbook for the U.S. Federal Government
 
 and Compliance (GRC) area must have a revised Cost and Schedule Estimate, Acquisition Plan,
 and Operational Model.
@@ -2338,7 +2307,6 @@ American Council for Technology-Industry Advisory Council (ACT-IAC)
 www.actiac.org ● (p) (703) 208.4800 ● (f) (703) 208.4805
 Advancing Government Through Education, Leadership, and Collaboration
 
-Blockchain Playbook for the U.S. Federal Government
 
 •
 
@@ -2393,7 +2361,6 @@ American Council for Technology-Industry Advisory Council (ACT-IAC)
 www.actiac.org ● (p) (703) 208.4800 ● (f) (703) 208.4805
 Advancing Government Through Education, Leadership, and Collaboration
 
-Blockchain Playbook for the U.S. Federal Government
 
 have varying authorities. Refine and finalize the logic, security, and other considerations
 regarding data creation, management, validation, encryption, any archiving, and
@@ -2439,7 +2406,6 @@ American Council for Technology-Industry Advisory Council (ACT-IAC)
 www.actiac.org ● (p) (703) 208.4800 ● (f) (703) 208.4805
 Advancing Government Through Education, Leadership, and Collaboration
 
-Blockchain Playbook for the U.S. Federal Government
 
 blockchain as a complement to integrity checks to determine how prepared and where the
 department/agency information system security officer stands.
@@ -2495,7 +2461,6 @@ American Council for Technology-Industry Advisory Council (ACT-IAC)
 www.actiac.org ● (p) (703) 208.4800 ● (f) (703) 208.4805
 Advancing Government Through Education, Leadership, and Collaboration
 
-Blockchain Playbook for the U.S. Federal Government
 
 •
 
@@ -2545,7 +2510,6 @@ American Council for Technology-Industry Advisory Council (ACT-IAC)
 www.actiac.org ● (p) (703) 208.4800 ● (f) (703) 208.4805
 Advancing Government Through Education, Leadership, and Collaboration
 
-Blockchain Playbook for the U.S. Federal Government
 
 Continuous learning is required to maintain the ecosystem throughout its lifecycle and should
 be included in the talent management and resource allocation plans being executed during the
@@ -2599,7 +2563,6 @@ American Council for Technology-Industry Advisory Council (ACT-IAC)
 www.actiac.org ● (p) (703) 208.4800 ● (f) (703) 208.4805
 Advancing Government Through Education, Leadership, and Collaboration
 
-Blockchain Playbook for the U.S. Federal Government
 
 •
 •
@@ -2672,7 +2635,6 @@ American Council for Technology-Industry Advisory Council (ACT-IAC)
 www.actiac.org ● (p) (703) 208.4800 ● (f) (703) 208.4805
 Advancing Government Through Education, Leadership, and Collaboration
 
-Blockchain Playbook for the U.S. Federal Government
 
 As described in the Assessment and Readiness phases, the use of Agile and DevOps
 methodologies are highly recommended for the project management approach. Included in
@@ -2716,7 +2678,6 @@ American Council for Technology-Industry Advisory Council (ACT-IAC)
 www.actiac.org ● (p) (703) 208.4800 ● (f) (703) 208.4805
 Advancing Government Through Education, Leadership, and Collaboration
 
-Blockchain Playbook for the U.S. Federal Government
 
 Security incidents, including information spills that used to just affect one organization, may
 now impact everyone on the shared infrastructure. Much like before, security practitioners
@@ -2781,7 +2742,6 @@ American Council for Technology-Industry Advisory Council (ACT-IAC)
 www.actiac.org ● (p) (703) 208.4800 ● (f) (703) 208.4805
 Advancing Government Through Education, Leadership, and Collaboration
 
-Blockchain Playbook for the U.S. Federal Government
 
 •
 •
@@ -2829,7 +2789,6 @@ American Council for Technology-Industry Advisory Council (ACT-IAC)
 www.actiac.org ● (p) (703) 208.4800 ● (f) (703) 208.4805
 Advancing Government Through Education, Leadership, and Collaboration
 
-Blockchain Playbook for the U.S. Federal Government
 
 responsibility of provisioning and managing a complete permissioned blockchain network. Each
 participant can then request a node and manage their own smart contracts. The participants
@@ -2873,7 +2832,6 @@ American Council for Technology-Industry Advisory Council (ACT-IAC)
 www.actiac.org ● (p) (703) 208.4800 ● (f) (703) 208.4805
 Advancing Government Through Education, Leadership, and Collaboration
 
-Blockchain Playbook for the U.S. Federal Government
 
 Blockchain infrastructure should be inherently highly available, a downed node does not impact
 the transaction process, unless the network does not have enough endorsing nodes on each
@@ -2922,7 +2880,6 @@ American Council for Technology-Industry Advisory Council (ACT-IAC)
 www.actiac.org ● (p) (703) 208.4800 ● (f) (703) 208.4805
 Advancing Government Through Education, Leadership, and Collaboration
 
-Blockchain Playbook for the U.S. Federal Government
 
 While the distributed nature of blockchain reduces the complexity associated with disaster
 recovery and data backups, you should regularly review, test, and refine the contingency plans
@@ -2969,7 +2926,6 @@ American Council for Technology-Industry Advisory Council (ACT-IAC)
 www.actiac.org ● (p) (703) 208.4800 ● (f) (703) 208.4805
 Advancing Government Through Education, Leadership, and Collaboration
 
-Blockchain Playbook for the U.S. Federal Government
 
 and well-supported framework. This model allows the blockchain owner to mitigate risk
 by transferring the ledger to another vendor. Transferring the ledger is not a simple
@@ -3019,7 +2975,6 @@ American Council for Technology-Industry Advisory Council (ACT-IAC)
 www.actiac.org ● (p) (703) 208.4800 ● (f) (703) 208.4805
 Advancing Government Through Education, Leadership, and Collaboration
 
-Blockchain Playbook for the U.S. Federal Government
 
 controls are process oriented that cover change management, disaster recovery, and data
 governance. The blockchain framework and smart contracts are treated like any COTS product.
@@ -3064,7 +3019,6 @@ American Council for Technology-Industry Advisory Council (ACT-IAC)
 www.actiac.org ● (p) (703) 208.4800 ● (f) (703) 208.4805
 Advancing Government Through Education, Leadership, and Collaboration
 
-Blockchain Playbook for the U.S. Federal Government
 
 Prepare and Award Follow on Contract
 A blockchain-enabled portfolio requires a blockchain-enabled enterprise which were identified
@@ -3114,7 +3068,6 @@ American Council for Technology-Industry Advisory Council (ACT-IAC)
 www.actiac.org ● (p) (703) 208.4800 ● (f) (703) 208.4805
 Advancing Government Through Education, Leadership, and Collaboration
 
-Blockchain Playbook for the U.S. Federal Government
 
 55
 
@@ -3123,7 +3076,6 @@ American Council for Technology-Industry Advisory Council (ACT-IAC)
 www.actiac.org ● (p) (703) 208.4800 ● (f) (703) 208.4805
 Advancing Government Through Education, Leadership, and Collaboration
 
-Blockchain Playbook for the U.S. Federal Government
 
 Glossary
 Blockchain (further defined in the ACT-IAC Blockchain Primer)
@@ -3165,7 +3117,6 @@ American Council for Technology-Industry Advisory Council (ACT-IAC)
 www.actiac.org ● (p) (703) 208.4800 ● (f) (703) 208.4805
 Advancing Government Through Education, Leadership, and Collaboration
 
-Blockchain Playbook for the U.S. Federal Government
 
 Nodes
 A system that is part of a decentralized peer-to-peer (P2P) blockchain network.
@@ -3195,7 +3146,6 @@ American Council for Technology-Industry Advisory Council (ACT-IAC)
 www.actiac.org ● (p) (703) 208.4800 ● (f) (703) 208.4805
 Advancing Government Through Education, Leadership, and Collaboration
 
-Blockchain Playbook for the U.S. Federal Government
 
 Acknowledgements
 The Blockchain Working Group thanks the authors and contributors who provided a
@@ -3264,7 +3214,6 @@ American Council for Technology-Industry Advisory Council (ACT-IAC)
 www.actiac.org ● (p) (703) 208.4800 ● (f) (703) 208.4805
 Advancing Government Through Education, Leadership, and Collaboration
 
-Blockchain Playbook for the U.S. Federal Government
 
 Contributors and Affiliations
 Lateef Abro
@@ -3308,7 +3257,6 @@ American Council for Technology-Industry Advisory Council (ACT-IAC)
 www.actiac.org ● (p) (703) 208.4800 ● (f) (703) 208.4805
 Advancing Government Through Education, Leadership, and Collaboration
 
-Blockchain Playbook for the U.S. Federal Government
 
 References
 1
@@ -3356,7 +3304,6 @@ American Council for Technology-Industry Advisory Council (ACT-IAC)
 www.actiac.org ● (p) (703) 208.4800 ● (f) (703) 208.4805
 Advancing Government Through Education, Leadership, and Collaboration
 
-Blockchain Playbook for the U.S. Federal Government
 
 Appendices
 Appendix A – Blockchain Types & Best Fit
@@ -3420,7 +3367,6 @@ American Council for Technology-Industry Advisory Council (ACT-IAC)
 www.actiac.org ● (p) (703) 208.4800 ● (f) (703) 208.4805
 Advancing Government Through Education, Leadership, and Collaboration
 
-Blockchain Playbook for the U.S. Federal Government
 
 Potential applications across both financial and non-financial use cases in government or multiorganization blockchain networks allowing controlled access based on individual needs.
 
@@ -3547,7 +3493,6 @@ American Council for Technology-Industry Advisory Council (ACT-IAC)
 www.actiac.org ● (p) (703) 208.4800 ● (f) (703) 208.4805
 Advancing Government Through Education, Leadership, and Collaboration
 
-Blockchain Playbook for the U.S. Federal Government
 Censorship
 
 Validators
@@ -3664,7 +3609,6 @@ American Council for Technology-Industry Advisory Council (ACT-IAC)
 www.actiac.org ● (p) (703) 208.4800 ● (f) (703) 208.4805
 Advancing Government Through Education, Leadership, and Collaboration
 
-Blockchain Playbook for the U.S. Federal Government
 
 Appendix B – Deployment Models and Common Use Cases
 Deployment Models Pros and Cons
@@ -3712,7 +3656,6 @@ American Council for Technology-Industry Advisory Council (ACT-IAC)
 www.actiac.org ● (p) (703) 208.4800 ● (f) (703) 208.4805
 Advancing Government Through Education, Leadership, and Collaboration
 
-Blockchain Playbook for the U.S. Federal Government
 
 with the help of blockchain data. For example, a blockchain-enabled car would operate only if
 the driver holds the blockchain-based ownership token.
@@ -3759,7 +3702,6 @@ American Council for Technology-Industry Advisory Council (ACT-IAC)
 www.actiac.org ● (p) (703) 208.4800 ● (f) (703) 208.4805
 Advancing Government Through Education, Leadership, and Collaboration
 
-Blockchain Playbook for the U.S. Federal Government
 
 Digital Subscription
 Digital assets could be used to monetize access to digital resources, such as stream content.
@@ -3787,7 +3729,6 @@ American Council for Technology-Industry Advisory Council (ACT-IAC)
 www.actiac.org ● (p) (703) 208.4800 ● (f) (703) 208.4805
 Advancing Government Through Education, Leadership, and Collaboration
 
-Blockchain Playbook for the U.S. Federal Government
 
 Appendix C – Popular Blockchain Platforms
 
@@ -3868,7 +3809,6 @@ American Council for Technology-Industry Advisory Council (ACT-IAC)
 www.actiac.org ● (p) (703) 208.4800 ● (f) (703) 208.4805
 Advancing Government Through Education, Leadership, and Collaboration
 
-Blockchain Playbook for the U.S. Federal Government
 
 Open /
 Proprietary
@@ -3956,7 +3896,6 @@ American Council for Technology-Industry Advisory Council (ACT-IAC)
 www.actiac.org ● (p) (703) 208.4800 ● (f) (703) 208.4805
 Advancing Government Through Education, Leadership, and Collaboration
 
-Blockchain Playbook for the U.S. Federal Government
 
 Open /
 Proprietary
@@ -4044,7 +3983,6 @@ American Council for Technology-Industry Advisory Council (ACT-IAC)
 www.actiac.org ● (p) (703) 208.4800 ● (f) (703) 208.4805
 Advancing Government Through Education, Leadership, and Collaboration
 
-Blockchain Playbook for the U.S. Federal Government
 
 Open /
 Proprietary
@@ -4116,7 +4054,6 @@ American Council for Technology-Industry Advisory Council (ACT-IAC)
 www.actiac.org ● (p) (703) 208.4800 ● (f) (703) 208.4805
 Advancing Government Through Education, Leadership, and Collaboration
 
-Blockchain Playbook for the U.S. Federal Government
 
 Appendix D – Blockchain as a Service (BaaS)
 While the Blockchain Primer introduces the BaaS model11, this Appendix includes detailed
@@ -4159,7 +4096,6 @@ American Council for Technology-Industry Advisory Council (ACT-IAC)
 www.actiac.org ● (p) (703) 208.4800 ● (f) (703) 208.4805
 Advancing Government Through Education, Leadership, and Collaboration
 
-Blockchain Playbook for the U.S. Federal Government
 
 The BaaS option provides users a low-cost opportunity to use blockchain services offered by IT
 vendors. The enterprise user of BaaS need to connect with the peer nodes deployed over cloud
@@ -4216,7 +4152,6 @@ American Council for Technology-Industry Advisory Council (ACT-IAC)
 www.actiac.org ● (p) (703) 208.4800 ● (f) (703) 208.4805
 Advancing Government Through Education, Leadership, and Collaboration
 
-Blockchain Playbook for the U.S. Federal Government
 
 Ethereum
 Ecosystem
@@ -4278,7 +4213,6 @@ American Council for Technology-Industry Advisory Council (ACT-IAC)
 www.actiac.org ● (p) (703) 208.4800 ● (f) (703) 208.4805
 Advancing Government Through Education, Leadership, and Collaboration
 
-Blockchain Playbook for the U.S. Federal Government
 
 Ethereum
 Ecosystem
@@ -4357,7 +4291,6 @@ American Council for Technology-Industry Advisory Council (ACT-IAC)
 www.actiac.org ● (p) (703) 208.4800 ● (f) (703) 208.4805
 Advancing Government Through Education, Leadership, and Collaboration
 
-Blockchain Playbook for the U.S. Federal Government
 
 Additional
 Technology
@@ -4438,7 +4371,6 @@ American Council for Technology-Industry Advisory Council (ACT-IAC)
 www.actiac.org ● (p) (703) 208.4800 ● (f) (703) 208.4805
 Advancing Government Through Education, Leadership, and Collaboration
 
-Blockchain Playbook for the U.S. Federal Government
 
 Appendix F – Blockchain Technology Criteria12
 Blockchain Scalability and Volume
@@ -4481,7 +4413,6 @@ American Council for Technology-Industry Advisory Council (ACT-IAC)
 www.actiac.org ● (p) (703) 208.4800 ● (f) (703) 208.4805
 Advancing Government Through Education, Leadership, and Collaboration
 
-Blockchain Playbook for the U.S. Federal Government
 
 Upgradability of blockchain as a service could be costly. This is especially true if existing
 platforms cannot keep pace with or are incompatible with emerging blockchain or middleware
@@ -4528,7 +4459,6 @@ American Council for Technology-Industry Advisory Council (ACT-IAC)
 www.actiac.org ● (p) (703) 208.4800 ● (f) (703) 208.4805
 Advancing Government Through Education, Leadership, and Collaboration
 
-Blockchain Playbook for the U.S. Federal Government
 
 between entities who do not fully trust each other, without central administration. All
 blockchains suffer from the same fundamental issue, the content of every transaction is
@@ -4577,7 +4507,6 @@ American Council for Technology-Industry Advisory Council (ACT-IAC)
 www.actiac.org ● (p) (703) 208.4800 ● (f) (703) 208.4805
 Advancing Government Through Education, Leadership, and Collaboration
 
-Blockchain Playbook for the U.S. Federal Government
 
 Primary Purpose
 
@@ -4668,7 +4597,6 @@ American Council for Technology-Industry Advisory Council (ACT-IAC)
 www.actiac.org ● (p) (703) 208.4800 ● (f) (703) 208.4805
 Advancing Government Through Education, Leadership, and Collaboration
 
-Blockchain Playbook for the U.S. Federal Government
 
 •
 •
@@ -4720,7 +4648,6 @@ American Council for Technology-Industry Advisory Council (ACT-IAC)
 www.actiac.org ● (p) (703) 208.4800 ● (f) (703) 208.4805
 Advancing Government Through Education, Leadership, and Collaboration
 
-Blockchain Playbook for the U.S. Federal Government
 
 •
 •
@@ -4781,7 +4708,6 @@ American Council for Technology-Industry Advisory Council (ACT-IAC)
 www.actiac.org ● (p) (703) 208.4800 ● (f) (703) 208.4805
 Advancing Government Through Education, Leadership, and Collaboration
 
-Blockchain Playbook for the U.S. Federal Government
 
 Blockchain throughput is linearly scalable by addition of more peer nodes. However even if the
 throughput could be linear scalable, the peak TPS of current system would be only 10,000 on
@@ -4825,7 +4751,6 @@ American Council for Technology-Industry Advisory Council (ACT-IAC)
 www.actiac.org ● (p) (703) 208.4800 ● (f) (703) 208.4805
 Advancing Government Through Education, Leadership, and Collaboration
 
-Blockchain Playbook for the U.S. Federal Government
 
 size, decreasing transaction size, or dwell time can provide a significant one-time boost and
 optimize blockchain for today’s network.
@@ -4868,7 +4793,6 @@ American Council for Technology-Industry Advisory Council (ACT-IAC)
 www.actiac.org ● (p) (703) 208.4800 ● (f) (703) 208.4805
 Advancing Government Through Education, Leadership, and Collaboration
 
-Blockchain Playbook for the U.S. Federal Government
 
 •
 •
@@ -4918,7 +4842,6 @@ American Council for Technology-Industry Advisory Council (ACT-IAC)
 www.actiac.org ● (p) (703) 208.4800 ● (f) (703) 208.4805
 Advancing Government Through Education, Leadership, and Collaboration
 
-Blockchain Playbook for the U.S. Federal Government
 
 In the case of more complex transaction models, e.g. for smart contracts, zero knowledge
 proofs, and secure multi-party computations could be used in order to execute contracts while
@@ -4949,7 +4872,6 @@ American Council for Technology-Industry Advisory Council (ACT-IAC)
 www.actiac.org ● (p) (703) 208.4800 ● (f) (703) 208.4805
 Advancing Government Through Education, Leadership, and Collaboration
 
-Blockchain Playbook for the U.S. Federal Government
 
 Appendix G – Sample Friendly Contract Vehicles – Refer to GSA Atlas
 When procuring blockchain or DLT, agencies should consider agile acquisition methods. Agile
@@ -5021,7 +4943,6 @@ American Council for Technology-Industry Advisory Council (ACT-IAC)
 www.actiac.org ● (p) (703) 208.4800 ● (f) (703) 208.4805
 Advancing Government Through Education, Leadership, and Collaboration
 
-Blockchain Playbook for the U.S. Federal Government
 Acquisition
 Type
 Leverage of
@@ -5105,7 +5026,6 @@ American Council for Technology-Industry Advisory Council (ACT-IAC)
 www.actiac.org ● (p) (703) 208.4800 ● (f) (703) 208.4805
 Advancing Government Through Education, Leadership, and Collaboration
 
-Blockchain Playbook for the U.S. Federal Government
 
 Appendix H – Decentralized Organizations
 
@@ -5131,7 +5051,6 @@ American Council for Technology-Industry Advisory Council (ACT-IAC)
 www.actiac.org ● (p) (703) 208.4800 ● (f) (703) 208.4805
 Advancing Government Through Education, Leadership, and Collaboration
 
-Blockchain Playbook for the U.S. Federal Government
 
 Figure 10: transformation - decentralized-to-decentralized
 
@@ -5142,7 +5061,6 @@ American Council for Technology-Industry Advisory Council (ACT-IAC)
 www.actiac.org ● (p) (703) 208.4800 ● (f) (703) 208.4805
 Advancing Government Through Education, Leadership, and Collaboration
 
-Blockchain Playbook for the U.S. Federal Government
 
 Appendix I – Implementation Appendices
 People
@@ -5191,7 +5109,6 @@ American Council for Technology-Industry Advisory Council (ACT-IAC)
 www.actiac.org ● (p) (703) 208.4800 ● (f) (703) 208.4805
 Advancing Government Through Education, Leadership, and Collaboration
 
-Blockchain Playbook for the U.S. Federal Government
 
 requirements of the application, and to monitor the user experience to ensure alignment with
 all the above requirements. User stories and user acceptance test criteria will surface during
@@ -5236,7 +5153,6 @@ American Council for Technology-Industry Advisory Council (ACT-IAC)
 www.actiac.org ● (p) (703) 208.4800 ● (f) (703) 208.4805
 Advancing Government Through Education, Leadership, and Collaboration
 
-Blockchain Playbook for the U.S. Federal Government
 
 intensive than that of a full node. Light nodes are becoming more common due to the rapid
 growth of ledgers.
@@ -5282,7 +5198,6 @@ American Council for Technology-Industry Advisory Council (ACT-IAC)
 www.actiac.org ● (p) (703) 208.4800 ● (f) (703) 208.4805
 Advancing Government Through Education, Leadership, and Collaboration
 
-Blockchain Playbook for the U.S. Federal Government
 
 noncritical data associated with a transaction can be stored in an off-chain data store, similar to
 where the data may exist today.
@@ -5326,7 +5241,6 @@ American Council for Technology-Industry Advisory Council (ACT-IAC)
 www.actiac.org ● (p) (703) 208.4800 ● (f) (703) 208.4805
 Advancing Government Through Education, Leadership, and Collaboration
 
-Blockchain Playbook for the U.S. Federal Government
 
 While other options are possible, enterprise blockchains are likely to be private permissioned
 blockchains that regulate access via some form of membership control. There are privacy
@@ -5370,7 +5284,6 @@ American Council for Technology-Industry Advisory Council (ACT-IAC)
 www.actiac.org ● (p) (703) 208.4800 ● (f) (703) 208.4805
 Advancing Government Through Education, Leadership, and Collaboration
 
-Blockchain Playbook for the U.S. Federal Government
 
 •
 •
@@ -5419,7 +5332,6 @@ American Council for Technology-Industry Advisory Council (ACT-IAC)
 www.actiac.org ● (p) (703) 208.4800 ● (f) (703) 208.4805
 Advancing Government Through Education, Leadership, and Collaboration
 
-Blockchain Playbook for the U.S. Federal Government
 
 Nodes, on the other hand, are independent units distributed throughout the application, and
 they need to be unit tested independently as well. The status of each node must be tracked
@@ -5466,7 +5378,6 @@ American Council for Technology-Industry Advisory Council (ACT-IAC)
 www.actiac.org ● (p) (703) 208.4800 ● (f) (703) 208.4805
 Advancing Government Through Education, Leadership, and Collaboration
 
-Blockchain Playbook for the U.S. Federal Government
 
 A few examples of the testing suites providing a comprehensive testing methodology for
 blockchain instances are Ethereum Tester, Populus, Tineola, and Hyperledger Composer. IBM
@@ -5514,7 +5425,6 @@ American Council for Technology-Industry Advisory Council (ACT-IAC)
 www.actiac.org ● (p) (703) 208.4800 ● (f) (703) 208.4805
 Advancing Government Through Education, Leadership, and Collaboration
 
-Blockchain Playbook for the U.S. Federal Government
 
 •
 •
@@ -5564,7 +5474,6 @@ American Council for Technology-Industry Advisory Council (ACT-IAC)
 www.actiac.org ● (p) (703) 208.4800 ● (f) (703) 208.4805
 Advancing Government Through Education, Leadership, and Collaboration
 
-Blockchain Playbook for the U.S. Federal Government
 
 •
 •
@@ -5617,7 +5526,6 @@ American Council for Technology-Industry Advisory Council (ACT-IAC)
 www.actiac.org ● (p) (703) 208.4800 ● (f) (703) 208.4805
 Advancing Government Through Education, Leadership, and Collaboration
 
-Blockchain Playbook for the U.S. Federal Government
 
 •
 •
@@ -5682,7 +5590,6 @@ American Council for Technology-Industry Advisory Council (ACT-IAC)
 www.actiac.org ● (p) (703) 208.4800 ● (f) (703) 208.4805
 Advancing Government Through Education, Leadership, and Collaboration
 
-Blockchain Playbook for the U.S. Federal Government
 
 o Negative testing technical – When a transaction fails due to technical reasons, such
 as node unavailability, then the gas should be deducted from the pre-determined
@@ -5727,7 +5634,6 @@ American Council for Technology-Industry Advisory Council (ACT-IAC)
 www.actiac.org ● (p) (703) 208.4800 ● (f) (703) 208.4805
 Advancing Government Through Education, Leadership, and Collaboration
 
-Blockchain Playbook for the U.S. Federal Government
 
 Hyperledger Composer, which is a framework for facilitating blockchain app
 development consisting of a modeling language, a UI (Composer), and a command-line
@@ -5749,7 +5655,6 @@ American Council for Technology-Industry Advisory Council (ACT-IAC)
 www.actiac.org ● (p) (703) 208.4800 ● (f) (703) 208.4805
 Advancing Government Through Education, Leadership, and Collaboration
 
-Blockchain Playbook for the U.S. Federal Government
 
 Appendix J – Playbook Navigation
 
@@ -5787,8 +5692,6 @@ American Council for Technology-Industry Advisory Council (ACT-IAC)
 3040 Williams Drive, Suite 500, Fairfax, VA 22031
 www.actiac.org ● (p) (703) 208.4800 ● (f) (703) 208.4805
 Advancing Government Through Education, Leadership, and Collaboration
-
-Blockchain Playbook for the U.S. Federal Government
 
 outputs. It is a good start to take a look at each of them to get a sense of what will happen in
 each phase.
@@ -5831,16 +5734,10 @@ American Council for Technology-Industry Advisory Council (ACT-IAC)
 www.actiac.org ● (p) (703) 208.4800 ● (f) (703) 208.4805
 Advancing Government Through Education, Leadership, and Collaboration
 
-Blockchain Playbook for the U.S. Federal Government
-
 you look at the organizational aspects of the solution, address from the start the need for a
 multi-organization solution.
-
-105
 
 American Council for Technology-Industry Advisory Council (ACT-IAC)
 3040 Williams Drive, Suite 500, Fairfax, VA 22031
 www.actiac.org ● (p) (703) 208.4800 ● (f) (703) 208.4805
 Advancing Government Through Education, Leadership, and Collaboration
-
-
