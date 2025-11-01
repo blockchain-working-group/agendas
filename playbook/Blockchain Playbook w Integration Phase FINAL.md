@@ -10,7 +10,7 @@ Updated: June 5, 2019
 
 # Synopsis
 
-This Playbook comes right after the Primer1 and proposes a process and a series of
+This Playbook comes right after the [Primer][1] and proposes a process and a series of
 phases to support the United States Federal Government in its understanding and
 application of blockchain and distributed ledger technologies for its mission. Each
 phase contains a set of key activities organized in functional areas that go beyond
@@ -24,9 +24,7 @@ services to citizens. Moreover, the adoption of blockchain may also allow
 governmental agencies to provide new value-added services to businesses and
 others which can generate new sources of revenue for these agencies.
 
-# Blockchain Playbook for the U.S. Federal Government
-
-American Council for Technology-Industry Advisory Council (ACT-IAC)
+# American Council for Technology-Industry Advisory Council (ACT-IAC)
 
 The American Council for Technology (ACT) is a nonprofit educational organization established
 to create a more effective and innovative government. ACT-IAC provides a unique, objective,
@@ -50,21 +48,20 @@ ACT-IAC welcomes the participation of all public and private organizations commi
 improving the delivery of public services through the effective and efficient use of IT. For
 additional information, visit the ACT-IAC website at www.actiac.org.
 
-Emerging Technology Community of Interest
+# Emerging Technology Community of Interest
 
-ACT-IAC, through the Emerging Technology Community of Interest, formed a Blockchain
-
-Working Group to give voice to and provide an authoritative resource for government agencies
+ACT-IAC, through the Emerging Technology Community of Interest,
+formed a Blockchain Working Group to give voice to and provide an authoritative resource for government agencies
 looking to understand and incorporate blockchain technology and functionality into their
 organizations. This working group includes government and industry thought leaders incubating
-government blockchain use cases. The ACT-IAC Emerging Technology Community of Interest (ET
-
-COI) mission is to provide an energetic, collaborative consortium comprised of leading
+government blockchain use cases.
+The ACT-IAC Emerging Technology Community of Interest (ETCOI) mission is
+to provide an energetic, collaborative consortium comprised of leading
 practitioners in data science, technology, and research, engaged with industry, academia, and
 public officials and executives focused on emerging and leading technologies which transform
 public sector capabilities.
 
-## Disclaimer
+# Disclaimer
 
 This document has been prepared to contribute to a more effective, efficient, and innovative
 government. The information contained in this report is the result of a collaborative process in
@@ -75,151 +72,128 @@ organizations that participated in its development. Every effort has been made t
 accurate and reliable information in this report. However, ACT-IAC assumes no responsibility
 for consequences resulting from the use of the information herein.
 
-Copyright
+# Copyright
 
 American Council for Technology, 2019. This document may not be quoted, reproduced,
 and/or distributed unless credit is given to the American Council for Technology-Industry
-
 Advisory Council.
 
-Further Information
+# Further Information
 
 For further information, contact the American Council for Technology-Industry Advisory Council
 at (703) 208-4800 or www.actiac.org.
 
-## Table of Contents
+# Table of Contents
 
-INTRODUCTION .................................................................................................................................6
+* INTRODUCTION
+* PHASE 1 – PROBLEM ASSESSMENT ....................9
 
-PHASE 1 – PROBLEM ASSESSMENT .....................................................................................................9
+PHASE INPUTS ............................................................. 9
 
-PHASE INPUTS .............................................................................................................................................. 9
-
-“DO I NEED A BLOCKCHAIN?” ........................................................................................................................ 10
+“DO I NEED A BLOCKCHAIN?” ....................................... 10
 
 PRACTICAL ADVICE AND BEST PRACTICES FOR BLOCKCHAIN ASSESSMENT ............................................................. 14
 
 IMPACT OF MODERNIZING GOVERNMENT TECHNOLOGY (MGT) ACT .................................................................. 16
 
-KEY OUTCOMES .......................................................................................................................................... 17
+KEY OUTCOMES ......................................................... 17
 
-PHASE OUTPUTS ......................................................................................................................................... 18
+PHASE OUTPUTS ........................................................ 18
 
-DECISION GATE........................................................................................................................................... 18
+DECISION GATE.......................................................... 18
 
-PHASE 2 – ORGANIZATIONAL READINESS..........................................................................................19
+PHASE 2 – ORGANIZATIONAL READINESS.........19
 
-PHASE INPUTS ............................................................................................................................................ 19
+PHASE INPUTS ........................................................... 19
 
-KEY GOALS................................................................................................................................................. 19
+KEY GOALS................................................................ 19
 
-KEY PARTICIPANTS....................................................................................................................................... 19
+KEY PARTICIPANTS...................................................... 19
 
-APPROACH GUIDANCE ................................................................................................................................. 20
+APPROACH GUIDANCE ................................................ 20
 
-KEY ACTIVITIES ........................................................................................................................................... 20
+KEY ACTIVITIES .......................................................... 20
 
-KEY CONSIDERATIONS .................................................................................................................................. 21
+KEY CONSIDERATIONS ................................................. 21
 
-KEY OUTCOMES .......................................................................................................................................... 25
+KEY OUTCOMES ......................................................... 25
 
-PHASE OUTPUTS ......................................................................................................................................... 25
+PHASE OUTPUTS ........................................................ 25
 
-DECISION GATE........................................................................................................................................... 26
+DECISION GATE.......................................................... 26
 
-PHASE 3 – SOLUTION SELECTION ......................................................................................................27
+PHASE 3 – SOLUTION SELECTION .....................27
 
-PHASE INPUTS ............................................................................................................................................ 27
+PHASE INPUTS ........................................................... 27
 
-BUSINESS CONSIDERATIONS .......................................................................................................................... 28
+BUSINESS CONSIDERATIONS ......................................... 28
 
-TECHNOLOGY CONSIDERATIONS .................................................................................................................... 30
+TECHNOLOGY CONSIDERATIONS ................................... 30
 
-PHASE OUTPUTS ......................................................................................................................................... 36
+PHASE OUTPUTS ........................................................ 36
 
-DECISION GATE........................................................................................................................................... 36
+DECISION GATE.......................................................... 36
 
-PHASE 4 – BLOCKCHAIN IMPLEMENTATION ......................................................................................38
+PHASE 4 – BLOCKCHAIN IMPLEMENTATION .....38
 
-PHASE INPUTS ............................................................................................................................................ 38
+PHASE INPUTS ........................................................... 38
 
-KEY GOALS................................................................................................................................................. 39
+KEY GOALS................................................................ 39
 
-KEY CONSIDERATIONS .................................................................................................................................. 39
+KEY CONSIDERATIONS ................................................. 39
 
-KEY ACTIVITIES ........................................................................................................................................... 40
+KEY ACTIVITIES .......................................................... 40
 
-KEY OUTCOMES .......................................................................................................................................... 54
+KEY OUTCOMES ......................................................... 54
 
-PHASE OUTPUTS ......................................................................................................................................... 54
+PHASE OUTPUTS ........................................................ 54
 
-DECISION GATE........................................................................................................................................... 54
+DECISION GATE.......................................................... 54
 
-GLOSSARY .......................................................................................................................................56
+GLOSSARY ......................................................56
 
-ACKNOWLEDGEMENTS ....................................................................................................................58
+ACKNOWLEDGEMENTS ...................................58
 
-AUTHORS AND AFFILIATIONS ......................................................................................................................... 58
+AUTHORS AND AFFILIATIONS ........................................ 58
 
-CONTRIBUTORS AND AFFILIATIONS ................................................................................................................. 59
+CONTRIBUTORS AND AFFILIATIONS ........................... 59
 
-REFERENCES ....................................................................................................................................60
+REFERENCES ...................................................60
 
+APPENDICES ...................................................61
 
-
-APPENDICES ....................................................................................................................................61
-
-APPENDIX A – BLOCKCHAIN TYPES & BEST FIT ................................................................................................. 61
+APPENDIX A – BLOCKCHAIN TYPES & BEST FIT ................ 61
 
 APPENDIX B – DEPLOYMENT MODELS AND COMMON USE CASES ....................................................................... 64
 
-APPENDIX C – POPULAR BLOCKCHAIN PLATFORMS ........................................................................................... 67
+APPENDIX C – POPULAR BLOCKCHAIN PLATFORMS .......... 67
 
-APPENDIX D – BLOCKCHAIN AS A SERVICE (BAAS) ............................................................................................ 71
+APPENDIX D – BLOCKCHAIN AS A SERVICE (BAAS) ........... 71
 
-APPENDIX E – PLATFORM RESOURCE REQUIREMENTS ....................................................................................... 72
+APPENDIX E – PLATFORM RESOURCE REQUIREMENTS ...... 72
 
-APPENDIX F – BLOCKCHAIN TECHNOLOGY CRITERIA12 ....................................................................................... 76
+APPENDIX F – BLOCKCHAIN TECHNOLOGY CRITERIA12 ...... 76
 
 APPENDIX G – SAMPLE FRIENDLY CONTRACT VEHICLES – REFER TO GSA ATLAS .................................................... 86
 
-APPENDIX H – DECENTRALIZED ORGANIZATIONS .............................................................................................. 88
+APPENDIX H – DECENTRALIZED ORGANIZATIONS ............. 88
 
-APPENDIX I – IMPLEMENTATION APPENDICES .................................................................................................. 90
+APPENDIX I – IMPLEMENTATION APPENDICES ................. 90
 
-APPENDIX J – PLAYBOOK NAVIGATION.......................................................................................................... 103
-
+APPENDIX J – PLAYBOOK NAVIGATION......................... 103
 
 
 # Introduction
 
-As noted in the ACT-IAC Blockchain Primer1, blockchain may be applied to help government to
+As noted in the ACT-IAC Blockchain [Primer][1], blockchain may be applied to help government to
 reduce fraud, errors, and the cost of paper-intensive processes, while enabling collaboration
 across multiple divisions and agencies to provide more efficient and effective services to
-citizens. The adoption of blockchain may enable government agencies to provide new valueadded services and modernize IT. How can agencies turn that potential into reality?
-•
+citizens. The adoption of blockchain may enable government agencies to provide new valueadded services and modernize IT.
+How can agencies turn that potential into reality?
 
-Understand the technology using the Blockchain Primer: Over one dozen federal
-agencies and a variety of industry partners collaborated to develop the ACT-IAC
-
-Blockchain Primer which provides the government workforce with an introduction to
-blockchain and its related technologies, as well as its many potential use cases.
-
-•
-
-Incorporate blockchain functionality using the Blockchain Playbook: The ACT-IAC
-
-Blockchain Working Group developed this playbook to guide the government workforce
-in taking the appropriate steps and developing the necessary plans to implement the
-right technology to achieve the goals of their mission.
-
-•
-
-Blockchain and decentralized organizations:
-
-Blockchain has the potential
-to significantly impact both business processes as well as the fabric of the organization.
-
+- Understand the technology using the Blockchain Primer: Over one dozen federal agencies and a variety of industry partners collaborated to develop the ACT-IAC Blockchain Primer which provides the government workforce with an introduction to blockchain and its related technologies, as well as its many potential use cases.
+- Incorporate blockchain functionality using the Blockchain Playbook: The ACT-IAC Blockchain Working Group developed this playbook to guide the government workforce in taking the appropriate steps and developing the necessary plans to implement the right technology to achieve the goals of their mission.
+- Blockchain and decentralized organizations: Blockchain has the potential to significantly impact both business processes as well as the fabric of the organization.
 The usual linear value chain, where value is added in strict sequential order, is being
 replaced by networked value chain where entities and the entire environment are
 networked together with automated code (e.g. smart contracts). In a networked value
@@ -232,7 +206,6 @@ intelligent and distributed nodes that are empowered to execute various processe
 without human intervention or central oversight.
 
 This playbook applies the concepts of the General Services Administration’s Modernization and
-
 Migration Management (M3) unified shared services framework to help the government
 achieve successful outcomes and reduce risk during a blockchain deployment. It involves the
 modernization of information systems, as well as the migration of data and/or other
@@ -245,7 +218,6 @@ operational capability, full operational capability, etc. Not all topics in each
 all iterations. However, this playbook should remain useful as a solution moves through its
 lifecycle.
 
-
 It is also important to note that at scale and fully implemented, a distributed ledger technology
 will probably not be a party of one or even two – more like a party of 5, 25, 100, 1,000. A
 blockchain solution is not like any other organizational technology solution because among
@@ -256,7 +228,6 @@ group (network peers) that will participate in the steps outlined in the playboo
 
 To address the current high level of government interest and desire to begin deploying
 blockchain solutions, launch of this playbook occurs in two stages. The next stage will begin in
-
 April 2018 to continue supporting these efforts as they evolve.
 
 As government efforts move through implementation of this new and rapidly developing
@@ -264,6 +235,7 @@ technology, contributions to this playbook (e.g. additional best practices, less
 other information) are appreciated to ensure this resource is current, comprehensive, and
 effective in meeting the needs of government.
 
+![](figure-1.png)
 Figure 1: Blockchain Playbook phases
 
 The first four phases of a five-phased approach, which includes key activities and outcomes for
@@ -272,8 +244,6 @@ each phase, are addressed in this edition of the playbook.
 Phase 1 Problem Assessment: Develop a vision and business objectives through various
 assessments to ensure the blockchain solution addresses a specific use case and delivers results
 that optimize services and operational delivery.
-
-
 
 Phase 2 Organizational Readiness: Engage blockchain subject matter experts and consider the
 nuances that accompany a blockchain solution to prepare the organization(s). This includes
@@ -293,21 +263,21 @@ of the blockchain solution.
 Phase 5 blockchain Integration: Integrate the blockchain solution into the organization(s)’
 infrastructure.
 
+![](figure-2.png)
+
 Figure 2: Blockchain Playbook phases and key activities matrix
 
 Also included at the end of this playbook is a glossary to assist with in-depth terminology
 associated with advanced blockchain concepts, and appendices to elaborate on each selection
 topic at a more granular level.
 
-
-
-Phase 1 – Problem Assessment
+# Phase 1 – Problem Assessment
 
 This section helps decision makers create the most value through their blockchain initiative. It
 includes tools to ensure the initiative is designed for addressing a specific use case and
 advancing toward mission goals, even if that solution is not blockchain.
 
-Phase Inputs
+## Phase Inputs
 
 When it comes to emerging technologies, business decision makers are faced with making a
 choice: keep the status quo or evolve the organization’s culture to be able to leverage these
@@ -333,11 +303,11 @@ to that challenge; and stakeholder needs. Detail the stakeholders’ functional 
 Also, determine their perceived risks related to implementing a solution along with their
 expected outcomes and the associated metrics.
 
-
+![](figure-3.png)
 
 Figure 3: assessment phase (1) summary
 
-“Do I need a blockchain?”
+# “Do I need a blockchain?”
 
 When considering a blockchain solution, evaluate both the associated potential benefits and
 limitations, such as whether a blockchain solution will remove some of the existing business
@@ -362,7 +332,6 @@ points associated with each question to determine your total score. Point totals
 insight into the possibility you may get a substantial Return on Investment (ROI) from a
 blockchain approach.
 
-
 **Note: This is a notional table and the level of importance associated with each question may
 be tied to the use case being assessed. Assign Points based on the Attribute Importance Rank
 
@@ -385,6 +354,7 @@ asset or requiring consensus.
 (Critical)
 
 (Slightly)
+
 2. Is there a current lack of trust among the business network participants and/or sources of
 data? Sources may include Internet of Things (IoT) devices, legacy systems, service
 providers, and users from multiple agencies. Note: Blockchain supports data integrity but
@@ -459,7 +429,6 @@ administrators).
 decentralized authority approach?
 
 (Not at all)
-
 
 (Slightly)
 
@@ -593,24 +562,14 @@ blockchain solutions, but platforms and performance numbers will continue to evo
 (Critical)
 
 
-Results:
+# Results:
 
 Provided here are common questions and relative weights for answers to serve as a preliminary
 guide for those considering a blockchain approach. While useful, this is still only a guide for
 consideration and further investigation. Sound engineering analysis and practices should still
 prevail.
 
-Score Groupings:
-
-In order to assess the applicability of a
-
-blockchain approach, scores are
-grouped to guide the reader to where
-taking a blockchain approach would
-be most beneficial (highest score) and
-where it is less likely (may still be
-applicable but needs additional
-scrutiny).
+> Score Groupings: In order to assess the applicability of a blockchain approach, scores are grouped to guide the reader to where taking a blockchain approach would be most beneficial (highest score) and where it is less likely (may still be applicable but needs additional scrutiny).
 
 If your score is 20 or below: A score of 20 or below
 typically represents a small ROI and limited
@@ -633,8 +592,7 @@ recommended to consider the costs and benefits of a blockchain approach in these
 while still considering other additive and mitigating factors in the organization, strategic
 direction, interdependencies, and related items.
 
-
-Practical Advice and Best Practices for Blockchain Assessment
+# Practical Advice and Best Practices for Blockchain Assessment
 
 With blockchain near the top of the hype cycle in 20172, it
 is important to separate reality from hype when it comes
@@ -642,15 +600,9 @@ to which uses cases can actually benefit from a blockchain
 solution. Consider the following advice and best practices
 when evaluating blockchain for any use case.
 
-An essential resource to any
-organization or individual considering
-blockchain as a possibility, the GSA
+> An essential resource to any organization or individual considering blockchain as a possibility, the GSA Emerging Citizen Technology Atlas provides a clear snapshot into potential use cases and programs
 
-Emerging Citizen Technology Atlas
-provides a clear snapshot into
-potential use cases and programs
-
-Start Small - Minimal Viable Product(MVP)/Prototype
+# Start Small - Minimal Viable Product(MVP)/Prototype
 
 Before addressing how to introduce this new technology into your ecosystem, define the scope
 of an MVP/proof of concept that demonstrates blockchain as a viable solution for your use
@@ -658,7 +610,7 @@ case. Do this while still considering the future state and stakeholder incentive
 help prove the solution’s expected outcomes (e.g. decreased reconciliation costs) associated
 with the MVP hypothesis.
 
-Business Capabilities and Blockchain Capabilities
+# Business Capabilities and Blockchain Capabilities
 
 Consider mapping your business capabilities to your blockchain capabilities. Below is an
 example of a General Services Administration (GSA) vehicle fleet model. The stakeholders need
@@ -667,10 +619,11 @@ serves two purposes: 1) Stakeholders are aware of which business capabilities th
 transforming, and 2) Blockchain [capabilities] are validated as the correct emerging technology
 for the business solution.
 
+![](figure-4.png)
+
 Figure 4: alignment - business-to-business blockchain
 
-
-Build Blockchain Architectural Blueprint for Future Phases
+# Build Blockchain Architectural Blueprint for Future Phases
 
 Develop a vision and a plan for the additional requirements and challenges that will need to be
 addressed if your solution moves into a pilot phase and subsequent operational phases. This
@@ -690,7 +643,7 @@ scaling will enable you to optimally address pain points and align stakeholders 
 one priority area at a time to ultimately accomplish transformational objectives and advance
 mission goals.
 
-Emphasize ROI and Benefits to the Entire Network
+# Emphasize ROI and Benefits to the Entire Network
 
 Emphasize ROI while making an assessment. Examine the solution's common costs, benefits,
 and efficiencies for both the network as a whole and for individual members. Include design
@@ -698,35 +651,22 @@ thinking based on personas and a prioritization matrix around value versus compl
 should prove the viability of a blockchain solution, with ROI measured by gains in savings and in
 efficiencies, reduction of risk, and the meeting of mission goals. ROI considerations should
 include:
-•
-•
-•
 
-•
-•
-
-
-Gains in efficiency and cost savings – Learn how much effort and cost are currently
+- Gains in efficiency and cost savings – Learn how much effort and cost are currently
 spent on reconciliation to determine how the trust provided by a blockchain solution,
 when exchanging data or assets, impacts ROI.
-
-Incremental gains – Implementation should be done in small increments, keeping to a
+- Incremental gains – Implementation should be done in small increments, keeping to a
 true agile methodology. This is not a lift and replace but a gradual shift to a strategicallyassured, positive ROI.
-
-Cloud first and shared services – Blockchain relies on distributed computing concepts
+- Cloud first and shared services – Blockchain relies on distributed computing concepts
 where nodes may reside in the cloud. Blockchain smart contracts can enable vendor
 provided shared services to demonstrate adherence to current regulations and policies
 while providing an immutable audit trail.
-
-Reducing risk – Understand the ROI that blockchain can provide by reducing risk. A
-blockchain solution can help reduce the risk associated with tampering and Denial of
-
-Service (DoS) attacks due to its decentralized, tamper-resistant attributes.
-
-Other – How does the trust provided by a blockchain solution when exchanging data or
+- Reducing risk – Understand the ROI that blockchain can provide by reducing risk. A
+blockchain solution can help reduce the risk associated with tampering and Denial of Service (DoS) attacks due to its decentralized, tamper-resistant attributes.
+- Other – How does the trust provided by a blockchain solution when exchanging data or
 assets impact ROI? How much effort and cost are currently spent on reconciliation?
 
-Impact of Modernizing Government Technology (MGT) Act
+# Impact of Modernizing Government Technology (MGT) Act
 
 The MGT Act4 (incorporated as Subtitle G to Title X of the National Defense Authorization Act
 for Fiscal Year 2018) encourages agencies to take a refined strategic and incremental approach
@@ -748,18 +688,18 @@ inefficiencies. Therefore, the assessment that an agency must make through a sta
 of functions and gaps is to determine if the use of a blockchain will enhance an existing solution
 through gains of efficiency, cost savings, and lowered risk.
 
-Incorporate Regulations/Mandates
+# Incorporate Regulations/Mandates
 
 When assessing blockchain or any blockchain technology, be sure to evaluate it within the
 context your particular use case. For example, an identity use case would require a technology
 that adheres to particular regulations, such as the technical requirements in the NIST 800-63,
 
-Digital Identity Suite5, Digital Identity Guidelines. Be sure to evaluate the entire technology
+[Digital Identity Suite]]5], Digital Identity Guidelines. Be sure to evaluate the entire technology
 solution—including smart contracts, oracles, side chains, micro services, any associated
 cryptocurrencies, etc.—with regard to industry standards, technical standards, regulations,
 acts, and common law.
 
-Determine Throughput and Latency Requirements of Business Processes
+# Determine Throughput and Latency Requirements of Business Processes
 
 Understanding data requirements and the speed by which data transactions must occur within
 the blockchain ecosystem are key inputs in determining your optimal architecture, accelerators,
@@ -773,8 +713,7 @@ served by minimizing data-load, whereas smaller private/consortium chains may ha
 number of TPS and can theoretically handle the exchange of larger “blocks” without
 interruption to business processes.
 
-
-Assess the Current State of the Customer Experience
+# Assess the Current State of the Customer Experience
 
 As with most transformative efforts, the blockchain initiative should also be leveraged as an
 opportunity to enhance user experience. When assessing your use case, different users with
@@ -784,50 +723,47 @@ apply their feedback while assessing how blockchain could elevate those user exp
 automating tasks and improving visibility. Robust usability testing will be key to maintaining the
 momentum of successful user adoption as the blockchain solution is scaled outward.
 
-Key Outcomes
+# Key Outcomes
 
 After the assessment is completed, one or more deliverables/outcomes should be produced:
-• One or more use cases identified as candidates for a blockchain solution. Each use case
+
+- One or more use cases identified as candidates for a blockchain solution. Each use case
 should be evaluated against assessment criteria to determine if a blockchain can be
 used to realize gains such as cost saving, efficiency, or reduced risk. Which of these use
 cases would be sensible to implement as a minimum viable product?
-• Documentation on the key stakeholders, network participants and their roles for your
+- Documentation on the key stakeholders, network participants and their roles for your
 candidate use case. How will a blockchain solution impact your stakeholders? What are
 the incentives for these stakeholders to participate in the solution?
-• For each candidate use case, identify what business frictions you are looking to address
-by implementing the solution. Do blockchain attributes help to address those frictions?
-
-This list should correlate with the list of anticipated benefits provided by the solution.
-
-Both the frictions and benefits may differ for each stakeholder.
-• List of federal regulations, government-wide and agency policies, Federal Information
+- For each candidate use case, identify what business frictions you are looking to address
+by implementing the solution. Do blockchain attributes help to address those frictions? This list should correlate with the list of anticipated benefits provided by the solution. Both the frictions and benefits may differ for each stakeholder.
+- List of federal regulations, government-wide and agency policies, Federal Information
 Security Management Act (FISMA) and other required compliance regarding adoption
 and implementation of the solution, these may include existing rules and regulations,
 data ownership, data location, process ownership, and a stakeholder management plan
 to account for resistance from individual stakeholders.
-• A list of performance and other non-functional requirements such as security and
+- A list of performance and other non-functional requirements such as security and
 scalability. They may serve as barriers to the implementation.
-• Documentation of the existing systems and data sources which may interact with the
+- Documentation of the existing systems and data sources which may interact with the
 proposed solution. Examine the integration challenges when interacting with those
 systems. Could implementation of the solution lead to retirement of a legacy system?
-• A model of what the operational end state would be after implementing a blockchain
+- A model of what the operational end state would be after implementing a blockchain
 solution. This should be done initially for the MVP/PoC and again for a solution once the
 scope has been expanded. What should the outcomes be after implementing this
 solution?
-• With the operational end state identified, a list of the anticipated benefits.
-• Documentation regarding alternative solutions including a list that identifies the pros
+- With the operational end state identified, a list of the anticipated benefits.
+- Documentation regarding alternative solutions including a list that identifies the pros
 and cons associated with alternative solutions.
-• Documentation regarding existing assets and/or licenses which may be required for the
+- Documentation regarding existing assets and/or licenses which may be required for the
 use case. Are there entitlements associated with those assets?
 
 
-Phase Outputs
+# Phase Outputs
 
 The artifacts generated during the assessment phase, such as the documented use case, the
 stakeholder analysis, the vision of the operational end state, and other deliverables, directly
 support and should be leveraged during the Readiness Phase.
 
-Decision Gate
+# Decision Gate
 
 If your score is 41 and above, it is highly recommended to commence the Playbook readiness
 review.
@@ -842,8 +778,7 @@ continuing with the readiness review.
 If your score is between 0 to 5, it is recommended that the proof of concept is not appropriate
 for blockchain.
 
-
-Phase 2 – Organizational Readiness
+# Phase 2 – Organizational Readiness
 
 The purpose of the Readiness Phase is to prepare enterprises and organizations for blockchain
 efforts and define key supporting activities to ensure organizational readiness. The structure
@@ -853,54 +788,44 @@ to blockchain that should be understood and considered before an organization un
 blockchain initiative. The purpose of this section is to highlight these blockchain-specific
 nuances.
 
-Phase Inputs
+## Phase Inputs
 
 The Readiness Phase leverages artifacts generated from the assessment phase. Figure 5 lists the
 inputs of this phase.
 
-Key Goals
+## Key Goals
 
 The key goal of the Readiness Phase is to prepare enterprises and organizations for blockchain
 efforts by defining required organizational capabilities for success. This aims to increase the
 likelihood of success by providing guidance based on best practices and lessons learned to the
 following supporting activities:
-•
-•
-•
-•
-•
 
-Standing up a blockchain governance office.
+- Standing up a blockchain governance office.
+- Defining the scope of blockchain services and governance processes.
+- Assessing risks and establishing risk mitigation strategies.
+- Assessing existing systems’ integration readiness.
+- Assessing selected key performance indicators’ (KPI) evaluation readiness.
 
-Defining the scope of blockchain services and governance processes.
-
-Assessing risks and establishing risk mitigation strategies.
-
-Assessing existing systems’ integration readiness.
-
-Assessing selected key performance indicators’ (KPI) evaluation readiness.
-
-Key Participants
+## Key Participants
 
 To help ensure success, key participants must be identified and engaged throughout the
 blockchain Readiness Phase. They could include:
-• Product owners/managers who undertake overall management and governance of the
+- Product owners/managers who undertake overall management and governance of the
 Readiness Phase.
-• Blockchain subject matter experts who may or may not be from the agency initiating the
+- Blockchain subject matter experts who may or may not be from the agency initiating the
 program.
-• Subject matter experts from lines of business and systems with potential blockchain
+- Subject matter experts from lines of business and systems with potential blockchain
 integration.
-• An enterprise architect who is well-versed with DLT to own the creation of the
+- An enterprise architect who is well-versed with DLT to own the creation of the
 governance framework and capability definition exercises.
-• An information systems security officer/engineer or equivalent who ensures compliance
+- An information systems security officer/engineer or equivalent who ensures compliance
 and security of the proposed solution.
-
 
 The participants may contain other stakeholders in part or whole of this phase. For example,
 end users could serve as the voice of the customer during requirements discovery and
 definition.
 
-Approach Guidance
+# Approach Guidance
 
 In most cases, the Assessment Phase will precede the Readiness Phase to ensure use case
 selection and business relevance for the effort has been determined. Although rare, some
@@ -909,29 +834,28 @@ example, this may occur when an agency has already completed a proof of concept 
 planning for a larger project based on the proof of concept or integration with an external
 agency that has already implemented DLT.
 
+![](figure-5.png)
+
 Figure 5: Readiness Phase (2) summary
 
-Key Activities
+# Key Activities
 
 Activities in this phase vary depending on the type and scope of selected use cases. Below is a
 notional activity guideline to prepare an organization for blockchain implementation:
 
 A. Stand up blockchain Program Management Office (PMO) and governance office.
-• Establish PMO processes.
-• Establish Enterprise Architecture (EA) guidelines.
-• Conduct procurement planning.
-• Estimate initial cost for the selected business case.
-
-
-•
-
-Create expected benefits chart.
+- Establish PMO processes.
+- Establish Enterprise Architecture (EA) guidelines.
+- Conduct procurement planning.
+- Estimate initial cost for the selected business case.
+- Create expected benefits chart.
 
 B. Define the scope of blockchain services and processes.
-• Analyze as-is view of people, processes and technology.
-• Assess selected use case impact.
-• Assess change management approach.
-• Assess training needs.
+- Analyze as-is view of people, processes and technology.
+- Assess selected use case impact.
+- Assess change management approach.
+- Assess training needs.
+
 C. Establish risk processes.
 1. Determine the components of the risk management processes.
 2. Conduct initial risk identification and mitigation planning.
@@ -949,12 +873,14 @@ E. Assess selected KPIs’ evaluation readiness.
 2. Define baseline metrics for selected KPIs for the legacy processes and systems.
 3. Conduct new value discovery.
 
-Key Considerations
+# Key Considerations
 
 DLT is yet to be proven at production scale for public sector enterprises, which means best
 practices from production implementations are yet to emerge. However, the following are
 some key considerations that blockchain evangelists, chief information officers, and enterprise
 architects should consider as they conduct the Readiness Phase activities:
+
+TODO: format as a table:
 
 No.
 
@@ -1469,62 +1395,43 @@ Takeaway
 
 mitigation strategies.
 
-Key Outcomes
+END TODO: format as a table
+
+
+# Key Outcomes
 
 To ensure a government agency’s readiness for an emerging technology like blockchain, several
 internal and external factors have to be assessed, and in some cases, new areas need to be
 defined and established. The list below highlights definitions and high-level plans, which are
 further refined in subsequent phases and throughout the lifecycle of the initiative, resulting
 from the Readiness Phase:
-•
-•
-•
-•
-•
 
-•
-•
-•
-•
-•
-•
-
-Key network participants engaged with formal agreements.
-
-Security strategy for participants defined and agreed upon by the different parties.
-
-Onboarding/separation strategy defined for DLT participants.
-
-In the case of a new consortium, responsibilities and governance model defined.
-
-Mitigation plans in place for the following risk categories:
-o Technology
-o Business
-o Security
-o Performance
-o User experience
-o Governance
-o Adoption
-o Regulatory compliance
-o Enterprise Integration
-
-Change management strategy defined for all the impacted parties.
-
-KPIs defined and baselined for the selected business case.
-
-Subject matter experts and points of contact from cross-functional teams and
+- Key network participants engaged with formal agreements.
+- Security strategy for participants defined and agreed upon by the different parties.
+- Onboarding/separation strategy defined for DLT participants.
+- In the case of a new consortium, responsibilities and governance model defined.
+- Mitigation plans in place for the following risk categories:
+  - Technology
+  - Business
+  - Security
+  - Performance
+  - User experience
+  - Governance
+  - Adoption
+  - Regulatory compliance
+  - Enterprise Integration
+- Change management strategy defined for all the impacted parties.
+- KPIs defined and baselined for the selected business case.
+- Subject matter experts and points of contact from cross-functional teams and
 integrating systems are on boarded.
-
-Procurement strategy defined.
-
-Initial schedule and master plan defined.
-
-Business capabilities defined.
+- Procurement strategy defined.
+- Initial schedule and master plan defined.
+- Business capabilities defined.
 
 The business case selected for implementation, external context of the implementation, and
 stakeholder and regulatory requirements may result in additions or modifications to this list.
 
-Phase Outputs
+# Phase Outputs
 
 The following artifacts generated during the Readiness Phase support the Selection Phase and
 the phases following it. They should be leveraged to ensure the alignment to initial vision,
@@ -1532,41 +1439,19 @@ continuous discovery, monitoring and mitigation of risks and continuous feedback
 stakeholders for forthcoming implementations:
 
 
-•
-•
-•
-•
-•
-•
-•
-•
-•
-•
-•
+- Initial business capabilities
+- Scope of services overview
+- Target state CONOPS chart
+- Change management strategy
+- Program governance model
+- Prioritized risk management plan with mitigation plans for top risks
+- Initial cost and schedule estimates
+- Procurement plan
+- EA guidelines
+- KPI baselines and measurement guidelines
+- Validated as-is process maps
 
-Initial business capabilities
-
-Scope of services overview
-
-Target state CONOPS chart
-
-Change management strategy
-
-Program governance model
-
-Prioritized risk management plan with mitigation plans for top risks
-
-Initial cost and schedule estimates
-
-Procurement plan
-
-EA guidelines
-
-KPI baselines and measurement guidelines
-
-Validated as-is process maps
-
-Decision Gate
+# Decision Gate
 
 At the end of the Readiness Phase, the agency should be able to answer the following questions
 for the system (people, process and technology) and its governance:
@@ -5993,3 +5878,7 @@ implementation of the solution. If you know more than one organization will be i
 you look at the organizational aspects of the solution, address from the start the need for a
 multi-organization solution.
 
+### References
+
+[1]: <https://www.actiac.org/system/files/ACT-IAC%20ENABLING%20BLOCKCHAIN%20INNOVATION_3.pdf> "Primer"
+[5]: <https://pages.nist.gov/800-63-3/> "NIST 800-63, Digital Identity Suite"
