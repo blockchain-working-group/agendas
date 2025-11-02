@@ -57,6 +57,10 @@ or submit a Pull Request.
 ##### Land and Property
 
 * https://cadasta.org/resources/white-papers/bitcoin-blockchain-land/ - Bitcoin and land-related whitepaper
+* https://lawforbusiness.usc.edu/the-blocktitle-revolution-are-land-titles-moving-to-the-blockchain/
+* https://mattereum.com/
+* GBA's Land Title Supplement - https://gbaglobal.org/wp-content/uploads/2024/07/BMM-Land-Titling-Supplement-v1.pdf
+* https://www.linkedin.com/pulse/secure-land-titles-digital-era-promise-blockchain-technology-muoka/
 
 ##### Mobility and Transportation
 
