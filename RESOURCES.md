@@ -38,6 +38,51 @@ or submit a Pull Request.
 * https://www.mdpi.com/1911-8074/17/2/76
 * Papers from the 2023 TEA Conf (Triple-entry accounting) - https://www.mdpi.com/journal/jrfm/special_issues/S0ZR60SZUX
 
+##### AI and Blockchain
+
+* https://www.mdpi.com/1999-5903/11/8/170 - Artificial Intelligence Implementations on the Blockchain. Use Cases and Future Applications
+* https://arxiv.org/pdf/2305.08604.pdf - A Survey of Blockchain and Artificial Intelligence for 6G Wireless Communications
+* https://www.sciencedirect.com/science/article/pii/S2949948824000015 - AI-powered blockchain in Industry 4.0
+* https://www.nature.com/articles/s41598-023-28707-9 - Collaborative role of blockchain, AI, and IoT in SME digitalization
+* https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9819078/ - AI-powered blockchain for public health applications
+
+##### Healthcare
+
+* https://blockchainhealthcaretoday.com/index.php/journal/index - Blockchain in Healthcare Today journal
+
+##### Ethics and Governance
+
+* https://ec.europa.eu/digital-building-blocks/sites/display/EBSI/EU+Expert+Group+on+Blockchain+Ethics - EU Blockchain Group ethics publications
+
+##### Land and Property
+
+* https://cadasta.org/resources/white-papers/bitcoin-blockchain-land/ - Bitcoin and land-related whitepaper
+
+##### Mobility and Transportation
+
+* https://www.toyota-blockchain-lab.org/library/how-to-introduce-mobility-into-the-public-blockchain - Mobility on public blockchain
+* https://www.blockedge.io/blog/role-of-blockchain-technology-in-autonomous-vehicles/ - Blockchain role in autonomous vehicles
+
+##### Bitcoin & Layer 2
+
+* https://thedefiant.io/news/blockchains/jeff-garzik-s-hemi-network-brings-evm-execution-to-bitcoin - Hemi Network Layer 2 on Bitcoin
+* https://archive.org/details/softwar-theory - SoftWar: A Novel Theory on the Nation Strategic Significance of Bitcoin
+
+##### Verifiable Credentials
+
+* https://www.w3.org/community/reports/credentials/CG-FINAL-vc-render-method-20250831/ - W3C Verifiable Credential Rendering Methods report
+* https://le.utah.gov/~2025/bills/static/HB0260.html - Utah HB0260 on IDs and credentials
+
+##### Government Reports and Guidance
+
+* https://www.gao.gov/products/gao-25-106161 - GAO report on crypto asset use in retirement plans
+* https://www.whitehouse.gov/wp-content/uploads/2025/01/M-25-05-Phase-2-Implementation-of-the-Foundations-for-Evidence-Based-Policymaking-Act-of-2018-Open-Government-Data-Access-and-Management-Guidance.pdf - White House open government data guidance
+* https://annaiversen.substack.com/p/strengthening-american-leadership - Strengthening American leadership
+
+##### Consumer Protection
+
+* https://dfpi.ca.gov/crypto-scams/ - California crypto scam resources
+
 ### News
 
 * https://ag.ny.gov/press-release/2024/attorney-general-james-expands-lawsuit-against-cryptocurrency-company-digital
