@@ -1,0 +1,51 @@
+name: "💡 Propose a Meeting Topic"
+description: "Suggest a topic or theme for a future Blockchain Group meeting or study session"
+title: "Meeting Topic Proposal: [topic]"
+labels: ["type:topic", "proposal", "needs:discussion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 💡 Meeting Topic Proposal
+        Suggest a subject, reading, or discussion theme for a future group meeting.
+  - type: input
+    id: topic
+    attributes:
+      label: "Topic Title"
+      placeholder: "Example: Tokenized Public Records"
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: "Topic Type"
+      options:
+        - Deep-dive on standards / RFCs
+        - Case studies & demos
+        - Reading group selection
+        - Policy or governance topic
+        - Open Q&A / roundtable
+  - type: textarea
+    id: description
+    attributes:
+      label: "Description"
+      description: "Why is this topic important or timely?"
+      placeholder: "Summarize the problem, relevance, or learning opportunity."
+  - type: textarea
+    id: readings
+    attributes:
+      label: "Suggested Resources or Readings"
+      description: "Optional — link to papers, repos, or websites."
+  - type: textarea
+    id: outcomes
+    attributes:
+      label: "Desired Outcomes"
+      description: "What do you hope we’ll take away or decide on?"
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        **Next steps:**
+        - Label with `type:topic`
+        - Add to upcoming agenda if selected
+        - Assign a facilitator or notetaker

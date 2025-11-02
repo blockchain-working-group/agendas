@@ -1,0 +1,65 @@
+name: "Propose to be a Speaker 🎤"
+description: "Volunteer to share your expertise, experience, or a story at an upcoming session"
+title: "Speaker Proposal: [topic or title]"
+labels: ["type:talk", "proposal", "needs:scheduling"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 🎤 Speaker Proposal
+        Use this form to propose yourself (or another) as a speaker for a Blockchain Group session.
+  - type: input
+    id: speaker_name
+    attributes:
+      label: "Your Name"
+      description: "Who will be speaking?"
+      placeholder: "Jane Doe"
+    validations:
+      required: true
+  - type: input
+    id: affiliation
+    attributes:
+      label: "Affiliation / Organization"
+      description: "Optional, for context or introduction."
+  - type: dropdown
+    id: format
+    attributes:
+      label: "Preferred Format"
+      options:
+        - Lightning talk (5–10 min)
+        - Feature talk (20–30 min)
+        - Panel / fireside chat
+    validations:
+      required: true
+  - type: input
+    id: topic
+    attributes:
+      label: "Talk Title / Topic"
+      placeholder: "Example: Civic identity through blockchain registries"
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: "Summary / Abstract"
+      description: "Briefly describe what you’ll cover and what participants can learn."
+    validations:
+      required: true
+  - type: textarea
+    id: links
+    attributes:
+      label: "Links or References"
+      description: "Optionally link slides, repos, or related material."
+  - type: textarea
+    id: availability
+    attributes:
+      label: "Availability"
+      description: "When are you available to present?"
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        **Next steps:**
+        - Label with `type:talk`
+        - Add to Speaker queue for scheduling
+        - Coordinator will confirm timing & format
