@@ -10,6 +10,8 @@ shareable resources by [creating an issue](https://github.com/ACT-IAC-BWG/agenda
 
 Just getting started with GitHub? Contact Jorge or Fred via email, and a group member can help.
 
+Here's an optional, [short form](https://docs.google.com/forms/d/e/1FAIpQLSd-Q2Dx8pj1MkVRZFWAwBkhPVuE9LNRPrXzmnaqlENRAXacMA/viewform) for group participants to understand how people use different crypto mediums on different time scales.
+
 ## Upcoming Agendas
 
 ### Friday 10/31/2025 · 10:00 – 10:45am EST
