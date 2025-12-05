@@ -2,7 +2,7 @@
 
 The [ACT-IAC Blockchain Working Group](https://www.actiac.org/groups/blockchain-working-group) meeting occurs regularly on Fridays at 10am - 11am EST.
 
-* Government lead: [Jorge Ferrer](mailto:jorge.Ferrer@va.gov), VHA
+* Government lead: TBD
 * Industry lead: [Frederic de Vaulx](mailto:f.devaulx@prometheuscomputing.com), Prometheus Computing LLC
 
 ACT-IAC members: Please feel free to add: questions, topics, speaker requests or offers, and publicly
@@ -14,7 +14,7 @@ Here's an optional, [short form](https://docs.google.com/forms/d/e/1FAIpQLSd-Q2D
 
 ## Upcoming Agendas
 
-### Friday 11/21/2025 · 10:00 – 10:45am EST
+### Friday 12/05/2025 · 10:00 – 10:45am EST
 
 Video call link: https://meet.google.com/txi-iyvp-sea
 
@@ -23,6 +23,14 @@ Video call link: https://meet.google.com/txi-iyvp-sea
 * 10:10am to 10:45am - Discussion
 
 ## Previous agendas
+
+### Friday 11/21/2025 · 10:00 – 10:45am EST
+
+Video call link: https://meet.google.com/txi-iyvp-sea
+
+* 10:00am to 10:05am - Welcome
+* 10:05am to 10:10am - Community updates
+* 10:10am to 10:45am - Discussion
 
 ### Friday 11/14/2025 · 10:00 – 10:45am EST
 
