@@ -53,6 +53,7 @@ or submit a Pull Request.
 ##### Ethics and Governance
 
 * https://ec.europa.eu/digital-building-blocks/sites/display/EBSI/EU+Expert+Group+on+Blockchain+Ethics - EU Blockchain Group ethics publications
+* https://www.bis.org/basel_framework/chapter/SCO/60.htm?inforce=20260101&published=20241127
 
 ##### Land and Property
 
