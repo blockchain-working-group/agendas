@@ -16,7 +16,7 @@ Here's an optional, [short form](https://docs.google.com/forms/d/e/1FAIpQLSd-Q2D
 
 ### Friday 01/30/2026 · 10:00 – 10:45am EST
 
-Video call link: Video call link: https://meet.google.com/iyg-zqve-wne
+Video call link: https://meet.google.com/iyg-zqve-wne
 
 * 10:00am to 10:05am - Welcome
 * 10:05am to 10:10am - Community updates
