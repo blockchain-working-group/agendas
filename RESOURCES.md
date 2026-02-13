@@ -22,6 +22,7 @@ or submit a Pull Request.
   * [FICAM Playbooks](https://github.com/GSA/idmanagement.gov)
 * https://www.fsmb.org/blockchain/ - FSMB (Federation of State Medical Boards) - may be looking into similar issues
 * https://www.nist.gov/news-events/news/2024/08/nist-releases-second-public-draft-digital-identity-guidelines-final-review - NIST is looking for comments on its Digital Identity Guidelines papers:
+* [UTAH Legislation for State Endorsed Digital Identity](https://le.utah.gov/Session/2026/bills/introduced/SB0275.pdf)
 
 ##### Decentralized identifiers
 
