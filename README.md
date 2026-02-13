@@ -14,13 +14,55 @@ Here's an optional, [short form](https://docs.google.com/forms/d/e/1FAIpQLSd-Q2D
 
 ## Upcoming Agendas
 
-### Friday 02/13/2026 · 10:00 – 10:45am EST
+### Friday 02/20/2026 · 10:00 – 10:45am EST (issues #34, #20)
 
 Video call link: https://meet.google.com/iyg-zqve-wne
 
 * 10:00am to 10:05am - Welcome
 * 10:05am to 10:10am - Community updates
-* 10:10am to 10:45am - Discussion
+* 10:10am to 10:30am - ZKP demo for public-sector pilots (#34) + Q&A
+* 10:30am to 10:40am - Minimal technical considerations for pilots (#20)
+* 10:40am to 10:45am - Action recap
+
+### Friday 02/27/2026 · 10:00 – 10:45am EST (issues #32, #10)
+
+Video call link: https://meet.google.com/iyg-zqve-wne
+
+* 10:00am to 10:05am - Welcome
+* 10:05am to 10:10am - Community updates
+* 10:10am to 10:35am - Identity & verifiable credentials panel; DID demo for 2 agencies (#10)
+* 10:35am to 10:40am - Open questions on "Blockchain applications" (#32) and owner assignment
+* 10:40am to 10:45am - Action recap
+
+### Friday 03/06/2026 · 10:00 – 10:45am EST (issues #8, #21, #27)
+
+Video call link: https://meet.google.com/iyg-zqve-wne
+
+* 10:00am to 10:05am - Welcome
+* 10:05am to 10:10am - Community updates
+* 10:10am to 10:35am - Mapping NIST 800-53 controls to blockchain (#8) + EU ethics publication takeaways (#27)
+* 10:35am to 10:40am - Policy considerations for public-sector blockchain (#21)
+* 10:40am to 10:45am - Action recap
+
+### Friday 03/13/2026 · 10:00 – 10:45am EST (issues #29, #31)
+
+Video call link: https://meet.google.com/iyg-zqve-wne
+
+* 10:00am to 10:05am - Welcome
+* 10:05am to 10:10am - Community updates
+* 10:10am to 10:35am - AI Mindsystems presentation (#31) + joint session planning with AI WG (#29)
+* 10:35am to 10:40am - Whiteboard: interop needs for AI data/agents
+* 10:40am to 10:45am - Action recap
+
+### Friday 03/20/2026 · 10:00 – 10:45am EST (issues #23, #24, #26)
+
+Video call link: https://meet.google.com/iyg-zqve-wne
+
+* 10:00am to 10:05am - Welcome
+* 10:05am to 10:10am - Community updates
+* 10:10am to 10:25am - Lightning: potential lab projects (#23) and working-in-the-open norms (#26)
+* 10:25am to 10:35am - Inventory federal blockchain environments (#24) + candidate tokenization pilots
+* 10:35am to 10:45am - Prioritize 2–3 pilots and assign owners
 
 ## Previous agendas
 
