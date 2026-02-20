@@ -6,7 +6,7 @@ The [ACT-IAC Blockchain Working Group](https://www.actiac.org/groups/blockchain-
 * Industry lead: [Frederic de Vaulx](mailto:f.devaulx@prometheuscomputing.com), Prometheus Computing LLC
 
 ACT-IAC members: Please feel free to add: questions, topics, speaker requests or offers, and publicly
-shareable resources by [creating an issue](https://github.com/ACT-IAC-BWG/agendas/issues/new). 
+shareable resources by [creating an issue](https://github.com/ACT-IAC-BWG/agendas/issues/new).
 
 Just getting started with GitHub? Contact Jorge or Fred via email, and a group member can help.
 
@@ -14,7 +14,7 @@ Here's an optional, [short form](https://docs.google.com/forms/d/e/1FAIpQLSd-Q2D
 
 ## Upcoming Agendas
 
-### Friday 02/20/2026 · 10:00 – 10:45am EST (issues #34, #20)
+### Friday 02/20/2026 · 10:00 – 10:45am EST
 
 Video call link: https://meet.google.com/iyg-zqve-wne
 
@@ -65,6 +65,14 @@ Video call link: https://meet.google.com/iyg-zqve-wne
 * 10:35am to 10:45am - Prioritize 2–3 pilots and assign owners
 
 ## Previous agendas
+
+### Friday 02/13/2026 · 10:00 – 10:45am EST
+
+Video call link: https://meet.google.com/iyg-zqve-wne
+
+* 10:00am to 10:05am - Welcome
+* 10:05am to 10:10am - Community updates
+* 10:10am to 10:45am - Discussion
 
 ### Friday 02/06/2026 · 10:00 – 10:45am EST
 
@@ -378,7 +386,7 @@ Video call link: https://meet.google.com/iyg-zqve-wne
   * Digital IDs
   * Blockchain economics
   * Batching data/payments, or not
-    
+
 ### Friday 04/11/2025 · 10:00 – 10:45am EST
 
 Video call link: https://meet.google.com/txi-iyvp-sea
@@ -534,7 +542,7 @@ Video call link: https://meet.google.com/txi-iyvp-sea
 * 10:10am to 10:50am - Open discussion
   * digital identity
   * public agency IT security requirements
-  * 2025 goals and aspirations 
+  * 2025 goals and aspirations
 * 10:50am - Closeout
 
 ## Friday 01/03/2025 · 10:00 – 11:00am EST
@@ -686,7 +694,7 @@ Video call link: https://meet.google.com/txi-iyvp-sea
 * 10:00am to 10:05am - Welcome
 * 10:05am to 10:20am - Community updates
 * 10:20am to 10:50am - Discuss WG items and open discussion
-  * [Submit agenda items or topics of interest here](https://github.com/blockchain-working-group/agendas/issues/new)  
+  * [Submit agenda items or topics of interest here](https://github.com/blockchain-working-group/agendas/issues/new)
 * 10:50am to 11:00am - Closeout
 
 ### Friday 07/26/2024 · 10:00 – 11:00am EST
@@ -702,7 +710,7 @@ Video call link: https://meet.google.com/fed-hekq-bva
 * 10:00am to 10:05am - Welcome
 * 10:05am to 10:20am - Community updates
 * 10:20am to 10:50am - Discuss WG items and open discussion
-  * [Submit agenda items or topics of interest here](https://github.com/blockchain-working-group/agendas/issues/new)  
+  * [Submit agenda items or topics of interest here](https://github.com/blockchain-working-group/agendas/issues/new)
 * 10:50am to 11:00am - Closeout
 
 
@@ -716,9 +724,9 @@ Video call link: https://meet.google.com/fed-hekq-bva
   * CFTC Conference this week (July 11) - highlighted "blockchain analytics"
   * Any topics to add? https://github.com/blockchain-working-group/agendas/issues/new
   * Meeting time: Is there a better time for this meeting?
-  * [Group areas of interest](https://github.com/blockchain-working-group/agendas/issues/30)  
+  * [Group areas of interest](https://github.com/blockchain-working-group/agendas/issues/30)
 * 10:50am to 11:00am - Closeout
-  
+
 ### 07/05/2024
 
 Friday, July 5 - MEETING CANCELED following July 4th Holiday
@@ -767,7 +775,7 @@ Friday, June 21 · 10:00 – 11:00am EST
   * committee on disinformation being defunded
   * data provenance related to elections
 * Fred
-  * 
+  *
 * Bob
   * Stornetta to have an event about election integrity, maybe in July?
   * August 16 at the Fairfax Town Hall - Blockchain Showcase - more info on the GBA website [https://gbaglobal.org](https://gbaglobal.org/)
@@ -777,14 +785,14 @@ Friday, June 21 · 10:00 – 11:00am EST
 * Lilia
   * Reading "The age of surveillance capitalism"
 * Thompson
-  * 
+  *
 * Juby
-  * Working in health care, interoperabilty, bi-directional data exchange, EHR systems, insurance-facing, gov-facing, 
+  * Working in health care, interoperabilty, bi-directional data exchange, EHR systems, insurance-facing, gov-facing,
   * patient-owned data
   * Can Medicare data be monetized for the beneficiaries, using a DLT?
   * Mandatory prior authorization (legislation) goes into effect Jan 2025
   * MITRE is also supporting the Medicare & Medicaid work
-  * 
+  *
 * Jon
  * > Elections are to me the integrity of the result of the vote and the technological accuracy the count. All votes will be influenced before the vote then they vote.
  * focused more on AI, aware of biases
@@ -798,7 +806,7 @@ Friday, June 21 · 10:00 – 11:00am EST
     * https://civil-registry-cfc85eba344c.herokuapp.com/
     * Example transaction: https://test.whatsonchain.com/tx/e54acfef04eb08b8e8144f2b8a131a2c4e824158930af8601157fcd09e6a642e
     * Example Schema.org MarryAction: https://test.whatsonchain.com/tx/be3dd1f67b9b7f71e6862db055a697b2d73758a70498e69e9f982c901079eef8
-   
+
 The group will consider an automated transcription tool in the future. This will need ACT-IAC's approval.
 
 ### 06/14/2024
@@ -924,6 +932,6 @@ Friday, June 07 · 10:00 – 11:00am EST
 * 10:00am to 10:05am - Welcome
 
 ### 01/12/2024
-* 10:00am to 10:05am - Welcome 
+* 10:00am to 10:05am - Welcome
 
 Additional previous meeting agendas are available [here](./previous_agendas/).
