@@ -1,0 +1,64 @@
+name: "Propose a Project (Public Tech Lab)"
+description: "Suggest a new project, prototype, or pilot to run through a public tech lab"
+title: "Project Proposal: [short name]"
+labels: ["type:project", "proposal", "needs:review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 🚀 Project Proposal (Public Tech Lab)
+        Use this template to propose an open, collaborative project to be piloted in the Blockchain Group’s Public Tech Lab.
+  - type: input
+    id: project_title
+    attributes:
+      label: "Project Title"
+      description: "What is the name or working title of your project?"
+      placeholder: "e.g. Blockchain-anchored Public Notices"
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: "Summary"
+      description: "Briefly describe what this project aims to achieve and why it matters."
+      placeholder: "e.g. Enable verifiable publishing of city ordinances on-chain."
+    validations:
+      required: true
+  - type: dropdown
+    id: project_type
+    attributes:
+      label: "Project Type"
+      description: "Select the project’s intended focus."
+      options:
+        - Pilot with a public partner
+        - Open-source prototype / repo
+        - Publish learnings & metrics
+  - type: textarea
+    id: outcomes
+    attributes:
+      label: "Expected Outcomes"
+      description: "What tangible outcomes or outputs do you expect?"
+      placeholder: "e.g. Working demo, repo, presentation, open data"
+  - type: textarea
+    id: collaboration
+    attributes:
+      label: "Potential Collaborators or Stakeholders"
+      description: "Mention anyone you hope to involve (agencies, developers, civic partners)."
+  - type: textarea
+    id: timeline
+    attributes:
+      label: "Proposed Timeline"
+      description: "Rough timing or milestones."
+  - type: textarea
+    id: risks
+    attributes:
+      label: "Risks, Ethics, or Dependencies"
+      description: "What dependencies, ethical considerations, or blockers should we be aware of?"
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        **Next steps:**
+        - Label with `type:project`
+        - Add to upcoming Lab session agenda if ready for review
+        - Link any related issues or RFCs
