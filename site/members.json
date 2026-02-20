@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Alex Morgan",
+    "title": "Program Manager, Federal Innovation Lab",
+    "email": "alex.morgan@example.gov",
+    "blurb": "Runs pilots that bridge policy and delivery; looking for partners on verifiable credentials and audit evidence."
+  },
+  {
+    "name": "Priya Shah",
+    "title": "Lead Engineer, Civic Tech Partner",
+    "email": "priya.shah@example.com",
+    "blurb": "Builds secure VC/DID pipelines and zero-knowledge prototypes; happy to do short demos or office hours."
+  },
+  {
+    "name": "Jordan Lee",
+    "title": "Policy Analyst, State Agency",
+    "email": "jordan.lee@example.gov",
+    "blurb": "Focuses on procurement, data governance, and standards alignment for blockchain-enabled services."
+  }
+]
