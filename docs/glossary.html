@@ -1,0 +1,194 @@
+---
+layout: default
+title: Glossary
+nav_id: glossary
+main_class: space-y-10
+---
+
+<div class="space-y-3">
+  <h1 class="text-3xl font-semibold">Glossary</h1>
+  <p class="text-slate-600 max-w-3xl">Common blockchain and distributed ledger terms, written for public-sector leaders, program managers, and policy staff. Where relevant, notes highlight government-specific considerations.</p>
+</div>
+
+<!-- Core Concepts -->
+<section class="space-y-4">
+  <h2 class="text-xl font-semibold text-indigo-600">Core Concepts</h2>
+  <dl class="space-y-4">
+    <div class="rounded-xl border border-slate-200 bg-white p-5">
+      <dt class="font-semibold">Blockchain</dt>
+      <dd class="mt-1 text-sm text-slate-700">An append-only data structure in which records ("blocks") are cryptographically chained together. Once written, data is extremely difficult to alter, providing a tamper-evident audit trail.</dd>
+      <dd class="mt-2 text-xs text-slate-500"><strong>Gov consideration:</strong> Immutability can conflict with data-correction mandates (e.g., Privacy Act amendments). Agencies should evaluate whether corrective mechanisms exist in a given implementation.</dd>
+    </div>
+    <div class="rounded-xl border border-slate-200 bg-white p-5">
+      <dt class="font-semibold">Distributed Ledger Technology (DLT)</dt>
+      <dd class="mt-1 text-sm text-slate-700">A broader category of databases replicated across multiple nodes without a single administrator. Blockchains are one type of DLT, but not all DLTs use blocks or chains.</dd>
+    </div>
+    <div class="rounded-xl border border-slate-200 bg-white p-5">
+      <dt class="font-semibold">Node</dt>
+      <dd class="mt-1 text-sm text-slate-700">A computer that maintains a copy of the ledger and participates in validating transactions. More nodes generally means greater resilience and decentralization.</dd>
+    </div>
+    <div class="rounded-xl border border-slate-200 bg-white p-5">
+      <dt class="font-semibold">Consensus Mechanism</dt>
+      <dd class="mt-1 text-sm text-slate-700">The protocol by which nodes agree on the current state of the ledger. Common mechanisms include Proof of Work, Proof of Stake, and Byzantine Fault Tolerance variants.</dd>
+      <dd class="mt-2 text-xs text-slate-500"><strong>Gov consideration:</strong> Energy-intensive mechanisms (e.g., Proof of Work) may conflict with federal sustainability goals. Agencies often favor lower-energy alternatives.</dd>
+    </div>
+    <div class="rounded-xl border border-slate-200 bg-white p-5">
+      <dt class="font-semibold">Smart Contract</dt>
+      <dd class="mt-1 text-sm text-slate-700">Self-executing code stored on a blockchain that runs automatically when predefined conditions are met. Despite the name, smart contracts are neither "smart" nor legal contracts—they are deterministic programs.</dd>
+      <dd class="mt-2 text-xs text-slate-500"><strong>Gov consideration:</strong> Federal acquisition rules (FAR/DFARS) still govern procurement even when a smart contract automates payment logic. Legal review is essential.</dd>
+    </div>
+    <div class="rounded-xl border border-slate-200 bg-white p-5">
+      <dt class="font-semibold">Hash</dt>
+      <dd class="mt-1 text-sm text-slate-700">A fixed-length digital fingerprint produced by a cryptographic function. Any change to the input—even a single character—produces a completely different hash, making tampering detectable.</dd>
+    </div>
+    <div class="rounded-xl border border-slate-200 bg-white p-5">
+      <dt class="font-semibold">Immutability</dt>
+      <dd class="mt-1 text-sm text-slate-700">The property that once data is recorded on the chain it cannot be altered or deleted. In practice, "practical immutability" is a more accurate term—data can theoretically be changed if a majority of nodes collude.</dd>
+    </div>
+  </dl>
+</section>
+
+<!-- Network Types -->
+<section class="space-y-4">
+  <h2 class="text-xl font-semibold text-indigo-600">Network Types</h2>
+  <dl class="space-y-4">
+    <div class="rounded-xl border border-slate-200 bg-white p-5">
+      <dt class="font-semibold">Public (Permissionless) Network</dt>
+      <dd class="mt-1 text-sm text-slate-700">A blockchain anyone can join, read, and write to without approval (e.g., Bitcoin, Ethereum). Offers maximum transparency but limited control over participants.</dd>
+      <dd class="mt-2 text-xs text-slate-500"><strong>Gov consideration:</strong> Public networks raise questions about data sovereignty, FISMA compliance, and the ability to meet FedRAMP requirements for the underlying infrastructure.</dd>
+    </div>
+    <div class="rounded-xl border border-slate-200 bg-white p-5">
+      <dt class="font-semibold">Private (Permissioned) Network</dt>
+      <dd class="mt-1 text-sm text-slate-700">A blockchain where participation is restricted to approved entities. An operating authority controls who can join, read, or validate transactions (e.g., Hyperledger Fabric).</dd>
+      <dd class="mt-2 text-xs text-slate-500"><strong>Gov consideration:</strong> More compatible with existing compliance frameworks (FedRAMP, FISMA) because the operating environment can be controlled and audited.</dd>
+    </div>
+    <div class="rounded-xl border border-slate-200 bg-white p-5">
+      <dt class="font-semibold">Consortium Network</dt>
+      <dd class="mt-1 text-sm text-slate-700">A permissioned network governed by a group of organizations rather than a single entity. Common in cross-agency or public-private partnerships where shared governance is needed.</dd>
+    </div>
+  </dl>
+</section>
+
+<!-- Identity & Credentials -->
+<section class="space-y-4">
+  <h2 class="text-xl font-semibold text-indigo-600">Identity &amp; Credentials</h2>
+  <dl class="space-y-4">
+    <div class="rounded-xl border border-slate-200 bg-white p-5">
+      <dt class="font-semibold">Decentralized Identifier (DID)</dt>
+      <dd class="mt-1 text-sm text-slate-700">A globally unique identifier that the subject (person, organization, or device) creates and controls, independent of any central registry. Defined by W3C standards.</dd>
+    </div>
+    <div class="rounded-xl border border-slate-200 bg-white p-5">
+      <dt class="font-semibold">Verifiable Credential (VC)</dt>
+      <dd class="mt-1 text-sm text-slate-700">A tamper-evident digital credential (e.g., license, clearance, certification) that can be cryptographically verified without contacting the issuer in real time.</dd>
+      <dd class="mt-2 text-xs text-slate-500"><strong>Gov consideration:</strong> VCs are being explored for cross-border identity, workforce credentialing, and benefit delivery where real-time issuer availability cannot be guaranteed.</dd>
+    </div>
+    <div class="rounded-xl border border-slate-200 bg-white p-5">
+      <dt class="font-semibold">Self-Sovereign Identity (SSI)</dt>
+      <dd class="mt-1 text-sm text-slate-700">A model where individuals hold and control their own identity data rather than relying on a central authority. DIDs and VCs are the technical building blocks of SSI.</dd>
+    </div>
+    <div class="rounded-xl border border-slate-200 bg-white p-5">
+      <dt class="font-semibold">Zero-Knowledge Proof (ZKP)</dt>
+      <dd class="mt-1 text-sm text-slate-700">A cryptographic method that lets one party prove a statement is true (e.g., "I am over 21") without revealing the underlying data (e.g., date of birth).</dd>
+      <dd class="mt-2 text-xs text-slate-500"><strong>Gov consideration:</strong> ZKPs support privacy-preserving compliance checks—verifying eligibility without collecting or storing sensitive PII.</dd>
+    </div>
+  </dl>
+</section>
+
+<!-- Tokens & Digital Assets -->
+<section class="space-y-4">
+  <h2 class="text-xl font-semibold text-indigo-600">Tokens &amp; Digital Assets</h2>
+  <dl class="space-y-4">
+    <div class="rounded-xl border border-slate-200 bg-white p-5">
+      <dt class="font-semibold">Token</dt>
+      <dd class="mt-1 text-sm text-slate-700">A digital unit recorded on a blockchain that can represent value, access rights, or ownership. Tokens are either fungible (interchangeable, like currency) or non-fungible (unique, like a deed).</dd>
+    </div>
+    <div class="rounded-xl border border-slate-200 bg-white p-5">
+      <dt class="font-semibold">Non-Fungible Token (NFT)</dt>
+      <dd class="mt-1 text-sm text-slate-700">A token that represents a unique asset or record. Beyond art and collectibles, NFTs can represent government-issued documents, permits, or serialized equipment records.</dd>
+    </div>
+    <div class="rounded-xl border border-slate-200 bg-white p-5">
+      <dt class="font-semibold">Stablecoin</dt>
+      <dd class="mt-1 text-sm text-slate-700">A cryptocurrency designed to maintain a stable value, usually pegged to a fiat currency like the U.S. dollar. Used to reduce volatility in blockchain-based payment flows.</dd>
+    </div>
+    <div class="rounded-xl border border-slate-200 bg-white p-5">
+      <dt class="font-semibold">Central Bank Digital Currency (CBDC)</dt>
+      <dd class="mt-1 text-sm text-slate-700">A digital form of a country's sovereign currency issued and backed by its central bank. Unlike cryptocurrencies, CBDCs carry the full faith and credit of the issuing government.</dd>
+    </div>
+    <div class="rounded-xl border border-slate-200 bg-white p-5">
+      <dt class="font-semibold">Tokenization</dt>
+      <dd class="mt-1 text-sm text-slate-700">The process of representing a real-world asset (property, bond, permit) as a digital token on a blockchain, enabling programmable transfer and fractional ownership.</dd>
+    </div>
+  </dl>
+</section>
+
+<!-- Security & Compliance -->
+<section class="space-y-4">
+  <h2 class="text-xl font-semibold text-indigo-600">Security &amp; Compliance</h2>
+  <dl class="space-y-4">
+    <div class="rounded-xl border border-slate-200 bg-white p-5">
+      <dt class="font-semibold">Public Key / Private Key</dt>
+      <dd class="mt-1 text-sm text-slate-700">A cryptographic key pair used to sign and verify transactions. The private key must remain secret; the public key can be shared freely. Losing a private key means losing access to associated assets.</dd>
+      <dd class="mt-2 text-xs text-slate-500"><strong>Gov consideration:</strong> Key management must align with NIST SP 800-57 guidelines. Hardware security modules (HSMs) are typically required for production deployments.</dd>
+    </div>
+    <div class="rounded-xl border border-slate-200 bg-white p-5">
+      <dt class="font-semibold">Wallet</dt>
+      <dd class="mt-1 text-sm text-slate-700">Software or hardware that stores private keys and lets users sign transactions. Wallets do not store tokens themselves—tokens remain on the blockchain.</dd>
+    </div>
+    <div class="rounded-xl border border-slate-200 bg-white p-5">
+      <dt class="font-semibold">51% Attack</dt>
+      <dd class="mt-1 text-sm text-slate-700">A scenario where a single entity controls more than half of a network's validating power, enabling it to manipulate transaction history. More relevant to smaller public networks than large or permissioned ones.</dd>
+    </div>
+    <div class="rounded-xl border border-slate-200 bg-white p-5">
+      <dt class="font-semibold">FedRAMP / FISMA</dt>
+      <dd class="mt-1 text-sm text-slate-700">Federal frameworks for authorizing and monitoring the security of information systems. Any blockchain service handling federal data must meet applicable FedRAMP or FISMA requirements.</dd>
+    </div>
+    <div class="rounded-xl border border-slate-200 bg-white p-5">
+      <dt class="font-semibold">Authority to Operate (ATO)</dt>
+      <dd class="mt-1 text-sm text-slate-700">A formal authorization from an agency official that a system meets security requirements and can process federal data. Blockchain deployments require an ATO like any other federal system.</dd>
+    </div>
+  </dl>
+</section>
+
+<!-- Interoperability & Standards -->
+<section class="space-y-4">
+  <h2 class="text-xl font-semibold text-indigo-600">Interoperability &amp; Standards</h2>
+  <dl class="space-y-4">
+    <div class="rounded-xl border border-slate-200 bg-white p-5">
+      <dt class="font-semibold">Interoperability</dt>
+      <dd class="mt-1 text-sm text-slate-700">The ability of different blockchain networks or systems to exchange and use data across boundaries. Critical for cross-agency and cross-border scenarios.</dd>
+    </div>
+    <div class="rounded-xl border border-slate-200 bg-white p-5">
+      <dt class="font-semibold">Oracle</dt>
+      <dd class="mt-1 text-sm text-slate-700">A service that feeds external, real-world data (e.g., weather, market prices, identity checks) into a smart contract. Oracles are a trust boundary—the blockchain is only as reliable as its data sources.</dd>
+    </div>
+    <div class="rounded-xl border border-slate-200 bg-white p-5">
+      <dt class="font-semibold">On-Chain vs. Off-Chain</dt>
+      <dd class="mt-1 text-sm text-slate-700">On-chain data is stored directly on the blockchain; off-chain data is stored externally with only a hash or reference on-chain. Large or sensitive datasets are typically kept off-chain.</dd>
+      <dd class="mt-2 text-xs text-slate-500"><strong>Gov consideration:</strong> Storing PII on-chain is generally inadvisable due to immutability and FOIA/Privacy Act implications. Hash-on-chain, data-off-chain is a common federal pattern.</dd>
+    </div>
+    <div class="rounded-xl border border-slate-200 bg-white p-5">
+      <dt class="font-semibold">API / Gateway</dt>
+      <dd class="mt-1 text-sm text-slate-700">An interface that lets traditional applications interact with a blockchain without directly managing keys or consensus. Gateways simplify integration with existing agency systems.</dd>
+    </div>
+  </dl>
+</section>
+
+<!-- Governance -->
+<section class="space-y-4">
+  <h2 class="text-xl font-semibold text-indigo-600">Governance</h2>
+  <dl class="space-y-4">
+    <div class="rounded-xl border border-slate-200 bg-white p-5">
+      <dt class="font-semibold">Governance Framework</dt>
+      <dd class="mt-1 text-sm text-slate-700">The rules, roles, and decision-making processes that control how a blockchain network operates, upgrades, and resolves disputes. Technology alone does not replace the need for governance.</dd>
+    </div>
+    <div class="rounded-xl border border-slate-200 bg-white p-5">
+      <dt class="font-semibold">Decentralized Autonomous Organization (DAO)</dt>
+      <dd class="mt-1 text-sm text-slate-700">An organization whose rules and treasury are managed through smart contracts, with decisions made by token-holder votes rather than traditional management structures.</dd>
+      <dd class="mt-2 text-xs text-slate-500"><strong>Gov consideration:</strong> DAOs raise open questions about legal standing, accountability, and compliance with the Federal Advisory Committee Act (FACA) when advising agencies.</dd>
+    </div>
+    <div class="rounded-xl border border-slate-200 bg-white p-5">
+      <dt class="font-semibold">Fork</dt>
+      <dd class="mt-1 text-sm text-slate-700">A divergence in a blockchain's protocol or transaction history. A "hard fork" creates two incompatible chains; a "soft fork" is backward-compatible. Forks can result from governance disagreements or planned upgrades.</dd>
+    </div>
+  </dl>
+</section>
