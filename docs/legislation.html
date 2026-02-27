@@ -1,0 +1,109 @@
+---
+layout: default
+title: Legislation Watchlist
+nav_id: legislation
+---
+
+<h1 class="text-3xl font-semibold">Legislation Watchlist</h1>
+<p class="text-slate-600 max-w-3xl">Blockchain-related legislation and regulatory actions at the international, U.S. federal, and state levels. Tracked by the working group for awareness—inclusion is not an endorsement.</p>
+
+<div class="mt-4 flex flex-wrap gap-2 text-xs">
+  <span class="rounded-full bg-emerald-100 text-emerald-800 px-2.5 py-0.5 font-medium">Enacted</span>
+  <span class="rounded-full bg-amber-100 text-amber-800 px-2.5 py-0.5 font-medium">Passed</span>
+  <span class="rounded-full bg-sky-100 text-sky-800 px-2.5 py-0.5 font-medium">Pending</span>
+  <span class="rounded-full bg-slate-100 text-slate-600 px-2.5 py-0.5 font-medium">Introduced</span>
+</div>
+
+{% assign international = site.data.legislation | where: "level", "international" %}
+{% assign us_federal = site.data.legislation | where: "level", "us_federal" %}
+{% assign us_state = site.data.legislation | where: "level", "us_state" %}
+
+<!-- International -->
+<section class="space-y-4 mt-10">
+  <h2 class="text-xl font-semibold text-indigo-600">International</h2>
+  <div class="space-y-3">
+    {% for item in international %}
+    <a
+      href="{{ item.url }}"
+      target="_blank"
+      rel="noopener"
+      class="block rounded-xl border border-slate-200 bg-white p-5 hover:border-indigo-400"
+    >
+      <div class="flex flex-wrap items-center gap-2">
+        <span class="text-lg font-semibold">{{ item.title }}</span>
+        {% if item.status == "enacted" %}
+          <span class="rounded-full bg-emerald-100 text-emerald-800 px-2.5 py-0.5 text-xs font-medium">Enacted</span>
+        {% elsif item.status == "passed" %}
+          <span class="rounded-full bg-amber-100 text-amber-800 px-2.5 py-0.5 text-xs font-medium">Passed</span>
+        {% elsif item.status == "pending" %}
+          <span class="rounded-full bg-sky-100 text-sky-800 px-2.5 py-0.5 text-xs font-medium">Pending</span>
+        {% elsif item.status == "introduced" %}
+          <span class="rounded-full bg-slate-100 text-slate-600 px-2.5 py-0.5 text-xs font-medium">Introduced</span>
+        {% endif %}
+      </div>
+      <div class="mt-1 text-xs text-slate-500">{{ item.jurisdiction }} · {{ item.year }}</div>
+      <p class="mt-2 text-sm text-slate-700">{{ item.summary }}</p>
+    </a>
+    {% endfor %}
+  </div>
+</section>
+
+<!-- U.S. Federal -->
+<section class="space-y-4 mt-10">
+  <h2 class="text-xl font-semibold text-indigo-600">U.S. Federal</h2>
+  <div class="space-y-3">
+    {% for item in us_federal %}
+    <a
+      href="{{ item.url }}"
+      target="_blank"
+      rel="noopener"
+      class="block rounded-xl border border-slate-200 bg-white p-5 hover:border-indigo-400"
+    >
+      <div class="flex flex-wrap items-center gap-2">
+        <span class="text-lg font-semibold">{{ item.title }}</span>
+        {% if item.status == "enacted" %}
+          <span class="rounded-full bg-emerald-100 text-emerald-800 px-2.5 py-0.5 text-xs font-medium">Enacted</span>
+        {% elsif item.status == "passed" %}
+          <span class="rounded-full bg-amber-100 text-amber-800 px-2.5 py-0.5 text-xs font-medium">Passed</span>
+        {% elsif item.status == "pending" %}
+          <span class="rounded-full bg-sky-100 text-sky-800 px-2.5 py-0.5 text-xs font-medium">Pending</span>
+        {% elsif item.status == "introduced" %}
+          <span class="rounded-full bg-slate-100 text-slate-600 px-2.5 py-0.5 text-xs font-medium">Introduced</span>
+        {% endif %}
+      </div>
+      <div class="mt-1 text-xs text-slate-500">{{ item.jurisdiction }} · {{ item.year }}</div>
+      <p class="mt-2 text-sm text-slate-700">{{ item.summary }}</p>
+    </a>
+    {% endfor %}
+  </div>
+</section>
+
+<!-- U.S. State -->
+<section class="space-y-4 mt-10">
+  <h2 class="text-xl font-semibold text-indigo-600">U.S. State</h2>
+  <div class="space-y-3">
+    {% for item in us_state %}
+    <a
+      href="{{ item.url }}"
+      target="_blank"
+      rel="noopener"
+      class="block rounded-xl border border-slate-200 bg-white p-5 hover:border-indigo-400"
+    >
+      <div class="flex flex-wrap items-center gap-2">
+        <span class="text-lg font-semibold">{{ item.title }}</span>
+        {% if item.status == "enacted" %}
+          <span class="rounded-full bg-emerald-100 text-emerald-800 px-2.5 py-0.5 text-xs font-medium">Enacted</span>
+        {% elsif item.status == "passed" %}
+          <span class="rounded-full bg-amber-100 text-amber-800 px-2.5 py-0.5 text-xs font-medium">Passed</span>
+        {% elsif item.status == "pending" %}
+          <span class="rounded-full bg-sky-100 text-sky-800 px-2.5 py-0.5 text-xs font-medium">Pending</span>
+        {% elsif item.status == "introduced" %}
+          <span class="rounded-full bg-slate-100 text-slate-600 px-2.5 py-0.5 text-xs font-medium">Introduced</span>
+        {% endif %}
+      </div>
+      <div class="mt-1 text-xs text-slate-500">{{ item.jurisdiction }} · {{ item.year }}</div>
+      <p class="mt-2 text-sm text-slate-700">{{ item.summary }}</p>
+    </a>
+    {% endfor %}
+  </div>
+</section>

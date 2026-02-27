@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+  <title>{{ page.title }} · ACT-IAC Blockchain WG</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="min-h-screen bg-gradient-to-b from-white via-slate-50 to-white text-slate-900">
+  <header class="border-b border-slate-200 bg-white/90 backdrop-blur">
+    <div class="mx-auto max-w-6xl px-4 py-4 flex items-center justify-between">
+      <a
+        href="./"
+        class="font-semibold tracking-tight text-lg"
+      >ACT-IAC Blockchain Working Group</a>
+      {% include nav.html %}
+    </div>
+  </header>
+
+  <main class="mx-auto max-w-6xl px-4 pb-16 pt-10 {{ page.main_class | default: 'space-y-8' }}">
+    {{ content }}
+  </main>
+
+  <footer class="border-t border-slate-200 bg-white">
+    <div class="mx-auto max-w-6xl px-4 py-6 text-sm text-slate-600">
+      Weekly meeting link: <a
+        class="text-indigo-600 hover:text-indigo-500"
+        href="https://meet.google.com/iyg-zqve-wne"
+      >https://meet.google.com/iyg-zqve-wne</a>
+    </div>
+  </footer>
+</body>
+</html>

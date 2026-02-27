@@ -1,0 +1,191 @@
+[
+  {
+    "level": "international",
+    "title": "Markets in Crypto-Assets Regulation (MiCA)",
+    "jurisdiction": "European Union",
+    "status": "enacted",
+    "summary": "Comprehensive regulatory framework for crypto-assets covering issuers, e-money tokens, and service providers. Fully applicable since December 30, 2024.",
+    "url": "https://www.esma.europa.eu/esmas-activities/digital-finance-and-innovation/markets-crypto-assets-regulation-mica",
+    "year": 2023
+  },
+  {
+    "level": "international",
+    "title": "DAC8 — Directive on Administrative Cooperation, 8th Amendment",
+    "jurisdiction": "European Union",
+    "status": "enacted",
+    "summary": "Requires EU member states to mandate crypto-asset service providers to collect and automatically exchange user tax information across borders. First reporting year is 2026.",
+    "url": "https://taxation-customs.ec.europa.eu/taxation/tax-transparency-cooperation/administrative-co-operation-and-mutual-assistance/directive-administrative-cooperation-dac/dac8_en",
+    "year": 2023
+  },
+  {
+    "level": "international",
+    "title": "OECD Crypto-Asset Reporting Framework (CARF)",
+    "jurisdiction": "OECD (67+ jurisdictions)",
+    "status": "pending",
+    "summary": "International standard for automatic exchange of tax-relevant information on crypto-asset transactions between participating tax authorities. First exchanges targeted for 2027.",
+    "url": "https://www.oecd.org/en/topics/crypto-asset-reporting-framework.html",
+    "year": 2022
+  },
+  {
+    "level": "international",
+    "title": "FATF Recommendation 15 — Travel Rule for Virtual Assets",
+    "jurisdiction": "FATF (200+ jurisdictions)",
+    "status": "enacted",
+    "summary": "Requires virtual asset service providers to collect and transmit originator and beneficiary information for crypto transfers, mirroring the wire transfer Travel Rule.",
+    "url": "https://www.fatf-gafi.org/en/topics/virtual-assets.html",
+    "year": 2019
+  },
+  {
+    "level": "international",
+    "title": "Financial Services and Markets Act 2023 — Cryptoasset Provisions",
+    "jurisdiction": "United Kingdom",
+    "status": "enacted",
+    "summary": "Brings cryptoassets and stablecoins within the UK's regulated activities framework, giving HM Treasury and the FCA authority to create licensing and market abuse rules for crypto.",
+    "url": "https://www.gov.uk/government/publications/regulatory-regime-for-cryptoassets-regulated-activities-draft-si-and-policy-note",
+    "year": 2023
+  },
+  {
+    "level": "international",
+    "title": "Spain MiCA and DAC8 Implementation — Full Crypto Compliance by 2026",
+    "jurisdiction": "Spain",
+    "status": "pending",
+    "summary": "Spain targets mid-2026 for complete domestic implementation of MiCA and DAC8. From July 1, 2026, only firms holding full MiCA authorization may operate. CNMV Circular 2/2025 defines reporting obligations for crypto-asset service providers.",
+    "url": "https://www.globallegalinsights.com/practice-areas/blockchain-cryptocurrency-laws-and-regulations/spain/",
+    "year": 2025
+  },
+  {
+    "level": "us_federal",
+    "title": "GENIUS Act — Guiding and Establishing National Innovation for U.S. Stablecoins Act (S.394)",
+    "jurisdiction": "United States",
+    "status": "enacted",
+    "summary": "First major federal cryptocurrency legislation. Establishes a regulatory framework for payment stablecoins requiring 1:1 reserve backing, AML compliance, and a dual federal/state licensing regime. Signed July 18, 2025.",
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/394/text",
+    "year": 2025
+  },
+  {
+    "level": "us_federal",
+    "title": "Executive Order 14178 — Strengthening American Leadership in Digital Financial Technology",
+    "jurisdiction": "United States",
+    "status": "enacted",
+    "summary": "Revoked the prior administration's crypto EO, banned development of a U.S. CBDC, and directed an interagency working group to produce a federal regulatory framework for digital assets. Signed January 23, 2025.",
+    "url": "https://www.whitehouse.gov/presidential-actions/2025/01/strengthening-american-leadership-in-digital-financial-technology/",
+    "year": 2025
+  },
+  {
+    "level": "us_federal",
+    "title": "Digital Asset Market Clarity Act of 2025 — CLARITY Act (H.R. 3633)",
+    "jurisdiction": "United States",
+    "status": "passed",
+    "summary": "Comprehensive digital asset market structure legislation allocating regulatory jurisdiction between the SEC and CFTC. Exempts mature blockchain networks' tokens from SEC registration. Passed the House; pending in the Senate.",
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/3633/all-info",
+    "year": 2025
+  },
+  {
+    "level": "us_federal",
+    "title": "BITCOIN Act of 2025 (S.954)",
+    "jurisdiction": "United States",
+    "status": "introduced",
+    "summary": "Would establish a Strategic Bitcoin Reserve within the U.S. Treasury, requiring Bitcoin held for a minimum of 20 years with quarterly cryptographic proof-of-reserve attestations. Referred to Senate Banking Committee.",
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/954",
+    "year": 2025
+  },
+  {
+    "level": "us_federal",
+    "title": "Deploying American Blockchains Act of 2023 (H.R. 6572)",
+    "jurisdiction": "United States",
+    "status": "passed",
+    "summary": "Directs OMB to develop a strategy for federal agencies to use blockchain and DLT to improve government operations, transparency, and data management. Passed the House; pending in the Senate.",
+    "url": "https://www.congress.gov/bill/118th-congress/house-bill/6572/text",
+    "year": 2023
+  },
+  {
+    "level": "us_federal",
+    "title": "SEC Approval of Spot Bitcoin and Ether Exchange-Traded Products",
+    "jurisdiction": "United States",
+    "status": "enacted",
+    "summary": "SEC approved rule changes allowing spot Bitcoin ETPs to list on national securities exchanges (January 2024), followed by spot Ether ETPs (May 2024).",
+    "url": "https://www.congress.gov/crs-product/IF12573",
+    "year": 2024
+  },
+  {
+    "level": "us_federal",
+    "title": "SEC Generic Listing Standards for Commodity-Based Trust Shares",
+    "jurisdiction": "United States",
+    "status": "enacted",
+    "summary": "Allows national securities exchanges to list spot digital asset and commodity ETPs under generic listing standards without individual rule filings. Approved September 17, 2025.",
+    "url": "https://www.sec.gov/newsroom/press-releases/2025-121-sec-approves-generic-listing-standards-commodity-based-trust-shares",
+    "year": 2025
+  },
+  {
+    "level": "us_state",
+    "title": "Texas SB 21 — Strategic Bitcoin Reserve",
+    "jurisdiction": "Texas",
+    "status": "enacted",
+    "summary": "Creates a Texas Strategic Bitcoin Reserve administered by the state Comptroller, allowing investment in digital assets with market cap exceeding $500 billion. Effective September 1, 2025.",
+    "url": "https://www.senate.texas.gov/news.php?id=20250218a",
+    "year": 2025
+  },
+  {
+    "level": "us_state",
+    "title": "New Hampshire HB 302 — Strategic Bitcoin Reserve",
+    "jurisdiction": "New Hampshire",
+    "status": "enacted",
+    "summary": "First U.S. state Bitcoin reserve law. Authorizes the state treasurer to invest up to 5% of public funds in digital assets with a market cap over $500 billion. Signed May 6, 2025.",
+    "url": "https://legiscan.com/NH/bill/HB302/2025",
+    "year": 2025
+  },
+  {
+    "level": "us_state",
+    "title": "Arizona HB 2749 — Bitcoin and Digital Assets Reserve Fund",
+    "jurisdiction": "Arizona",
+    "status": "enacted",
+    "summary": "Allows unclaimed crypto assets to be retained in native form rather than liquidated and establishes a Bitcoin and Digital Assets Reserve Fund for unclaimed digital property.",
+    "url": "https://www.azleg.gov/legtext/57leg/1R/summary/H.HB2749_052725_SIGNED.DOCX.htm",
+    "year": 2025
+  },
+  {
+    "level": "us_state",
+    "title": "Wyoming Stable Token Act (SF 0127)",
+    "jurisdiction": "Wyoming",
+    "status": "enacted",
+    "summary": "Authorized Wyoming to issue a state-backed stablecoin redeemable 1:1 for U.S. dollars with reserves in Treasury bills. Wyoming launched the FRNT token on Solana in August 2025—the first state-issued stablecoin.",
+    "url": "https://wyoleg.gov/Legislation/2023/SF0127",
+    "year": 2023
+  },
+  {
+    "level": "us_state",
+    "title": "Wyoming Decentralized Unincorporated Nonprofit Association Act (DUNA)",
+    "jurisdiction": "Wyoming",
+    "status": "enacted",
+    "summary": "Provides a formal legal structure for DAOs to operate as unincorporated nonprofit associations, addressing liability, governance, and membership for on-chain organizations. Effective July 1, 2024.",
+    "url": "https://wyoleg.gov/Legislation/2024/SF0050",
+    "year": 2024
+  },
+  {
+    "level": "us_state",
+    "title": "Wyoming SF 0076 — Cryptocurrency Bankruptcy Protection",
+    "jurisdiction": "Wyoming",
+    "status": "enacted",
+    "summary": "First-in-the-nation law protecting crypto and fiat customers who deposit with Wyoming trust companies or special purpose depository institutions in the event of bankruptcy. Effective July 1, 2024.",
+    "url": "https://wyoleg.gov/Legislation/2023/SF0076",
+    "year": 2024
+  },
+  {
+    "level": "us_state",
+    "title": "Florida HB 1039 — Bitcoin Reserve",
+    "jurisdiction": "Florida",
+    "status": "introduced",
+    "summary": "Would allow investment of public funds in Bitcoin with independent audits and an advisory committee. Filed for the 2026 legislative session.",
+    "url": "https://www.flsenate.gov",
+    "year": 2026
+  },
+  {
+    "level": "us_state",
+    "title": "Colorado SB 24-180 — Repeal of the Digital Token Act",
+    "jurisdiction": "Colorado",
+    "status": "enacted",
+    "summary": "Repealed Colorado's 2019 Digital Token Act, which had exempted certain utility tokens from securities law. Digital token transactions are now subject to standard Colorado securities review. Effective August 7, 2024.",
+    "url": "https://leg.colorado.gov/bills/sb24-180",
+    "year": 2024
+  }
+]
