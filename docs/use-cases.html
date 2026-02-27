@@ -5,4 +5,34 @@ nav_id: use-cases
 ---
 
 <h1 class="text-3xl font-semibold">Use Cases &amp; Case Studies</h1>
-<p class="text-slate-600">Problems, constraints, and success criteria for blockchain applications in government—plus real-world pilots, lessons learned, and artifacts shared by working group members.</p>
+<p class="text-slate-600 max-w-3xl">Real-world blockchain pilots, proof-of-concepts, and production deployments across federal, state, and local government.</p>
+
+<div class="mt-4 flex flex-wrap gap-2 text-xs">
+  <span class="rounded-full bg-emerald-100 text-emerald-800 px-2.5 py-0.5 font-medium">Production</span>
+  <span class="rounded-full bg-sky-100 text-sky-800 px-2.5 py-0.5 font-medium">Completed</span>
+  <span class="rounded-full bg-slate-100 text-slate-600 px-2.5 py-0.5 font-medium">Proposed</span>
+</div>
+
+<div class="space-y-3 mt-8">
+  {% for item in site.data.use_cases %}
+  <a
+    href="{{ item.url }}"
+    target="_blank"
+    rel="noopener"
+    class="block rounded-xl border border-slate-200 bg-white p-5 hover:border-indigo-400"
+  >
+    <div class="flex flex-wrap items-center gap-2">
+      <span class="text-lg font-semibold">{{ item.project }}</span>
+      {% if item.status == "production" %}
+        <span class="rounded-full bg-emerald-100 text-emerald-800 px-2.5 py-0.5 text-xs font-medium">Production</span>
+      {% elsif item.status == "completed" %}
+        <span class="rounded-full bg-sky-100 text-sky-800 px-2.5 py-0.5 text-xs font-medium">Completed</span>
+      {% elsif item.status == "proposed" %}
+        <span class="rounded-full bg-slate-100 text-slate-600 px-2.5 py-0.5 text-xs font-medium">Proposed</span>
+      {% endif %}
+    </div>
+    <div class="mt-1 text-xs text-slate-500">{{ item.agency }} · {{ item.year }} · {{ item.technology }}</div>
+    <p class="mt-2 text-sm text-slate-700">{{ item.summary }}</p>
+  </a>
+  {% endfor %}
+</div>

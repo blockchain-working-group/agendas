@@ -1,0 +1,119 @@
+[
+  {
+    "agency": "DHS / CBP",
+    "project": "NAFTA/CAFTA Certificate of Origin Verification",
+    "summary": "Tested blockchain to verify certificates of origin for goods imported under NAFTA and CAFTA trade agreements, replacing paper-based processes and reducing redundant data submission across supply chain parties.",
+    "status": "completed",
+    "year": 2019,
+    "technology": "DLT / W3C Standards",
+    "url": "https://www.cbp.gov/sites/default/files/assets/documents/2019-Oct/Final-NAFTA-CAFTA-Report.pdf"
+  },
+  {
+    "agency": "DHS / CBP",
+    "project": "Intellectual Property Rights (IPR) Blockchain POC",
+    "summary": "Enabled secure, interoperable data exchange between CBP, manufacturers, retailers, and rights holders to detect counterfeit goods on imports using W3C Verifiable Credentials and DIDs.",
+    "status": "completed",
+    "year": 2020,
+    "technology": "W3C VC / DID",
+    "url": "https://www.cbp.gov/newsroom/national-media-release/cbp-leverages-blockchain-innovation-protect-american-business"
+  },
+  {
+    "agency": "DHS S&T (SVIP)",
+    "project": "Supply Chain Traceability — Steel, E-Commerce, Food, Oil & Gas",
+    "summary": "Funded Transmute, mesur.io, and Neoflow/Mavennet to build interoperable verifiable credential systems for cross-border supply chain data exchange with CBP. Successfully completed real-time data exchange testing in October 2023.",
+    "status": "production",
+    "year": 2023,
+    "technology": "W3C VC / DID (Transmute)",
+    "url": "https://www.dhs.gov/science-and-technology/news/2023/10/18/dhs-supply-chain-traceability-startups-successfully-complete-data-exchange-testing"
+  },
+  {
+    "agency": "GSA",
+    "project": "FASt Lane — IT Schedule 70 Blockchain Procurement",
+    "summary": "Applied blockchain to the Multiple Award Schedules proposal review process, creating a transparent audit trail and automating financial reviews. Reduced contract award timelines from approximately 100 days to under 10 days.",
+    "status": "completed",
+    "year": 2018,
+    "technology": "Permissioned DLT",
+    "url": "https://www.gsa.gov/technology/it-contract-vehicles-and-purchasing-programs/multiple-award-schedule-it/fast-lane-making-it-easier"
+  },
+  {
+    "agency": "Treasury / Bureau of the Fiscal Service",
+    "project": "Federal Grant Payment Blockchain Prototype",
+    "summary": "Tested whether blockchain could reduce financial reporting and compliance burden on federal grant recipients by providing near real-time visibility into grant fund transfers across agency boundaries (Treasury, NSF, GAO). Final JFMIP report published December 2023.",
+    "status": "completed",
+    "year": 2023,
+    "technology": "Permissioned Blockchain",
+    "url": "https://www.cfo.gov/jfmip/blockchain-initiative/"
+  },
+  {
+    "agency": "IRS / Criminal Investigation",
+    "project": "Blockchain Analytics for Cryptocurrency Tax Enforcement",
+    "summary": "IRS-CI uses Chainalysis blockchain analytics tools to trace crypto transactions, identify tax evasion, and seize illicitly held digital assets. IRS-CI has seized an estimated $10 billion in cryptocurrency.",
+    "status": "production",
+    "year": 2015,
+    "technology": "Chainalysis Reactor / KYT",
+    "url": "https://www.chainalysis.com/customer-stories/irs-ci/"
+  },
+  {
+    "agency": "U.S. Air Force / DoD",
+    "project": "SIMBA Chain — Supply Chain & Budget Tokenization (STRATFI)",
+    "summary": "Blockchain-based applications for USAF supply chain management, parts tracking, and budget tokenization. $30M STRATFI award scaling across Navy, Army, and Defense Logistics Agency.",
+    "status": "production",
+    "year": 2023,
+    "technology": "SIMBA Chain (Ethereum-compatible)",
+    "url": "https://simbachain.com/news/simba-chain-awarded-30m-u-s-air-force-stratfi/"
+  },
+  {
+    "agency": "U.S. Army Reserve",
+    "project": "Operation Mission Truth — Military Logistics",
+    "summary": "First live use of blockchain in a U.S. Army operational environment. Tracked 600 tons of equipment for supply chain auditability during Army Materiel Command operations.",
+    "status": "completed",
+    "year": 2024,
+    "technology": "Not disclosed",
+    "url": "https://www.dvidshub.net/news/492690/75th-usaric-soldier-develops-blockchain-solution-revolutionize-military-supply-chain"
+  },
+  {
+    "agency": "FDA",
+    "project": "DSCSA Drug Supply Chain Blockchain Pilot",
+    "summary": "Tested blockchain-based interoperability for tracking and tracing prescription drugs through the pharmaceutical supply chain under the Drug Supply Chain Security Act, involving 22+ organizations.",
+    "status": "completed",
+    "year": 2020,
+    "technology": "TraceLink / MediLedger (Hyperledger, Ethereum)",
+    "url": "https://www.fda.gov/drugs/drug-supply-chain-security-act-dscsa/dscsa-pilot-project-program"
+  },
+  {
+    "agency": "USDA / FSIS",
+    "project": "IBM Blockchain POC for Food Export Certification",
+    "summary": "Evaluated whether DLT could add immutability, visibility, and efficiency to multi-country documentary requirements of the food export certification process.",
+    "status": "completed",
+    "year": 2020,
+    "technology": "IBM Blockchain (Hyperledger Fabric)",
+    "url": "https://www.coindesk.com/policy/2020/02/03/us-food-inspectors-to-test-ibm-blockchain-for-export-certifications/"
+  },
+  {
+    "agency": "HUD",
+    "project": "Grant Monitoring / Stablecoin Payments (Proposed)",
+    "summary": "Internal discussions in early 2025 about using blockchain to monitor federal housing grants and potentially paying grant recipients in stablecoins. Not implemented; officially denied by HUD spokesperson.",
+    "status": "proposed",
+    "year": 2025,
+    "technology": "TBD",
+    "url": "https://www.propublica.org/article/hud-considers-crypto-blockchain-stablecoin-housing-urban-development"
+  },
+  {
+    "agency": "VA (Proposed Legislation)",
+    "project": "Veterans Affairs Distributed Ledger Innovation Act (H.R. 3455)",
+    "summary": "Would require VA to study how blockchain could improve traceability, fraud resistance, and transparency in veterans benefits adjudication. No actual pilot launched yet.",
+    "status": "proposed",
+    "year": 2025,
+    "technology": "N/A (study phase)",
+    "url": "https://www.nextgov.com/emerging-tech/2024/07/new-bill-pushes-va-examine-how-blockchain-can-enhance-its-work/398477/"
+  },
+  {
+    "agency": "Utah County Clerk",
+    "project": "Blockchain-Based Marriage Licenses",
+    "summary": "Utah County began issuing digital marriage licenses as verifiable credentials on blockchain, making them instantly verifiable and tamper-evident. One of the first government-issued vital records on a distributed ledger in the U.S.",
+    "status": "production",
+    "year": 2022,
+    "technology": "Verifiable Credentials",
+    "url": "https://www.utah.gov/pmn/sitemap/publicbody/5765.html"
+  }
+]

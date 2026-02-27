@@ -2,3 +2,4 @@ theme: minima
 title: ACT-IAC Blockchain WG
 description: Agendas, case studies, and contribution surfaces
 markdown: kramdown
+permalink: pretty
