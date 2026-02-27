@@ -1,5 +1,5 @@
 <nav class="flex flex-wrap gap-3 text-sm text-slate-700">
-  {% assign nav_items = "agendas:Agendas,case-studies:Case Studies,use-cases:Use Cases,questions:Questions,speaker-requests:Speaker Requests,calendar:Event Calendar,participate:Participate,glossary:Glossary,sandbox:Sandbox" | split: "," %}
+  {% assign nav_items = "agendas:Agendas,use-cases:Use Cases,questions:Questions,speaker-requests:Speaker Requests,calendar:Event Calendar,participate:Participate,glossary:Glossary,legislation:Legislation,sandbox:Sandbox" | split: "," %}
   {% for item in nav_items %}
     {% assign parts = item | split: ":" %}
     {% assign slug = parts[0] %}
