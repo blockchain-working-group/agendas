@@ -14,6 +14,13 @@ nav_id: legislation
   <span class="rounded-full bg-slate-100 text-slate-600 px-2.5 py-0.5 font-medium">Introduced</span>
 </div>
 
+<div class="mt-4">
+  <a
+    href="{{ '/legislation/timeline/' | relative_url }}"
+    class="inline-flex items-center rounded-md border border-slate-300 px-4 py-2 text-sm font-semibold hover:border-indigo-400 hover:text-indigo-700"
+  >View Timeline</a>
+</div>
+
 {% assign international = site.data.legislation | where: "level", "international" %}
 {% assign us_federal = site.data.legislation | where: "level", "us_federal" %}
 {% assign us_state = site.data.legislation | where: "level", "us_state" %}

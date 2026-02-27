@@ -1,0 +1,222 @@
+---
+layout: default
+title: Legislation Timeline
+nav_id: legislation
+---
+
+<h1 class="text-3xl font-semibold">Legislation Timeline</h1>
+<p class="text-slate-600 max-w-3xl">Interactive timeline of blockchain-related legislation and regulatory actions. Scroll horizontally or drag to navigate. Click an event to open its source.</p>
+
+<div class="mt-4 flex flex-wrap gap-3">
+  <a
+    href="{{ '/legislation/' | relative_url }}"
+    class="inline-flex items-center rounded-md border border-slate-300 px-4 py-2 text-sm font-semibold hover:border-indigo-400 hover:text-indigo-700"
+  >Back to Watchlist</a>
+</div>
+
+<div class="mt-4 flex flex-wrap gap-2 text-xs">
+  <span class="inline-flex items-center gap-1"><span class="inline-block w-3 h-3 rounded-full bg-emerald-500"></span> Enacted</span>
+  <span class="inline-flex items-center gap-1"><span class="inline-block w-3 h-3 rounded-full bg-amber-500"></span> Passed</span>
+  <span class="inline-flex items-center gap-1"><span class="inline-block w-3 h-3 rounded-full bg-sky-500"></span> Pending</span>
+  <span class="inline-flex items-center gap-1"><span class="inline-block w-3 h-3 rounded-full bg-slate-400"></span> Introduced</span>
+</div>
+
+<div class="mt-4 flex flex-wrap gap-2 text-xs">
+  <button
+    class="tl-filter rounded-full border border-slate-300 px-3 py-1 font-medium hover:border-indigo-400 data-[active]:bg-indigo-600 data-[active]:text-white data-[active]:border-indigo-600"
+    data-level="all"
+    data-active
+  >All</button>
+  <button
+    class="tl-filter rounded-full border border-slate-300 px-3 py-1 font-medium hover:border-indigo-400 data-[active]:bg-indigo-600 data-[active]:text-white data-[active]:border-indigo-600"
+    data-level="international"
+  >International</button>
+  <button
+    class="tl-filter rounded-full border border-slate-300 px-3 py-1 font-medium hover:border-indigo-400 data-[active]:bg-indigo-600 data-[active]:text-white data-[active]:border-indigo-600"
+    data-level="us_federal"
+  >U.S. Federal</button>
+  <button
+    class="tl-filter rounded-full border border-slate-300 px-3 py-1 font-medium hover:border-indigo-400 data-[active]:bg-indigo-600 data-[active]:text-white data-[active]:border-indigo-600"
+    data-level="us_state"
+  >U.S. State</button>
+</div>
+
+<div
+  id="timeline"
+  class="mt-6 overflow-x-auto rounded-xl border border-slate-200 bg-white cursor-grab active:cursor-grabbing"
+>
+  <div id="timeline-inner" class="relative" style="height: 520px; min-width: 100%;"></div>
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  var events = [
+    {% for item in site.data.legislation %}
+    {
+      year: {{ item.year }},
+      level: "{{ item.level }}",
+      title: {{ item.title | jsonify }},
+      summary: {{ item.summary | jsonify }},
+      status: "{{ item.status }}",
+      jurisdiction: "{{ item.jurisdiction }}",
+      url: "{{ item.url }}"
+    }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ];
+
+  var statusColors = {
+    enacted:    { bg: "#d1fae5", border: "#059669", dot: "#059669" },
+    passed:     { bg: "#fef3c7", border: "#d97706", dot: "#d97706" },
+    pending:    { bg: "#e0f2fe", border: "#0284c7", dot: "#0284c7" },
+    introduced: { bg: "#f1f5f9", border: "#94a3b8", dot: "#94a3b8" }
+  };
+
+  var container = document.getElementById("timeline-inner");
+  var wrapper = document.getElementById("timeline");
+  var activeLevel = "all";
+
+  function render(filter) {
+    container.innerHTML = "";
+
+    var filtered = filter === "all"
+      ? events
+      : events.filter(function (e) { return e.level === filter; });
+
+    // Sort by year
+    filtered.sort(function (a, b) { return a.year - b.year; });
+
+    if (filtered.length === 0) {
+      container.innerHTML = '<p class="p-8 text-slate-500 text-sm">No items match this filter.</p>';
+      container.style.minWidth = "100%";
+      return;
+    }
+
+    var minYear = filtered[0].year;
+    var maxYear = filtered[filtered.length - 1].year;
+    var span = Math.max(maxYear - minYear, 1);
+    var pxPerYear = 180;
+    var padLeft = 60;
+    var padRight = 280;
+    var totalWidth = padLeft + span * pxPerYear + padRight;
+    container.style.minWidth = totalWidth + "px";
+
+    // Year axis
+    var axisY = 260;
+    var axisLine = document.createElement("div");
+    axisLine.className = "absolute bg-slate-300";
+    axisLine.style.cssText = "height:2px;top:" + axisY + "px;left:" + padLeft + "px;right:" + (padRight - 40) + "px;";
+    container.appendChild(axisLine);
+
+    for (var y = minYear; y <= maxYear; y++) {
+      var x = padLeft + (y - minYear) * pxPerYear;
+      var tick = document.createElement("div");
+      tick.className = "absolute text-xs text-slate-400 font-medium";
+      tick.style.cssText = "top:" + (axisY + 8) + "px;left:" + x + "px;transform:translateX(-50%);";
+      tick.textContent = y;
+      container.appendChild(tick);
+
+      var tickMark = document.createElement("div");
+      tickMark.className = "absolute bg-slate-300";
+      tickMark.style.cssText = "width:2px;height:10px;top:" + (axisY - 4) + "px;left:" + x + "px;transform:translateX(-50%);";
+      container.appendChild(tickMark);
+    }
+
+    // Place events — alternate above/below axis to reduce overlap
+    var lanes = {};
+    filtered.forEach(function (ev, i) {
+      var x = padLeft + (ev.year - minYear) * pxPerYear;
+      var colors = statusColors[ev.status] || statusColors.introduced;
+
+      // Stagger within same year
+      var yearKey = ev.year + "-" + ev.level;
+      if (!lanes[ev.year]) lanes[ev.year] = 0;
+      var laneIndex = lanes[ev.year];
+      lanes[ev.year]++;
+
+      var above = laneIndex % 2 === 0;
+      var tier = Math.floor(laneIndex / 2);
+      var cardH = 90;
+      var gap = 8;
+      var stemBase = 30;
+
+      var cardTop, stemTop, stemHeight;
+      if (above) {
+        cardTop = axisY - stemBase - cardH - tier * (cardH + gap);
+        stemTop = cardTop + cardH;
+        stemHeight = axisY - stemTop;
+      } else {
+        cardTop = axisY + stemBase + tier * (cardH + gap);
+        stemTop = axisY + 2;
+        stemHeight = cardTop - axisY - 2;
+      }
+
+      // Stem line
+      var stem = document.createElement("div");
+      stem.style.cssText = "position:absolute;width:2px;background:" + colors.border + ";left:" + x + "px;top:" + stemTop + "px;height:" + stemHeight + "px;transform:translateX(-50%);opacity:0.4;";
+      container.appendChild(stem);
+
+      // Dot on axis
+      var dot = document.createElement("div");
+      dot.style.cssText = "position:absolute;width:10px;height:10px;border-radius:50%;background:" + colors.dot + ";left:" + x + "px;top:" + (axisY - 4) + "px;transform:translateX(-50%);z-index:2;";
+      container.appendChild(dot);
+
+      // Card
+      var card = document.createElement("a");
+      card.href = ev.url;
+      card.target = "_blank";
+      card.rel = "noopener";
+      card.className = "absolute block rounded-lg border p-2.5 text-left no-underline hover:shadow-md transition-shadow";
+      card.style.cssText = "width:220px;left:" + (x - 10) + "px;top:" + cardTop + "px;background:" + colors.bg + ";border-color:" + colors.border + ";z-index:1;";
+      card.innerHTML =
+        '<div class="font-semibold text-xs leading-tight text-slate-900" style="display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;">' + escapeHtml(ev.title) + '</div>' +
+        '<div class="text-[10px] text-slate-500 mt-1">' + escapeHtml(ev.jurisdiction) + ' · ' + ev.year + '</div>' +
+        '<div class="text-[10px] text-slate-600 mt-1 leading-snug" style="display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;">' + escapeHtml(ev.summary) + '</div>';
+      container.appendChild(card);
+    });
+
+    // Ensure container is tall enough
+    var allCards = container.querySelectorAll("a");
+    var maxBottom = 520;
+    allCards.forEach(function (c) {
+      var b = parseInt(c.style.top) + 100;
+      if (b > maxBottom) maxBottom = b;
+    });
+    container.style.height = Math.max(maxBottom + 20, 520) + "px";
+  }
+
+  function escapeHtml(str) {
+    var div = document.createElement("div");
+    div.appendChild(document.createTextNode(str));
+    return div.innerHTML;
+  }
+
+  // Filter buttons
+  document.querySelectorAll(".tl-filter").forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      document.querySelectorAll(".tl-filter").forEach(function (b) { b.removeAttribute("data-active"); });
+      btn.setAttribute("data-active", "");
+      activeLevel = btn.getAttribute("data-level");
+      render(activeLevel);
+    });
+  });
+
+  // Drag to scroll
+  var isDown = false, startX, scrollLeft;
+  wrapper.addEventListener("mousedown", function (e) {
+    if (e.target.closest("a")) return;
+    isDown = true;
+    startX = e.pageX - wrapper.offsetLeft;
+    scrollLeft = wrapper.scrollLeft;
+  });
+  wrapper.addEventListener("mouseleave", function () { isDown = false; });
+  wrapper.addEventListener("mouseup", function () { isDown = false; });
+  wrapper.addEventListener("mousemove", function (e) {
+    if (!isDown) return;
+    e.preventDefault();
+    var x = e.pageX - wrapper.offsetLeft;
+    wrapper.scrollLeft = scrollLeft - (x - startX);
+  });
+
+  render("all");
+});
+</script>
