@@ -41,7 +41,11 @@ nav_id: legislation
   >U.S. State</button>
 </div>
 
-<div id="timeline" class="mt-8 relative ml-4 md:ml-0">
+<style>
+  #timeline { --line-x: 17px; --card-left: 48px; }
+  @media (min-width: 768px) { #timeline { --line-x: 17px; --card-left: 48px; } }
+</style>
+<div id="timeline" class="mt-8 relative">
   <!-- rendered by JS -->
 </div>
 
@@ -95,18 +99,22 @@ document.addEventListener("DOMContentLoaded", function () {
       yearMap[ev.year].push(ev);
     });
 
-    // Vertical line
+    // Vertical line: 2px wide, centered at var(--line-x)
     var line = document.createElement("div");
-    line.className = "absolute left-4 md:left-24 top-0 bottom-0 w-0.5 bg-slate-200";
+    line.className = "absolute top-0 bottom-0 bg-slate-200";
+    line.style.cssText = "left:var(--line-x);width:2px;";
     container.appendChild(line);
 
     years.forEach(function (year) {
-      // Year label
+      // Year row
       var yearEl = document.createElement("div");
-      yearEl.className = "relative pl-12 md:pl-36 pb-2 pt-6 first:pt-0";
+      yearEl.className = "relative pb-2 pt-8";
+      yearEl.style.cssText = "padding-left:var(--card-left);";
 
+      // Year dot: 16px, centered on line (shift left by half width minus half line)
       var yearDot = document.createElement("div");
-      yearDot.className = "absolute left-2.5 md:left-[5.25rem] w-4 h-4 rounded-full bg-indigo-600 border-2 border-white ring-2 ring-indigo-600 top-7 first:top-1";
+      yearDot.className = "absolute rounded-full bg-indigo-600 border-2 border-white ring-2 ring-indigo-600";
+      yearDot.style.cssText = "width:16px;height:16px;left:calc(var(--line-x) - 7px);top:2.15rem;z-index:2;";
       yearEl.appendChild(yearDot);
 
       var yearLabel = document.createElement("div");
@@ -121,16 +129,19 @@ document.addEventListener("DOMContentLoaded", function () {
         var colors = statusColors[ev.status] || statusColors.introduced;
 
         var row = document.createElement("div");
-        row.className = "relative pl-12 md:pl-36 pb-3";
+        row.className = "relative pb-3";
+        row.style.cssText = "padding-left:var(--card-left);";
 
-        // Small dot on the line
+        // Small dot: 10px, centered on line
         var dot = document.createElement("div");
-        dot.className = "absolute left-3 md:left-[5.5rem] w-2.5 h-2.5 rounded-full " + colors.dot + " top-3";
+        dot.className = "absolute rounded-full " + colors.dot;
+        dot.style.cssText = "width:10px;height:10px;left:calc(var(--line-x) - 4px);top:1.25rem;z-index:2;";
         row.appendChild(dot);
 
         // Connector from line to card
         var conn = document.createElement("div");
-        conn.className = "absolute left-[1.4rem] md:left-[6.1rem] w-5 md:w-6 h-0.5 bg-slate-200 top-[1.1rem]";
+        conn.className = "absolute bg-slate-200";
+        conn.style.cssText = "height:2px;left:calc(var(--line-x) + 2px);width:calc(var(--card-left) - var(--line-x) - 6px);top:calc(1.25rem + 4px);";
         row.appendChild(conn);
 
         // Card
