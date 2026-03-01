@@ -1,0 +1,380 @@
+---
+layout: default
+title: Adoption Framework
+nav_id: adoption
+---
+
+<h1 class="text-3xl font-semibold">Inter-Agency Adoption Framework</h1>
+<p class="text-slate-600 max-w-3xl">A repeatable playbook for standing up blockchain pilots between two federal agencies. Derived from JFMIP-24-01 operational considerations and reframed for speed, demonstrated value, and reuse.</p>
+
+<div class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm mt-8">
+  <h2 class="text-lg font-semibold text-slate-900">Design Principles</h2>
+  <ul class="mt-3 space-y-2 text-sm text-slate-700">
+    <li>1. <strong>Sequence over completeness.</strong> Distinguish what's needed before a pilot vs. before production vs. before the third agency joins.</li>
+    <li>2. <strong>Organizational agreements are the bottleneck.</strong> Two CISOs agreeing on shared risk is harder than deploying a node. Make agreements lightweight, modular, reusable.</li>
+    <li>3. <strong>Demonstrated value creates momentum.</strong> Front-load visible output. Every week without a working demo is a week leadership attention drifts.</li>
+    <li>4. <strong>Templates, not bespoke documents.</strong> Every artifact from the first pairing becomes a template for the next.</li>
+  </ul>
+</div>
+
+<!-- Phase 0 -->
+<section class="mt-12">
+  <div class="flex items-baseline gap-3">
+    <span class="inline-flex items-center justify-center rounded-full bg-slate-100 text-slate-700 font-semibold text-sm w-8 h-8">0</span>
+    <h2 class="text-xl font-semibold">Pre-Commitment</h2>
+    <span class="text-xs text-slate-500">1–2 weeks</span>
+  </div>
+  <p class="mt-2 text-sm text-slate-600 max-w-3xl">Two agencies agree to pilot. Not to build a production system. Not to commit budget. To run a time-boxed experiment and publish what they learn.</p>
+
+  <div class="mt-6 space-y-3">
+    <div class="rounded-xl border border-slate-200 bg-white p-5">
+      <div class="font-semibold">Identify champions</div>
+      <p class="mt-1 text-sm text-slate-700">Name a point of contact at each agency from the program office, not IT. These are the people who own the use case and can make decisions without committee approval.</p>
+    </div>
+    <div class="rounded-xl border border-slate-200 bg-white p-5">
+      <div class="font-semibold">Scope the use case</div>
+      <p class="mt-1 text-sm text-slate-700">Agree on a use case narrow enough to pilot in 30 days. Produce a one-page brief: what data moves, between whom, why it matters, and what success looks like.</p>
+    </div>
+    <div class="rounded-xl border border-slate-200 bg-white p-5">
+      <div class="font-semibold">Sandbox classification</div>
+      <p class="mt-1 text-sm text-slate-700">Both CISOs acknowledge in writing that the pilot operates on synthetic data, outside production boundaries, and does not require a full ATO. This is the single highest-leverage decision in the framework — it unblocks everything else.</p>
+    </div>
+    <div class="rounded-xl border border-slate-200 bg-white p-5">
+      <div class="font-semibold">Sign a lightweight ISA</div>
+      <p class="mt-1 text-sm text-slate-700">A 2–3 page information sharing agreement covering data types, permitted uses, duration, and points of contact. Adapted from the Fiscal Service / GAO ISA, stripped to essentials. Becomes a template for every subsequent pairing.</p>
+    </div>
+  </div>
+
+  <div class="mt-6 rounded-xl border-2 border-indigo-200 bg-indigo-50 p-5">
+    <h3 class="font-semibold text-indigo-900">Definition of Done — Phase 0</h3>
+    <ul class="mt-3 space-y-2 text-sm text-indigo-900">
+      <li class="flex gap-2">
+        <span class="text-indigo-400 shrink-0">&#9744;</span>
+        <span>Named champion at each agency with decision authority for the pilot</span>
+      </li>
+      <li class="flex gap-2">
+        <span class="text-indigo-400 shrink-0">&#9744;</span>
+        <span>One-page use case brief signed by both champions</span>
+      </li>
+      <li class="flex gap-2">
+        <span class="text-indigo-400 shrink-0">&#9744;</span>
+        <span>Sandbox classification memo signed by both CISOs confirming synthetic data, non-production, time-boxed scope, no full ATO required</span>
+      </li>
+      <li class="flex gap-2">
+        <span class="text-indigo-400 shrink-0">&#9744;</span>
+        <span>Lightweight ISA executed by both agencies</span>
+      </li>
+      <li class="flex gap-2">
+        <span class="text-indigo-400 shrink-0">&#9744;</span>
+        <span>All three documents committed to a shared repository</span>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- Phase 1 -->
+<section class="mt-12">
+  <div class="flex items-baseline gap-3">
+    <span class="inline-flex items-center justify-center rounded-full bg-slate-100 text-slate-700 font-semibold text-sm w-8 h-8">1</span>
+    <h2 class="text-xl font-semibold">First Transaction</h2>
+    <span class="text-xs text-slate-500">2–4 weeks</span>
+  </div>
+  <p class="mt-2 text-sm text-slate-600 max-w-3xl">Both agencies complete one full cycle of the use case on a shared ledger. Humans in the loop for every step. No automation.</p>
+
+  <div class="mt-6 overflow-x-auto">
+    <table class="w-full text-sm border-collapse">
+      <thead>
+        <tr class="border-b border-slate-200 text-left">
+          <th class="py-2 pr-4 font-semibold text-slate-700">JFMIP Category</th>
+          <th class="py-2 pr-4 font-semibold text-slate-700">What We Do Now</th>
+          <th class="py-2 font-semibold text-slate-700">What We Defer</th>
+        </tr>
+      </thead>
+      <tbody class="text-slate-600">
+        <tr class="border-b border-slate-100">
+          <td class="py-3 pr-4 font-medium text-slate-800">Business Processes</td>
+          <td class="py-3 pr-4">Map one use case flow. Define roles: who initiates, approves, verifies.</td>
+          <td class="py-3">Process automation, system integration</td>
+        </tr>
+        <tr class="border-b border-slate-100">
+          <td class="py-3 pr-4 font-medium text-slate-800">Data Standardization</td>
+          <td class="py-3 pr-4">Minimal schema for this use case only. Versioned JSON schema.</td>
+          <td class="py-3">Government-wide naming conventions, metadata standards</td>
+        </tr>
+        <tr class="border-b border-slate-100">
+          <td class="py-3 pr-4 font-medium text-slate-800">Testing</td>
+          <td class="py-3 pr-4">Manual walkthrough. Document every friction point.</td>
+          <td class="py-3">Load testing, automated suites</td>
+        </tr>
+        <tr class="border-b border-slate-100">
+          <td class="py-3 pr-4 font-medium text-slate-800">User Experience</td>
+          <td class="py-3 pr-4">Both participants use the same tool. Collect qualitative feedback.</td>
+          <td class="py-3">Polished UI, training materials</td>
+        </tr>
+        <tr class="border-b border-slate-100">
+          <td class="py-3 pr-4 font-medium text-slate-800">Security</td>
+          <td class="py-3 pr-4">Keypair per participant. Application-layer encryption. No classified data.</td>
+          <td class="py-3">HSM, key rotation, MFA</td>
+        </tr>
+        <tr class="border-b border-slate-100">
+          <td class="py-3 pr-4 font-medium text-slate-800">Infrastructure</td>
+          <td class="py-3 pr-4">Public chain + SPV verification. No agency-hosted nodes.</td>
+          <td class="py-3">Redundancy, disaster recovery</td>
+        </tr>
+        <tr class="border-b border-slate-100">
+          <td class="py-3 pr-4 font-medium text-slate-800">Interoperability</td>
+          <td class="py-3 pr-4">Self-contained pilot. Document which systems would need interfaces.</td>
+          <td class="py-3">API connections to production systems</td>
+        </tr>
+        <tr>
+          <td class="py-3 pr-4 font-medium text-slate-800">Best Practices</td>
+          <td class="py-3 pr-4">Categorize as low-impact (synthetic data, no real money, time-boxed).</td>
+          <td class="py-3">Full NIST RMF, continuous monitoring</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="mt-6 rounded-xl border-2 border-indigo-200 bg-indigo-50 p-5">
+    <h3 class="font-semibold text-indigo-900">Definition of Done — Phase 1</h3>
+    <ul class="mt-3 space-y-2 text-sm text-indigo-900">
+      <li class="flex gap-2">
+        <span class="text-indigo-400 shrink-0">&#9744;</span>
+        <span>At least one complete use case cycle recorded on-chain (e.g., award &rarr; accept &rarr; drawdown &rarr; disburse &rarr; report)</span>
+      </li>
+      <li class="flex gap-2">
+        <span class="text-indigo-400 shrink-0">&#9744;</span>
+        <span>Both agencies independently verified the transaction chain via SPV / Merkle proofs</span>
+      </li>
+      <li class="flex gap-2">
+        <span class="text-indigo-400 shrink-0">&#9744;</span>
+        <span>Neither participant can unilaterally alter the record of any completed step</span>
+      </li>
+      <li class="flex gap-2">
+        <span class="text-indigo-400 shrink-0">&#9744;</span>
+        <span>Versioned JSON data schema published in the shared repository</span>
+      </li>
+      <li class="flex gap-2">
+        <span class="text-indigo-400 shrink-0">&#9744;</span>
+        <span>Friction log completed: every organizational, technical, and procedural obstacle documented in sequence</span>
+      </li>
+      <li class="flex gap-2">
+        <span class="text-indigo-400 shrink-0">&#9744;</span>
+        <span>Cost ledger completed: transaction fees, development hours, meeting hours, agreement negotiation hours</span>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- Phase 2 -->
+<section class="mt-12">
+  <div class="flex items-baseline gap-3">
+    <span class="inline-flex items-center justify-center rounded-full bg-slate-100 text-slate-700 font-semibold text-sm w-8 h-8">2</span>
+    <h2 class="text-xl font-semibold">Governance &amp; Audit</h2>
+    <span class="text-xs text-slate-500">2–4 weeks, overlapping Phase 1</span>
+  </div>
+  <p class="mt-2 text-sm text-slate-600 max-w-3xl">Establish the lightest viable governance structure and demonstrate auditor access. The JFMIP recommended a layered/mixed model with committees and an executive board — that's the right model at scale. For two agencies, it's overkill.</p>
+
+  <div class="mt-6 grid gap-4 md:grid-cols-2">
+    <div class="rounded-xl border border-slate-200 bg-white p-5">
+      <h3 class="font-semibold text-slate-900">Two-Agency Governance</h3>
+      <ul class="mt-3 space-y-2 text-sm text-slate-700">
+        <li><strong>Decisions:</strong> Mutual consent, 48-hour default-to-yes</li>
+        <li><strong>Disputes:</strong> Escalate to each agency's champion</li>
+        <li><strong>Schema changes:</strong> Pull request to shared repo, both parties review</li>
+        <li><strong>Funding:</strong> Each agency covers own costs (sub-$100 in fees; staff time is the real cost)</li>
+      </ul>
+    </div>
+    <div class="rounded-xl border border-slate-200 bg-white p-5">
+      <h3 class="font-semibold text-slate-900">Auditor Access</h3>
+      <ul class="mt-3 space-y-2 text-sm text-slate-700">
+        <li>Stand up a read-only verification view that reconstructs the full transaction chain for any award ID</li>
+        <li>Invite a third participant (auditor or IG rep) to use it against Phase 1 data</li>
+        <li>Document what the auditor can verify, what they can't, and what additional evidence they'd need</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="mt-6 rounded-xl border-2 border-indigo-200 bg-indigo-50 p-5">
+    <h3 class="font-semibold text-indigo-900">Definition of Done — Phase 2</h3>
+    <ul class="mt-3 space-y-2 text-sm text-indigo-900">
+      <li class="flex gap-2">
+        <span class="text-indigo-400 shrink-0">&#9744;</span>
+        <span>Two-page governance agreement executed: decision authority, dispute resolution, schema change process, cost allocation</span>
+      </li>
+      <li class="flex gap-2">
+        <span class="text-indigo-400 shrink-0">&#9744;</span>
+        <span>Read-only auditor view functional — takes an award ID, returns the full verified transaction chain</span>
+      </li>
+      <li class="flex gap-2">
+        <span class="text-indigo-400 shrink-0">&#9744;</span>
+        <span>At least one person outside the two pilot agencies has used the auditor view and provided feedback</span>
+      </li>
+      <li class="flex gap-2">
+        <span class="text-indigo-400 shrink-0">&#9744;</span>
+        <span>Auditor access guide published: what SPV proves, what it doesn't, what supplementary evidence is needed</span>
+      </li>
+      <li class="flex gap-2">
+        <span class="text-indigo-400 shrink-0">&#9744;</span>
+        <span>Onboarding playbook drafted: every step from "two agencies want to try this" to "first verified transaction"</span>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- Phase 3 -->
+<section class="mt-12">
+  <div class="flex items-baseline gap-3">
+    <span class="inline-flex items-center justify-center rounded-full bg-slate-100 text-slate-700 font-semibold text-sm w-8 h-8">3</span>
+    <h2 class="text-xl font-semibold">Retrospective &amp; Publish</h2>
+    <span class="text-xs text-slate-500">1 week</span>
+  </div>
+  <p class="mt-2 text-sm text-slate-600 max-w-3xl">Turn the pilot into a reusable asset. The artifacts produced here are the product — they're what makes the next pairing faster.</p>
+
+  <div class="mt-6 space-y-3">
+    <div class="rounded-xl border border-slate-200 bg-white p-5">
+      <div class="font-semibold">Joint retrospective</div>
+      <p class="mt-1 text-sm text-slate-700">Both agencies meet: what worked, what didn't, what took longer than expected, what was easier than expected. Raw and honest, not polished.</p>
+    </div>
+    <div class="rounded-xl border border-slate-200 bg-white p-5">
+      <div class="font-semibold">Publish everything</div>
+      <p class="mt-1 text-sm text-slate-700">Friction log, ISA template, governance agreement, data schema, auditor guide, onboarding playbook — all in a public repository.</p>
+    </div>
+    <div class="rounded-xl border border-slate-200 bg-white p-5">
+      <div class="font-semibold">Quantify the pilot</div>
+      <p class="mt-1 text-sm text-slate-700">Number of transactions, total on-chain cost, elapsed calendar time, person-hours, number of meetings, number of documents signed.</p>
+    </div>
+    <div class="rounded-xl border border-slate-200 bg-white p-5">
+      <div class="font-semibold">Identify the next pairing</div>
+      <p class="mt-1 text-sm text-slate-700">Which agency joins next? What use case? What in the templates needs to change for their context?</p>
+    </div>
+  </div>
+
+  <div class="mt-6 rounded-xl border-2 border-indigo-200 bg-indigo-50 p-5">
+    <h3 class="font-semibold text-indigo-900">Definition of Done — Phase 3</h3>
+    <ul class="mt-3 space-y-2 text-sm text-indigo-900">
+      <li class="flex gap-2">
+        <span class="text-indigo-400 shrink-0">&#9744;</span>
+        <span>Joint retrospective completed with both agencies present</span>
+      </li>
+      <li class="flex gap-2">
+        <span class="text-indigo-400 shrink-0">&#9744;</span>
+        <span>Friction log published — raw sequence of organizational, technical, and procedural obstacles</span>
+      </li>
+      <li class="flex gap-2">
+        <span class="text-indigo-400 shrink-0">&#9744;</span>
+        <span>All template artifacts (ISA, governance, schema, auditor guide, onboarding playbook) published to public repository</span>
+      </li>
+      <li class="flex gap-2">
+        <span class="text-indigo-400 shrink-0">&#9744;</span>
+        <span>Pilot quantified: transactions, cost, time, person-hours, meetings, documents</span>
+      </li>
+      <li class="flex gap-2">
+        <span class="text-indigo-400 shrink-0">&#9744;</span>
+        <span>Next pairing identified: agency, use case, and which templates need adaptation</span>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- Phase 4 -->
+<section class="mt-12">
+  <div class="flex items-baseline gap-3">
+    <span class="inline-flex items-center justify-center rounded-full bg-slate-100 text-slate-700 font-semibold text-sm w-8 h-8">4</span>
+    <h2 class="text-xl font-semibold">Repeat</h2>
+    <span class="text-xs text-slate-500">Target: half the elapsed time of the previous pairing</span>
+  </div>
+  <p class="mt-2 text-sm text-slate-600 max-w-3xl">Agency C joins. The framework should make it faster. The key metric is <strong>time-to-first-transaction for a new agency joining the network.</strong></p>
+
+  <div class="mt-6 overflow-x-auto">
+    <table class="w-full text-sm border-collapse">
+      <thead>
+        <tr class="border-b border-slate-200 text-left">
+          <th class="py-2 pr-4 font-semibold text-slate-700">Artifact</th>
+          <th class="py-2 pr-4 font-semibold text-slate-700">First Pairing</th>
+          <th class="py-2 pr-4 font-semibold text-slate-700">Second Pairing</th>
+          <th class="py-2 font-semibold text-slate-700">Third+</th>
+        </tr>
+      </thead>
+      <tbody class="text-slate-600">
+        <tr class="border-b border-slate-100">
+          <td class="py-3 pr-4 font-medium text-slate-800">ISA</td>
+          <td class="py-3 pr-4">Negotiated from scratch</td>
+          <td class="py-3 pr-4">Adapt template (swap names, review data types)</td>
+          <td class="py-3">Template stabilizes; signing is administrative</td>
+        </tr>
+        <tr class="border-b border-slate-100">
+          <td class="py-3 pr-4 font-medium text-slate-800">Data Schema</td>
+          <td class="py-3 pr-4">Invented for the use case</td>
+          <td class="py-3 pr-4">Extended (new fields, backward-compatible)</td>
+          <td class="py-3">Versioned governance formalizes</td>
+        </tr>
+        <tr class="border-b border-slate-100">
+          <td class="py-3 pr-4 font-medium text-slate-800">Verification Tooling</td>
+          <td class="py-3 pr-4">Built from scratch</td>
+          <td class="py-3 pr-4">New agency uses existing auditor view</td>
+          <td class="py-3">CI/CD for schema validation</td>
+        </tr>
+        <tr class="border-b border-slate-100">
+          <td class="py-3 pr-4 font-medium text-slate-800">Governance</td>
+          <td class="py-3 pr-4">Mutual consent (2 parties)</td>
+          <td class="py-3 pr-4">Lightweight charter (3 parties need a tiebreaker)</td>
+          <td class="py-3">Layered/mixed model activates</td>
+        </tr>
+        <tr class="border-b border-slate-100">
+          <td class="py-3 pr-4 font-medium text-slate-800">Sandbox Memo</td>
+          <td class="py-3 pr-4">Written from scratch</td>
+          <td class="py-3 pr-4">Precedent exists; new CISO reviews prior memo</td>
+          <td class="py-3">Sandbox &rarr; pilot &rarr; production path documented</td>
+        </tr>
+        <tr>
+          <td class="py-3 pr-4 font-medium text-slate-800">Friction Log</td>
+          <td class="py-3 pr-4">Full log</td>
+          <td class="py-3 pr-4">Shorter (known issues flagged in advance)</td>
+          <td class="py-3">Becomes a changelog</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="mt-6 rounded-xl border-2 border-indigo-200 bg-indigo-50 p-5">
+    <h3 class="font-semibold text-indigo-900">Definition of Done — Phase 4</h3>
+    <ul class="mt-3 space-y-2 text-sm text-indigo-900">
+      <li class="flex gap-2">
+        <span class="text-indigo-400 shrink-0">&#9744;</span>
+        <span>Agency C completed a full use case cycle using the existing templates and tooling</span>
+      </li>
+      <li class="flex gap-2">
+        <span class="text-indigo-400 shrink-0">&#9744;</span>
+        <span>Time-to-first-transaction for Agency C was measurably shorter than the first pairing</span>
+      </li>
+      <li class="flex gap-2">
+        <span class="text-indigo-400 shrink-0">&#9744;</span>
+        <span>Templates updated with changes needed for the new pairing and committed back to the repository</span>
+      </li>
+      <li class="flex gap-2">
+        <span class="text-indigo-400 shrink-0">&#9744;</span>
+        <span>Governance model expanded to handle three participants (tiebreaker mechanism in place)</span>
+      </li>
+      <li class="flex gap-2">
+        <span class="text-indigo-400 shrink-0">&#9744;</span>
+        <span>Onboarding playbook validated: Agency C followed it and it worked (or the gaps are documented)</span>
+      </li>
+      <li class="flex gap-2">
+        <span class="text-indigo-400 shrink-0">&#9744;</span>
+        <span>Decision recorded: continue adding agencies, or transition the sandbox toward a production pilot with real data / real money</span>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- Source -->
+<section class="mt-12 rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+  <h2 class="text-lg font-semibold text-slate-900">Source</h2>
+  <p class="mt-2 text-sm text-slate-700">This framework is derived from the operational considerations in <a
+      class="text-indigo-600 hover:text-indigo-500"
+      href="https://www.cfo.gov/jfmip/blockchain-initiative/"
+      target="_blank"
+      rel="noopener"
+    >JFMIP-24-01</a> (pp. 45–58), resequenced around the principle that organizational agreements — not technology — are the bottleneck, and that the fastest way to reduce friction is to do the work once, publish everything, and compress each repetition.</p>
+</section>
