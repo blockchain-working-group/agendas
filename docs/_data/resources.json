@@ -47,7 +47,7 @@
         "title": "W3C — Decentralized Identifiers (DIDs) v1.0",
         "meta": "W3C Recommendation · 2022",
         "summary": "The core specification for DIDs — globally unique identifiers that enable verifiable, decentralized digital identity.",
-        "url": "https://www.w3.org/TR/did-core/"
+        "url": "https://www.w3.org/TR/did-1.0/"
       },
       {
         "title": "W3C — Verifiable Credentials Data Model v2.0",
@@ -59,7 +59,7 @@
         "title": "NIST SP 800-53 Rev. 5 — Security and Privacy Controls",
         "meta": "NIST · 2020 (updated 2024)",
         "summary": "The catalog of security and privacy controls for federal information systems. Blockchain deployments must map to applicable control families (AU, AC, SC, IA).",
-        "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1"
+        "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"
       }
     ]
   },
