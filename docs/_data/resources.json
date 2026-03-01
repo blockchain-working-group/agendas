@@ -1,0 +1,101 @@
+[
+  {
+    "section": "Digital Identity",
+    "items": [
+      {
+        "title": "USAID — Identity in a Digital Age: Infrastructure for Inclusive Development",
+        "meta": "PDF · USAID · 2022 · Archived",
+        "summary": "Guidance on addressing systemic problems in digital ID systems and how emerging technologies will shape the future of digital identity for inclusive development.",
+        "url": "https://web.archive.org/web/2024/https://www.usaid.gov/sites/default/files/2022-05/IDENTITY_IN_A_DIGITAL_AGE.pdf"
+      },
+      {
+        "title": "USAID — Digital Identity Program",
+        "meta": "USAID · Archived",
+        "summary": "USAID's digital identity program page covering risk assessments, inclusive development frameworks, and the role of digital ID in unlocking services like voting, financial access, and land titling.",
+        "url": "https://web.archive.org/web/2024/https://www.usaid.gov/digital-development/digital-id"
+      },
+      {
+        "title": "NIST SP 800-63-3 — Digital Identity Guidelines",
+        "meta": "NIST · 2017 (superseded by SP 800-63-4, August 2025)",
+        "summary": "Four-volume suite covering identity proofing, authentication, lifecycle management, and federation. The foundational federal standard for digital identity assurance levels.",
+        "url": "https://pages.nist.gov/800-63-3/"
+      },
+      {
+        "title": "DHS S&T — Next-Generation Identity: Mobile Driver's License Fact Sheet",
+        "meta": "PDF · DHS Science & Technology · 2022",
+        "summary": "Fact sheet on DHS efforts to evaluate mobile driver's licenses (mDLs) as a next-generation identity credential for federal acceptance.",
+        "url": "https://www.dhs.gov/sites/default/files/2022-01/22_0131_st_next_generation_identity_mobile_drivers_license_factSheet_11.4.21.pdf"
+      },
+      {
+        "title": "DHS S&T — Identity Management (IDM) Program",
+        "meta": "DHS Science & Technology",
+        "summary": "Overview of DHS S&T's identity management research portfolio, including standards development, testing, and interoperability for digital credentials.",
+        "url": "https://www.dhs.gov/science-and-technology/idm"
+      },
+      {
+        "title": "TSA — Digital Identity and Facial Comparison Technology",
+        "meta": "Transportation Security Administration",
+        "summary": "TSA's program for accepting mobile driver's licenses and digital IDs at airport checkpoints. Covers supported wallets, participating states, privacy protections, and REAL ID compliance.",
+        "url": "https://www.tsa.gov/digital-id"
+      }
+    ]
+  },
+  {
+    "section": "Standards & Specifications",
+    "items": [
+      {
+        "title": "W3C — Decentralized Identifiers (DIDs) v1.0",
+        "meta": "W3C Recommendation · 2022",
+        "summary": "The core specification for DIDs — globally unique identifiers that enable verifiable, decentralized digital identity.",
+        "url": "https://www.w3.org/TR/did-core/"
+      },
+      {
+        "title": "W3C — Verifiable Credentials Data Model v2.0",
+        "meta": "W3C Recommendation · 2024",
+        "summary": "The standard for expressing tamper-evident credentials on the web — licenses, certifications, clearances — that can be cryptographically verified.",
+        "url": "https://www.w3.org/TR/vc-data-model-2.0/"
+      },
+      {
+        "title": "NIST SP 800-53 Rev. 5 — Security and Privacy Controls",
+        "meta": "NIST · 2020 (updated 2024)",
+        "summary": "The catalog of security and privacy controls for federal information systems. Blockchain deployments must map to applicable control families (AU, AC, SC, IA).",
+        "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1"
+      }
+    ]
+  },
+  {
+    "section": "Federal Blockchain Reports",
+    "items": [
+      {
+        "title": "DHS S&T — Blockchain Portfolio (SVIP)",
+        "meta": "DHS Science & Technology",
+        "summary": "Overview of DHS Silicon Valley Innovation Program's blockchain investments, including supply chain traceability, verifiable credentials, and interoperability testing.",
+        "url": "https://www.dhs.gov/science-and-technology/blockchain-portfolio"
+      },
+      {
+        "title": "JFMIP — Federal Grant Payment Blockchain Initiative",
+        "meta": "Joint Financial Management Improvement Program · 2023",
+        "summary": "Final report on the Treasury/NSF/GAO blockchain prototype for near real-time grant payment visibility across agency boundaries.",
+        "url": "https://www.cfo.gov/jfmip/blockchain-initiative/"
+      },
+      {
+        "title": "JFMIP-24-01 — Harnessing Blockchain in the Federal Government",
+        "meta": "PDF · JFMIP (Treasury, GAO, OMB, OPM) · December 2023",
+        "summary": "Key considerations for financial management and information systems. Covers the grants financial management blockchain prototype, IT and cybersecurity factors, ATO considerations, governance models, human capital impact, and audit implications.",
+        "url": "https://www.cfo.gov/assets/files/JFMIP-24-01.pdf"
+      },
+      {
+        "title": "EU Expert Group on Blockchain Ethics",
+        "meta": "Publication · European Commission / EBSI",
+        "summary": "Independent group of ten specialists in blockchain, philosophy, computer ethics, and law. Developed official EU guidelines addressing fairness, privacy, security, economic accountability, and societal responsibility.",
+        "url": "https://ec.europa.eu/digital-building-blocks/sites/display/EBSI/EU+Expert+Group+on+Blockchain+Ethics"
+      },
+      {
+        "title": "Ethical Guidelines for Blockchain Systems",
+        "meta": "Publication · PDF · EU Expert Group on Blockchain Ethics · 2024",
+        "summary": "The full guidelines document covering fairness, privacy, security, economic accountability, and societal responsibility for blockchain deployments within the EU framework.",
+        "url": "https://ec.europa.eu/digital-building-blocks/sites/download/attachments/674507497/Ethical_Guidelines_for_Blockchain_Systems_compressed.pdf"
+      }
+    ]
+  }
+]

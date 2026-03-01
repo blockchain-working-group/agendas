@@ -54,15 +54,6 @@
     "year": 2025
   },
   {
-    "level": "international",
-    "title": "EU Ethical Guidelines for Blockchain Systems",
-    "jurisdiction": "European Union",
-    "status": "enacted",
-    "summary": "Published by the EU Blockchain Observatory & Forum expert panel. Provides an ethical framework covering transparency, accountability, privacy, and sustainability for blockchain deployments in the public and private sector.",
-    "url": "https://digital-strategy.ec.europa.eu/en/library/ethical-guidelines-blockchain",
-    "year": 2024
-  },
-  {
     "level": "us_federal",
     "title": "GENIUS Act — Guiding and Establishing National Innovation for U.S. Stablecoins Act (S.394)",
     "jurisdiction": "United States",
