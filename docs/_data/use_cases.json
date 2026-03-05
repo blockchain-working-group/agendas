@@ -115,5 +115,23 @@
     "year": 2022,
     "technology": "Verifiable Credentials",
     "url": "https://www.utah.gov/pmn/sitemap/publicbody/5765.html"
+  },
+  {
+    "agency": "Cross-Agency (Concept)",
+    "project": "Citizen-Centered Federal DLT — Self-Sovereign Identity for Government Services",
+    "summary": "A proposed framework where citizens own their digital identities through self-sovereign identity systems, selectively sharing data with agencies rather than agencies controlling personal information. Envisions phased rollout from federal integration to inter-agency coordination to citizen participation.",
+    "status": "proposed",
+    "year": 2024,
+    "technology": "DIDs / VCs / ZKPs / Smart Contracts",
+    "url": "https://github.com/blockchain-working-group/agendas/issues/31"
+  },
+  {
+    "agency": "Cross-Agency (Demo)",
+    "project": "Decentralized Identifier (DID) Verification Across Two Agencies",
+    "summary": "Demonstrate how a citizen who has established a DID can present it to multiple federal agencies for verification — e.g., proving an address — without each agency maintaining its own identity store. References USAID, NIST, DHS, and TSA digital identity work.",
+    "status": "proposed",
+    "year": 2024,
+    "technology": "DIDs / Verifiable Credentials",
+    "url": "https://github.com/blockchain-working-group/agendas/issues/8"
   }
 ]

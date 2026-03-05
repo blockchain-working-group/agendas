@@ -1,0 +1,28 @@
+---
+layout: default
+title: Resources
+nav_id: resources
+---
+
+<h1 class="text-3xl font-semibold">Resources</h1>
+<p class="text-slate-600 max-w-3xl">Government publications, standards, and reference materials relevant to blockchain and digital identity in the public sector.</p>
+
+{% for section in site.data.resources %}
+<section class="mt-10 space-y-4">
+  <h2 class="text-xl font-semibold text-indigo-600">{{ section.section }}</h2>
+  <div class="space-y-3">
+    {% for item in section.items %}
+    <a
+      href="{{ item.url }}"
+      target="_blank"
+      rel="noopener"
+      class="block rounded-xl border border-slate-200 bg-white p-5 hover:border-indigo-400"
+    >
+      <div class="font-semibold">{{ item.title }}</div>
+      <div class="mt-1 text-xs text-slate-500">{{ item.meta }}</div>
+      <p class="mt-2 text-sm text-slate-700">{{ item.summary }}</p>
+    </a>
+    {% endfor %}
+  </div>
+</section>
+{% endfor %}
