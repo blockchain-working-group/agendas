@@ -187,5 +187,23 @@
     "summary": "Repealed Colorado's 2019 Digital Token Act, which had exempted certain utility tokens from securities law. Digital token transactions are now subject to standard Colorado securities review. Effective August 7, 2024.",
     "url": "https://leg.colorado.gov/bills/sb24-180",
     "year": 2024
+  },
+  {
+    "level": "us_state",
+    "title": "Maryland SB 168 — Study to Evaluate Blockchain-Based Real Property Title Recordation and Verification",
+    "jurisdiction": "Maryland",
+    "status": "passed",
+    "summary": "Establishes a pilot program within the State Department of Assessments and Taxation to explore the use of blockchain technology for securely recording and verifying real property ownership and assess potential applications for law enforcement and courts in resolving property disputes involving squatting. Passed the Senate 43-0.",
+    "url": "https://mgaleg.maryland.gov/mgawebsite/Legislation/Details/SB0168?ys=2026rs",
+    "year": 2026
+  },
+  {
+    "level": "us_state",
+    "title": "Maryland SB 376 — Digital Asset and Blockchain Technology Task Force",
+    "jurisdiction": "Maryland",
+    "status": "introduced",
+    "summary": "Creates a task force to study blockchain technology and cryptocurrency regulation in Maryland, with findings and recommendations due by October 1, 2027.",
+    "url": "https://mgaleg.maryland.gov/mgawebsite/Legislation/Details/sb0376?ys=2026RS",
+    "year": 2026
   }
 ]
