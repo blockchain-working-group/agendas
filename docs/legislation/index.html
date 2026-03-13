@@ -7,11 +7,30 @@ nav_id: legislation
 <h1 class="text-3xl font-semibold">Legislation Watchlist</h1>
 <p class="text-slate-600 max-w-3xl">Blockchain-related legislation and regulatory actions at the international, U.S. federal, and state levels. Tracked by the working group for awareness—inclusion is not an endorsement.</p>
 
-<div class="mt-4 flex flex-wrap gap-2 text-xs">
-  <span class="rounded-full bg-emerald-100 text-emerald-800 px-2.5 py-0.5 font-medium">Enacted</span>
-  <span class="rounded-full bg-amber-100 text-amber-800 px-2.5 py-0.5 font-medium">Passed</span>
-  <span class="rounded-full bg-sky-100 text-sky-800 px-2.5 py-0.5 font-medium">Pending</span>
-  <span class="rounded-full bg-slate-100 text-slate-600 px-2.5 py-0.5 font-medium">Introduced</span>
+<div
+  class="mt-4 flex flex-wrap gap-2 text-xs"
+  id="status-filters"
+>
+  <button
+    type="button"
+    data-filter="enacted"
+    class="rounded-full bg-emerald-100 text-emerald-800 px-2.5 py-0.5 font-medium cursor-pointer ring-2 ring-transparent hover:ring-emerald-400 transition-all"
+  >Enacted</button>
+  <button
+    type="button"
+    data-filter="passed"
+    class="rounded-full bg-amber-100 text-amber-800 px-2.5 py-0.5 font-medium cursor-pointer ring-2 ring-transparent hover:ring-amber-400 transition-all"
+  >Passed</button>
+  <button
+    type="button"
+    data-filter="pending"
+    class="rounded-full bg-sky-100 text-sky-800 px-2.5 py-0.5 font-medium cursor-pointer ring-2 ring-transparent hover:ring-sky-400 transition-all"
+  >Pending</button>
+  <button
+    type="button"
+    data-filter="introduced"
+    class="rounded-full bg-slate-100 text-slate-600 px-2.5 py-0.5 font-medium cursor-pointer ring-2 ring-transparent hover:ring-slate-400 transition-all"
+  >Introduced</button>
 </div>
 
 <div class="mt-4">
@@ -26,7 +45,10 @@ nav_id: legislation
 {% assign us_state = site.data.legislation | where: "level", "us_state" %}
 
 <!-- International -->
-<section class="space-y-4 mt-10">
+<section
+  class="space-y-4 mt-10"
+  data-section
+>
   <h2 class="text-xl font-semibold text-indigo-600">International</h2>
   <div class="space-y-3">
     {% for item in international %}
@@ -34,6 +56,7 @@ nav_id: legislation
       href="{{ item.url }}"
       target="_blank"
       rel="noopener"
+      data-status="{{ item.status }}"
       class="block rounded-xl border border-slate-200 bg-white p-5 hover:border-indigo-400"
     >
       <div class="flex flex-wrap items-center gap-2">
@@ -56,7 +79,10 @@ nav_id: legislation
 </section>
 
 <!-- U.S. Federal -->
-<section class="space-y-4 mt-10">
+<section
+  class="space-y-4 mt-10"
+  data-section
+>
   <h2 class="text-xl font-semibold text-indigo-600">U.S. Federal</h2>
   <div class="space-y-3">
     {% for item in us_federal %}
@@ -64,6 +90,7 @@ nav_id: legislation
       href="{{ item.url }}"
       target="_blank"
       rel="noopener"
+      data-status="{{ item.status }}"
       class="block rounded-xl border border-slate-200 bg-white p-5 hover:border-indigo-400"
     >
       <div class="flex flex-wrap items-center gap-2">
@@ -86,7 +113,10 @@ nav_id: legislation
 </section>
 
 <!-- U.S. State -->
-<section class="space-y-4 mt-10">
+<section
+  class="space-y-4 mt-10"
+  data-section
+>
   <h2 class="text-xl font-semibold text-indigo-600">U.S. State</h2>
   <div class="space-y-3">
     {% for item in us_state %}
@@ -94,6 +124,7 @@ nav_id: legislation
       href="{{ item.url }}"
       target="_blank"
       rel="noopener"
+      data-status="{{ item.status }}"
       class="block rounded-xl border border-slate-200 bg-white p-5 hover:border-indigo-400"
     >
       <div class="flex flex-wrap items-center gap-2">
@@ -114,3 +145,58 @@ nav_id: legislation
     {% endfor %}
   </div>
 </section>
+
+<script>
+  (function () {
+    var active = null;
+    var buttons = document.querySelectorAll('#status-filters button');
+    var cards = document.querySelectorAll('a[data-status]');
+    var sections = document.querySelectorAll('section[data-section]');
+    var ringColors = {
+      enacted: 'ring-emerald-400',
+      passed: 'ring-amber-400',
+      pending: 'ring-sky-400',
+      introduced: 'ring-slate-400'
+    };
+
+    function updateSections() {
+      sections.forEach(function (section) {
+        var visibleCards = section.querySelectorAll('a[data-status]:not([style*="display: none"])');
+        section.style.display = visibleCards.length ? '' : 'none';
+      });
+    }
+
+    buttons.forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        var filter = btn.getAttribute('data-filter');
+
+        if (active === filter) {
+          active = null;
+          buttons.forEach(function (b) {
+            b.classList.remove(ringColors[b.getAttribute('data-filter')]);
+            b.classList.add('ring-transparent');
+            b.style.opacity = '';
+          });
+          cards.forEach(function (c) { c.style.display = ''; });
+          sections.forEach(function (s) { s.style.display = ''; });
+          return;
+        }
+
+        active = filter;
+        buttons.forEach(function (b) {
+          var f = b.getAttribute('data-filter');
+          b.classList.remove(ringColors[f]);
+          b.classList.add('ring-transparent');
+          b.style.opacity = f === filter ? '' : '0.4';
+        });
+        btn.classList.remove('ring-transparent');
+        btn.classList.add(ringColors[filter]);
+
+        cards.forEach(function (c) {
+          c.style.display = c.getAttribute('data-status') === filter ? '' : 'none';
+        });
+        updateSections();
+      });
+    });
+  })();
+</script>
