@@ -81,6 +81,8 @@ or submit a Pull Request.
 
 ##### Government Reports and Guidance
 
+* https://www.sec.gov/files/33-11412-fact-sheet.pdf - SEC Release No. 33-11412 Fact Sheet
+* https://www.sec.gov/files/rules/interp/2026/33-11412.pdf - SEC Release No. 33-11412 Interpretive Guidance
 * [Clarity Act](https://www.congress.gov/119/bills/hr3633/BILLS-119hr3633rfs.pdf) - 257 page .pdf
 * https://www.gao.gov/products/gao-25-106161 - GAO report on crypto asset use in retirement plans
 * https://www.whitehouse.gov/wp-content/uploads/2025/01/M-25-05-Phase-2-Implementation-of-the-Foundations-for-Evidence-Based-Policymaking-Act-of-2018-Open-Government-Data-Access-and-Management-Guidance.pdf - White House open government data guidance
