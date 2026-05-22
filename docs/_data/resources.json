@@ -113,6 +113,12 @@
         "meta": "NIST · 2018",
         "summary": "Technical overview of blockchain concepts, including public and permissioned networks, consensus, tamper evidence, limits of immutability, forks, and cybersecurity considerations.",
         "url": "https://csrc.nist.gov/pubs/ir/8202/final"
+      },
+      {
+        "title": "GBA — Blockchain Maturity Model Gaming Supplement",
+        "meta": "PDF · Government Blockchain Association · v1.4 · 2024",
+        "summary": "Industry-specific supplement to the Blockchain Maturity Model (BMM) for the gaming sector, extending the BMM's 11-element assessment framework with gaming-specific criteria for evaluating blockchain solution trustworthiness.",
+        "url": "https://gbaglobal.org/wp-content/uploads/2024/04/BMM-Gaming-Supplement-v1.4.pdf"
       }
     ]
   },
