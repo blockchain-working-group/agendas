@@ -76,9 +76,18 @@
     "title": "Digital Asset Market Clarity Act of 2025 — CLARITY Act (H.R. 3633)",
     "jurisdiction": "United States",
     "status": "passed",
-    "summary": "Comprehensive digital asset market structure legislation allocating regulatory jurisdiction between the SEC and CFTC. Exempts mature blockchain networks' tokens from SEC registration. Passed the House; pending in the Senate.",
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/3633/all-info",
+    "summary": "Comprehensive digital asset market structure legislation allocating regulatory jurisdiction between the SEC and CFTC. Exempts mature blockchain networks' tokens from SEC registration. Passed the House in 2025; advanced out of the Senate Banking Committee on May 14, 2026, and awaits Senate floor consideration.",
+    "url": "https://www.crapo.senate.gov/media/newsreleases/senate-banking-committee-approves-bipartisan-digital-asset-legislation-with-crapo-support",
     "year": 2025
+  },
+  {
+    "level": "us_federal",
+    "title": "GENIUS Act Illicit-Finance Proposed Rule",
+    "jurisdiction": "United States",
+    "status": "pending",
+    "summary": "Treasury, FinCEN, and OFAC issued a joint proposed rule on April 8, 2026, to implement payment-stablecoin AML and sanctions-compliance requirements under the GENIUS Act.",
+    "url": "https://home.treasury.gov/news/press-releases/sb0435",
+    "year": 2026
   },
   {
     "level": "us_federal",
@@ -174,8 +183,8 @@
     "level": "us_state",
     "title": "Florida HB 1039 — Bitcoin Reserve",
     "jurisdiction": "Florida",
-    "status": "introduced",
-    "summary": "Would allow investment of public funds in Bitcoin with independent audits and an advisory committee. Filed for the 2026 legislative session.",
+    "status": "failed",
+    "summary": "Would have established a state Strategic Cryptocurrency Reserve with custody, audit, investment, and advisory committee provisions. Died on the House Second Reading Calendar on March 13, 2026.",
     "url": "https://www.flsenate.gov/Session/Bill/2026/1039",
     "year": 2026
   },
@@ -193,7 +202,7 @@
     "title": "Maryland SB 168 — Study to Evaluate Blockchain-Based Real Property Title Recordation and Verification",
     "jurisdiction": "Maryland",
     "status": "passed",
-    "summary": "Establishes a pilot program within the State Department of Assessments and Taxation to explore the use of blockchain technology for securely recording and verifying real property ownership and assess potential applications for law enforcement and courts in resolving property disputes involving squatting. Passed the Senate 43-0.",
+    "summary": "Directs the State Department of Assessments and Taxation to evaluate blockchain technology for securely recording and verifying real property ownership and leases, including use by law enforcement and courts in property disputes. Passed enrolled on April 10, 2026.",
     "url": "https://mgaleg.maryland.gov/mgawebsite/Legislation/Details/SB0168?ys=2026rs",
     "year": 2026
   },
@@ -201,8 +210,8 @@
     "level": "us_state",
     "title": "Maryland SB 376 — Digital Asset and Blockchain Technology Task Force",
     "jurisdiction": "Maryland",
-    "status": "introduced",
-    "summary": "Creates a task force to study blockchain technology and cryptocurrency regulation in Maryland, with findings and recommendations due by October 1, 2027.",
+    "status": "enacted",
+    "summary": "Creates the Digital Asset and Blockchain Technology Task Force to study and recommend how Maryland should use and regulate blockchain technology and cryptocurrency. Approved by the governor as Chapter 549 on May 12, 2026; report due October 1, 2027.",
     "url": "https://mgaleg.maryland.gov/mgawebsite/Legislation/Details/sb0376?ys=2026RS",
     "year": 2026
   }

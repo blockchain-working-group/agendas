@@ -1,5 +1,46 @@
 [
   {
+    "section": "April-May 2026 Updates",
+    "items": [
+      {
+        "title": "Treasury OCCIP — Cybersecurity Information Sharing for Digital Asset Firms",
+        "meta": "U.S. Treasury · April 9, 2026",
+        "summary": "Treasury's Office of Cybersecurity and Critical Infrastructure Protection launched a no-cost initiative to share actionable cyber threat intelligence with eligible U.S. digital asset firms and industry organizations.",
+        "url": "https://home.treasury.gov/news/press-releases/sb0437"
+      },
+      {
+        "title": "Treasury / FinCEN / OFAC — GENIUS Act Illicit-Finance Proposed Rule",
+        "meta": "U.S. Treasury · April 8, 2026",
+        "summary": "Joint proposed rule to implement GENIUS Act anti-money-laundering and sanctions-compliance requirements for payment stablecoins.",
+        "url": "https://home.treasury.gov/news/press-releases/sb0435"
+      },
+      {
+        "title": "Federal Reserve — Perspectives on Tokenization and Financial Stability",
+        "meta": "Federal Reserve Board · May 8, 2026",
+        "summary": "Governor Lisa D. Cook discussed tokenized financial assets, DLT and blockchain rails, smart contracts, collateral mobility, liquidity management, and financial-stability considerations.",
+        "url": "https://www.federalreserve.gov/newsevents/speech/cook20260508a.htm"
+      },
+      {
+        "title": "GBA — Blockchain in Aviation",
+        "meta": "Government Blockchain Association · December 27, 2025",
+        "summary": "Report on USTRANSCOM's Iron SPIDR pilot using blockchain to anchor mission-critical aviation events to an immutable ledger, covering Civil Reserve Air Fleet coordination with commercial carriers and the broader case for blockchain in air operations.",
+        "url": "https://gbaglobal.org/blog/2025/12/27/blockchain-in-aviation/"
+      },
+      {
+        "title": "Permissioned Blockchain in Advanced Air Mobility: A Performance Analysis for UTM",
+        "meta": "arXiv · Nunes et al. · 2025",
+        "summary": "Quantitative benchmark comparing InterUSS and Hyperledger Fabric for Uncrewed Traffic Management. Finds blockchain architectures need redesign for aeronautical timing requirements, suggesting hybrid ledger/federated models for future UTM deployments.",
+        "url": "https://arxiv.org/html/2511.02171v1"
+      },
+      {
+        "title": "OCC — Digital Assets Licensing Applications",
+        "meta": "Office of the Comptroller of the Currency · April-May 2026",
+        "summary": "OCC's public tracker lists pending national bank and trust-charter applications from digital asset firms, including OpenReserve Bank, Agora National Trust Bank, and Payward National Trust Company.",
+        "url": "https://www.occ.gov/topics/charters-and-licensing/digital-assets-licensing-applications/index-digital-assets-licensing-applications.html"
+      }
+    ]
+  },
+  {
     "section": "Digital Identity",
     "items": [
       {
@@ -57,9 +98,21 @@
       },
       {
         "title": "NIST SP 800-53 Rev. 5 — Security and Privacy Controls",
-        "meta": "NIST · 2020 (updated 2024)",
+        "meta": "NIST · 2020 (Release 5.2.0 issued August 2025)",
         "summary": "The catalog of security and privacy controls for federal information systems. Blockchain deployments must map to applicable control families (AU, AC, SC, IA).",
         "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"
+      },
+      {
+        "title": "NIST SP 800-92 — Guide to Computer Security Log Management",
+        "meta": "NIST · 2006",
+        "summary": "Practical guidance for enterprise log management, including log generation, transmission, storage, analysis, retention, and protection.",
+        "url": "https://csrc.nist.gov/pubs/sp/800/92/final"
+      },
+      {
+        "title": "NISTIR 8202 — Blockchain Technology Overview",
+        "meta": "NIST · 2018",
+        "summary": "Technical overview of blockchain concepts, including public and permissioned networks, consensus, tamper evidence, limits of immutability, forks, and cybersecurity considerations.",
+        "url": "https://csrc.nist.gov/pubs/ir/8202/final"
       }
     ]
   },
