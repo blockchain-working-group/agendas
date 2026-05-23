@@ -1,2 +1,7 @@
 # /docs is a static site, published on github pages
 /docs/_site
+
+# tailwind build output (regenerated in CI)
+/docs/assets/css/main.css
+
+node_modules
