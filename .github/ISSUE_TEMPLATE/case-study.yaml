@@ -1,0 +1,55 @@
+name: "Add a Case Study or Use Case"
+description: "Share a real-world blockchain use case, pilot, or case study for the group to review"
+title: "Case Study: [short name]"
+labels: ["type:use-case", "status:triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Add a Case Study or Use Case
+        Share a blockchain project, pilot, or real-world application for the working group to learn from.
+
+  - type: input
+    id: title
+    attributes:
+      label: "Title"
+      placeholder: "e.g. Supply Chain Provenance for Federal Acquisitions"
+    validations:
+      required: true
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: "Summary"
+      description: "Describe the problem, approach, and blockchain technology used."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: "Category"
+      options:
+        - Federal government
+        - State / local government
+        - International / multilateral
+        - Private sector (government-adjacent)
+        - Academic / research
+
+  - type: textarea
+    id: context
+    attributes:
+      label: "Outcomes or Lessons Learned"
+      description: "What worked, what didn't, and what can others take away?"
+
+  - type: textarea
+    id: links
+    attributes:
+      label: "Links or References"
+      description: "Link to reports, repos, articles, or presentations."
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        **Action:** Add an entry to the use cases page. Optionally schedule a presentation at a future session.

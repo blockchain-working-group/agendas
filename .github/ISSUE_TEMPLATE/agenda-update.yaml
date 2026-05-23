@@ -1,0 +1,58 @@
+name: "Update Agenda Items"
+description: "Suggest or update agenda items for an upcoming Friday session"
+title: "Agenda: [date or topic]"
+labels: ["type:agenda", "status:triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Update Agenda Items
+        Suggest items to add, change, or remove from an upcoming Friday meeting agenda.
+
+  - type: input
+    id: title
+    attributes:
+      label: "Target Date"
+      description: "Which Friday session is this for?"
+      placeholder: "e.g. 2026-05-29"
+    validations:
+      required: true
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: "Proposed Agenda Items"
+      description: "List items you'd like to add or change."
+      placeholder: |
+        - Demo of X project (10 min)
+        - Discussion: upcoming legislation deadline
+        - Lightning talk by [name]
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: "Category"
+      options:
+        - Add items
+        - Remove or reschedule items
+        - Reorder or restructure agenda
+
+  - type: textarea
+    id: context
+    attributes:
+      label: "Context or Notes"
+      description: "Any background the group should know ahead of time."
+
+  - type: textarea
+    id: links
+    attributes:
+      label: "Links or References"
+      description: "Link to related issues, slides, or materials."
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        **Action:** Update the agenda file for the target date. Notify any speakers or presenters mentioned.

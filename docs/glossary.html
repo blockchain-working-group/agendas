@@ -43,7 +43,7 @@ main_class: space-y-10
     </div>
     <div class="rounded-xl border border-slate-200 bg-white p-5">
       <dt class="font-semibold">Immutability</dt>
-      <dd class="mt-1 text-sm text-slate-700">The property that once data is recorded on the chain it cannot be altered or deleted. In practice, "practical immutability" is a more accurate term—data can theoretically be changed if a majority of nodes collude.</dd>
+      <dd class="mt-1 text-sm text-slate-700">The property often claimed for blockchain records once they are committed. In practice, public chains are better described as tamper-evident and tamper-resistant: recent blocks can be reorganized, and sufficiently powerful collusion or governance action can alter history.</dd>
     </div>
   </dl>
 </section>
@@ -55,7 +55,7 @@ main_class: space-y-10
     <div class="rounded-xl border border-slate-200 bg-white p-5">
       <dt class="font-semibold">Public (Permissionless) Network</dt>
       <dd class="mt-1 text-sm text-slate-700">A blockchain anyone can join, read, and write to without approval (e.g., Bitcoin, Ethereum). Offers maximum transparency but limited control over participants.</dd>
-      <dd class="mt-2 text-xs text-slate-500"><strong>Gov consideration:</strong> Public networks raise questions about data sovereignty, FISMA compliance, and the ability to meet FedRAMP requirements for the underlying infrastructure.</dd>
+      <dd class="mt-2 text-xs text-slate-500"><strong>Gov consideration:</strong> Public networks raise questions about data sovereignty, FISMA compliance, audit finality, and the ability to meet FedRAMP requirements for infrastructure the agency does not operate.</dd>
     </div>
     <div class="rounded-xl border border-slate-200 bg-white p-5">
       <dt class="font-semibold">Private (Permissioned) Network</dt>
@@ -141,7 +141,12 @@ main_class: space-y-10
     <div class="rounded-xl border border-slate-200 bg-white p-5">
       <dt class="font-semibold">NIST SP 800-53</dt>
       <dd class="mt-1 text-sm text-slate-700">The catalog of security and privacy controls for federal information systems. Blockchain deployments must map to applicable 800-53 controls just like any other system.</dd>
-      <dd class="mt-2 text-xs text-slate-500"><strong>Gov consideration:</strong> Blockchain's immutable audit logs can directly satisfy controls in the AU (Audit and Accountability) family. However, public blockchains may introduce challenges for AC (Access Control) and SC (System and Communications Protection) families where the operating environment is not agency-controlled.</dd>
+      <dd class="mt-2 text-xs text-slate-500"><strong>Gov consideration:</strong> Blockchain can support evidence for AU controls such as event logging, audit record protection, non-repudiation, and retention. It does not by itself satisfy those controls: agencies still need defined event types, protected off-chain logs, identity and key binding, retention policy, review workflows, and privacy safeguards.</dd>
+    </div>
+    <div class="rounded-xl border border-slate-200 bg-white p-5">
+      <dt class="font-semibold">Event Log Anchoring</dt>
+      <dd class="mt-1 text-sm text-slate-700">A pattern where an agency keeps detailed logs in an authorized off-chain log store and periodically publishes a cryptographic hash or Merkle root to a blockchain for later verification.</dd>
+      <dd class="mt-2 text-xs text-slate-500"><strong>Gov consideration:</strong> Anchoring can strengthen tamper-evidence for AU-9 and non-repudiation evidence for AU-10, but raw security logs and PII should generally stay off public chains.</dd>
     </div>
     <div class="rounded-xl border border-slate-200 bg-white p-5">
       <dt class="font-semibold">FedRAMP / FISMA</dt>
