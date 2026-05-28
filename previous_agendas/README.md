@@ -1,3 +1,19 @@
+### Friday 01/23/2026 · 10:00 – 10:45am EST
+
+Video call link: https://meet.google.com/txi-iyvp-sea
+
+* 10:00am to 10:05am - Welcome
+* 10:05am to 10:10am - Community updates
+* 10:10am to 10:45am - Discussion
+
+### Friday 01/09/2026 · 10:00 – 10:45am EST
+
+Video call link: https://meet.google.com/txi-iyvp-sea
+
+* 10:00am to 10:05am - Welcome
+* 10:05am to 10:10am - Community updates
+* 10:10am to 10:45am - Discussion
+
 ### Friday 12/19/2025 · 10:00 – 10:45am EST
 
 Video call link: https://meet.google.com/txi-iyvp-sea
