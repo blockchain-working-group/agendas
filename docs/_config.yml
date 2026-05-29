@@ -1,4 +1,3 @@
-theme: minima
 title: ACT-IAC Blockchain WG
 description: Agendas, case studies, and contribution surfaces
 markdown: kramdown
@@ -6,3 +5,15 @@ permalink: pretty
 exclude:
   - _assets
   - node_modules
+
+collections:
+  meetings:
+    output: true
+    permalink: /meetings/:title/
+
+defaults:
+  - scope:
+      path: ""
+      type: meetings
+    values:
+      layout: meeting
