@@ -8,84 +8,92 @@ nav_id: agendas
 {% assign upcoming = sorted | where: "status", "upcoming" %}
 {% assign past = sorted | where: "status", "past" %}
 
-{% if upcoming.size > 0 %}
-  {% assign next = upcoming | last %}
-  <section>
-    <p class="text-xs uppercase tracking-wide text-indigo-600 mb-2">Next Meeting</p>
-    <a
-      href="{{ next.url | relative_url }}"
-      class="block rounded-xl border border-indigo-200 bg-indigo-50 p-6 hover:border-indigo-400"
-    >
-      <p class="text-2xl font-semibold text-slate-900">
-        {{ next.date | date: "%A, %B %-d, %Y" }}
-      </p>
-      <p class="text-slate-600 mt-1">
-        {{ next.time }}
-      </p>
-      {% if next.video_url %}
-        <p class="text-sm text-indigo-600 mt-2">
-          {{ next.video_url }}
-        </p>
-      {% endif %}
-      {% if next.agenda.size > 0 %}
-        <ul class="mt-4 space-y-1 text-sm text-slate-700">
-          {% for item in next.agenda %}
-            <li>
-              <span class="font-mono text-slate-400">{{ item.time }}</span>
-              {{ item.title }}
-            </li>
-          {% endfor %}
-        </ul>
-      {% endif %}
-    </a>
-  </section>
-{% endif %}
-
-<section class="mt-10 space-y-4">
-  <h2 class="text-xl font-semibold text-indigo-600">Speaker Requests</h2>
-  <div class="rounded-xl border border-slate-200 bg-white p-5 space-y-3">
-    <p class="text-sm text-slate-700">
-      Have a topic, demo, or speaker in mind for an upcoming session?
-      Submit a proposal and we'll work it into the schedule.
-    </p>
-    <a
-      href="https://github.com/blockchain-working-group/agendas/issues/new?template=speaker-proposal.yaml"
-      target="_blank"
-      rel="noopener"
-      class="inline-flex items-center rounded-md bg-indigo-600 px-4 py-2 text-sm font-semibold text-white hover:bg-indigo-500"
-    >Propose a Speaker</a>
-  </div>
-</section>
-
-{% if past.size > 0 %}
-  <section class="mt-10">
-    <h2 class="text-xl font-semibold mb-4">Previous Meetings</h2>
-    <div class="rounded-xl border border-slate-200 bg-white divide-y divide-slate-100">
-      {% for meeting in past %}
+<div class="grid gap-10 lg:grid-cols-[1fr_240px]">
+  <div class="space-y-10">
+    {% if upcoming.size > 0 %}
+      {% assign next = upcoming | last %}
+      <section>
+        <p class="text-xs uppercase tracking-wide text-indigo-600 mb-2">Next Meeting</p>
         <a
-          href="{{ meeting.url | relative_url }}"
-          class="flex items-center justify-between px-5 py-3 hover:bg-slate-50"
+          href="{{ next.url | relative_url }}"
+          class="block rounded-xl border border-indigo-200 bg-indigo-50 p-6 hover:border-indigo-400"
         >
-          <div>
-            <span class="text-sm font-medium text-slate-900">
-              {{ meeting.date | date: "%b %-d, %Y" }}
-            </span>
-            {% for item in meeting.agenda %}
-              {% unless item.title == "Welcome" or item.title == "Community updates" or item.title == "Discussion" %}
-                <span class="ml-2 text-sm text-slate-500">
-                  — {{ item.title }}
-                </span>
-              {% endunless %}
-            {% endfor %}
-          </div>
-          {% assign stripped = meeting.content | strip %}
-          {% if stripped != "" %}
-            <span class="rounded-full bg-slate-100 px-2 py-0.5 text-xs font-medium text-slate-600">
-              Notes
-            </span>
+          <p class="text-2xl font-semibold text-slate-900">
+            {{ next.date | date: "%A, %B %-d, %Y" }}
+          </p>
+          <p class="text-slate-600 mt-1">
+            {{ next.time }}
+          </p>
+          {% if next.video_url %}
+            <p class="text-sm text-indigo-600 mt-2">
+              {{ next.video_url }}
+            </p>
+          {% endif %}
+          {% if next.agenda.size > 0 %}
+            <ul class="mt-4 space-y-1 text-sm text-slate-700">
+              {% for item in next.agenda %}
+                <li>
+                  <span class="font-mono text-slate-400">{{ item.time }}</span>
+                  {{ item.title }}
+                </li>
+              {% endfor %}
+            </ul>
           {% endif %}
         </a>
-      {% endfor %}
-    </div>
-  </section>
-{% endif %}
+      </section>
+    {% endif %}
+
+    <section class="space-y-4">
+      <h2 class="text-xl font-semibold text-indigo-600">Speaker Requests</h2>
+      <div class="rounded-xl border border-slate-200 bg-white p-5 space-y-3">
+        <p class="text-sm text-slate-700">
+          Have a topic, demo, or speaker in mind for an upcoming session?
+          Submit a proposal and we'll work it into the schedule.
+        </p>
+        <a
+          href="https://github.com/blockchain-working-group/agendas/issues/new?template=speaker-proposal.yaml"
+          target="_blank"
+          rel="noopener"
+          class="inline-flex items-center rounded-md bg-indigo-600 px-4 py-2 text-sm font-semibold text-white hover:bg-indigo-500"
+        >Propose a Speaker</a>
+      </div>
+    </section>
+
+    {% if past.size > 0 %}
+      <section>
+        <h2 class="text-xl font-semibold mb-4">Previous Meetings</h2>
+        <div class="rounded-xl border border-slate-200 bg-white divide-y divide-slate-100">
+          {% for meeting in past %}
+            <a
+              href="{{ meeting.url | relative_url }}"
+              class="flex items-center justify-between px-5 py-3 hover:bg-slate-50"
+            >
+              <div>
+                <span class="text-sm font-medium text-slate-900">
+                  {{ meeting.date | date: "%b %-d, %Y" }}
+                </span>
+                {% for item in meeting.agenda %}
+                  {% unless item.title == "Welcome" or item.title == "Community updates" or item.title == "Discussion" %}
+                    <span class="ml-2 text-sm text-slate-500">
+                      — {{ item.title }}
+                    </span>
+                  {% endunless %}
+                {% endfor %}
+              </div>
+              {% assign stripped = meeting.content | strip %}
+              {% if stripped != "" %}
+                <span class="rounded-full bg-slate-100 px-2 py-0.5 text-xs font-medium text-slate-600">
+                  Notes
+                </span>
+              {% endif %}
+            </a>
+          {% endfor %}
+        </div>
+      </section>
+    {% endif %}
+  </div>
+
+  <div class="hidden lg:block">
+    {% include calendar.html %}
+  </div>
+</div>

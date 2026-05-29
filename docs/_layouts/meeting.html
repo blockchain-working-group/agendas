@@ -2,102 +2,108 @@
 layout: default
 ---
 
-<article class="max-w-3xl space-y-8">
-  <header class="space-y-2">
-    <p class="text-xs uppercase tracking-wide text-indigo-600">
-      {{ page.date | date: "%A" }}
-    </p>
-    <h1 class="text-3xl font-semibold">
-      {{ page.date | date: "%B %-d, %Y" }}
-    </h1>
-    <p class="text-slate-600">
-      {{ page.time }}
-    </p>
-    {% if page.status == "upcoming" %}
-      <span class="inline-block rounded-full bg-indigo-100 px-3 py-0.5 text-xs font-medium text-indigo-700">
-        Upcoming
-      </span>
-    {% endif %}
-    {% if page.status == "canceled" %}
-      <span class="inline-block rounded-full bg-red-100 px-3 py-0.5 text-xs font-medium text-red-700">
-        Canceled
-      </span>
-    {% endif %}
-  </header>
-
-  {% if page.video_url %}
-    <div class="rounded-lg border border-slate-200 bg-white p-4">
-      <p class="text-sm text-slate-600">
-        Video call:
-        <a
-          href="{{ page.video_url }}"
-          class="text-indigo-600 hover:text-indigo-500 break-all"
-        >{{ page.video_url }}</a>
+<div class="grid gap-10 lg:grid-cols-[1fr_240px]">
+  <article class="space-y-8">
+    <header class="space-y-2">
+      <p class="text-xs uppercase tracking-wide text-indigo-600">
+        {{ page.date | date: "%A" }}
       </p>
-    </div>
-  {% endif %}
+      <h1 class="text-3xl font-semibold">
+        {{ page.date | date: "%B %-d, %Y" }}
+      </h1>
+      <p class="text-slate-600">
+        {{ page.time }}
+      </p>
+      {% if page.status == "upcoming" %}
+        <span class="inline-block rounded-full bg-indigo-100 px-3 py-0.5 text-xs font-medium text-indigo-700">
+          Upcoming
+        </span>
+      {% endif %}
+      {% if page.status == "canceled" %}
+        <span class="inline-block rounded-full bg-red-100 px-3 py-0.5 text-xs font-medium text-red-700">
+          Canceled
+        </span>
+      {% endif %}
+    </header>
 
-  {% if page.agenda.size > 0 %}
+    {% if page.video_url %}
+      <div class="rounded-lg border border-slate-200 bg-white p-4">
+        <p class="text-sm text-slate-600">
+          Video call:
+          <a
+            href="{{ page.video_url }}"
+            class="text-indigo-600 hover:text-indigo-500 break-all"
+          >{{ page.video_url }}</a>
+        </p>
+      </div>
+    {% endif %}
+
+    {% if page.agenda.size > 0 %}
+      <section>
+        <h2 class="text-xl font-semibold mb-4">Agenda</h2>
+        <div class="rounded-xl border border-slate-200 bg-white divide-y divide-slate-100">
+          {% for item in page.agenda %}
+            <div class="flex gap-4 px-5 py-3">
+              <span class="shrink-0 text-sm text-slate-500 font-mono w-24">
+                {{ item.time }}
+              </span>
+              <span class="text-sm text-slate-800">
+                {{ item.title }}
+              </span>
+            </div>
+          {% endfor %}
+        </div>
+      </section>
+    {% endif %}
+
     <section>
-      <h2 class="text-xl font-semibold mb-4">Agenda</h2>
-      <div class="rounded-xl border border-slate-200 bg-white divide-y divide-slate-100">
-        {% for item in page.agenda %}
-          <div class="flex gap-4 px-5 py-3">
-            <span class="shrink-0 text-sm text-slate-500 font-mono w-24">
-              {{ item.time }}
-            </span>
-            <span class="text-sm text-slate-800">
-              {{ item.title }}
-            </span>
-          </div>
-        {% endfor %}
-      </div>
+      <h2 class="text-xl font-semibold mb-4">Notes</h2>
+      {% assign stripped = content | strip %}
+      {% if stripped != "" %}
+        <div class="prose prose-slate prose-sm max-w-none rounded-xl border border-slate-200 bg-white p-5">
+          {{ content }}
+        </div>
+      {% else %}
+        <ul class="rounded-xl border border-slate-200 bg-white p-5">
+          <li class="text-sm text-slate-400">None</li>
+        </ul>
+      {% endif %}
     </section>
-  {% endif %}
 
-  <section>
-    <h2 class="text-xl font-semibold mb-4">Notes</h2>
-    {% assign stripped = content | strip %}
-    {% if stripped != "" %}
-      <div class="prose prose-slate prose-sm max-w-none rounded-xl border border-slate-200 bg-white p-5">
-        {{ content }}
-      </div>
-    {% else %}
-      <ul class="rounded-xl border border-slate-200 bg-white p-5">
-        <li class="text-sm text-slate-400">None</li>
-      </ul>
-    {% endif %}
-  </section>
+    <nav class="flex justify-between text-sm pt-4 border-t border-slate-200">
+      {% assign sorted = site.meetings | sort: "date" %}
+      {% assign current_index = nil %}
+      {% for m in sorted %}
+        {% if m.url == page.url %}
+          {% assign current_index = forloop.index0 %}
+        {% endif %}
+      {% endfor %}
+      {% if current_index %}
+        {% assign prev_index = current_index | minus: 1 %}
+        {% if prev_index >= 0 %}
+          {% assign prev = sorted[prev_index] %}
+          <a
+            href="{{ prev.url | relative_url }}"
+            class="text-indigo-600 hover:text-indigo-500"
+          >&larr; {{ prev.date | date: "%b %-d, %Y" }}</a>
+        {% else %}
+          <span></span>
+        {% endif %}
+        {% assign next_index = current_index | plus: 1 %}
+        {% if next_index < sorted.size %}
+          {% assign nxt = sorted[next_index] %}
+          <a
+            href="{{ nxt.url | relative_url }}"
+            class="text-indigo-600 hover:text-indigo-500"
+          >{{ nxt.date | date: "%b %-d, %Y" }} &rarr;</a>
+        {% else %}
+          <span></span>
+        {% endif %}
+      {% endif %}
+    </nav>
+  </article>
 
-  <nav class="flex justify-between text-sm pt-4 border-t border-slate-200">
-    {% assign sorted = site.meetings | sort: "date" %}
-    {% assign current_index = nil %}
-    {% for m in sorted %}
-      {% if m.url == page.url %}
-        {% assign current_index = forloop.index0 %}
-      {% endif %}
-    {% endfor %}
-    {% if current_index %}
-      {% assign prev_index = current_index | minus: 1 %}
-      {% if prev_index >= 0 %}
-        {% assign prev = sorted[prev_index] %}
-        <a
-          href="{{ prev.url | relative_url }}"
-          class="text-indigo-600 hover:text-indigo-500"
-        >&larr; {{ prev.date | date: "%b %-d, %Y" }}</a>
-      {% else %}
-        <span></span>
-      {% endif %}
-      {% assign next_index = current_index | plus: 1 %}
-      {% if next_index < sorted.size %}
-        {% assign nxt = sorted[next_index] %}
-        <a
-          href="{{ nxt.url | relative_url }}"
-          class="text-indigo-600 hover:text-indigo-500"
-        >{{ nxt.date | date: "%b %-d, %Y" }} &rarr;</a>
-      {% else %}
-        <span></span>
-      {% endif %}
-    {% endif %}
-  </nav>
-</article>
+  <div class="hidden lg:block">
+    {% include calendar.html active_date=page.date %}
+  </div>
+</div>
