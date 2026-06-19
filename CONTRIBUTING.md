@@ -22,7 +22,7 @@ That's it. Someone from the group will follow up.
 
 ## How to edit a file directly on GitHub
 
-1. Navigate to the file you want to change (e.g., `README.md`)
+1. Navigate to the file you want to change (for example, a meeting in `docs/_meetings/`)
 2. Click the pencil icon (top right of the file view)
 3. Make your changes
 4. Scroll down, add a short description of what you changed
@@ -31,11 +31,11 @@ That's it. Someone from the group will follow up.
 
 A group member will review and merge your change.
 
-## What belongs in the README
+## Updating meeting agendas
 
-The main `README.md` tracks the current year's agendas. When a new year starts, the previous year's agendas get moved into `previous_agendas/`.
+Meeting agendas and history belong in `docs/_meetings/`. The [published agendas page](https://blockchain-working-group.github.io/agendas/agendas/) renders those files.
 
-To add an upcoming agenda, copy the format of the most recent entry and update the date and topics.
+The main `README.md` contains only current and upcoming meeting details. To add a meeting, copy the most recent file in `docs/_meetings/`, update its date and topics, and set its `status` field. Do not copy past agendas into the README or other Markdown archives outside `docs/`.
 
 ## Questions?
 
