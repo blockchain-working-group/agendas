@@ -20,7 +20,39 @@ Video call link: https://meet.google.com/iyg-zqve-wne
 
 * 10:00am to 10:05am - Welcome
 * 10:05am to 10:10am - Community updates
-* 10:10am to 10:45am - Discussion
+* 10:10am to 10:45am - Issue Triage: Categorization & Priorities
+
+#### Issue Triage (as of 03/20/2026)
+
+There are currently **16 open issues**. Below is a summary by category, followed by the top 5 priorities proposed for the group's focus this week.
+
+##### Categories
+
+| Category | Issues |
+|---|---|
+| **Technical Demos** | [#34 Multisig demo](https://github.com/blockchain-working-group/agendas/issues/34), [#32 ZKP demo](https://github.com/blockchain-working-group/agendas/issues/32), [#8 DID demo](https://github.com/blockchain-working-group/agendas/issues/8) |
+| **Policy & Compliance** | [#7 NIST 800-53 controls](https://github.com/blockchain-working-group/agendas/issues/7), [#20 Policy considerations](https://github.com/blockchain-working-group/agendas/issues/20), [#26 EU Ethics publication](https://github.com/blockchain-working-group/agendas/issues/26) |
+| **Research & Use Cases** | [#14 Potential use cases](https://github.com/blockchain-working-group/agendas/issues/14), [#15 Technical prerequisites for agency PoC](https://github.com/blockchain-working-group/agendas/issues/15), [#23 Federal blockchain environments](https://github.com/blockchain-working-group/agendas/issues/23) |
+| **Publications & Documentation** | [#13 ACT-IAC blockchain primer review](https://github.com/blockchain-working-group/agendas/issues/13), [#10 ACT-IAC playbook feedback](https://github.com/blockchain-working-group/agendas/issues/10) |
+| **Presentations & Outreach** | [#21 Speaker requests & topics of interest](https://github.com/blockchain-working-group/agendas/issues/21), [#29 AI Mindsystems presentation](https://github.com/blockchain-working-group/agendas/issues/29) |
+| **Working Group Governance & Collaboration** | [#31 Blockchain applications / citizen-centered DLT](https://github.com/blockchain-working-group/agendas/issues/31), [#27 Blockchain × AI WG collaboration](https://github.com/blockchain-working-group/agendas/issues/27), [#24 Working in the open](https://github.com/blockchain-working-group/agendas/issues/24) |
+
+##### Top 5 Priorities for This Week
+
+1. **[#31 Blockchain Applications: Citizen-Centered Federal DLT](https://github.com/blockchain-working-group/agendas/issues/31)** *(Working Group Governance & Collaboration)*
+   Most recently active issue (last comment March 13, 2026). Rich discussion is underway on a citizen-centered DLT architecture. The group needs to scope the effort, define a "Definition of Done," and decide whether to advance PR #35 or take another path.
+
+2. **[#14 Potential Use Cases](https://github.com/blockchain-working-group/agendas/issues/14)** *(Research & Use Cases)*
+   Updated March 11, 2026 with new examples (Spain's Securitize TSS approval, Texas Blockchain fintech cohort). A rolling thread with diverse contributions—a good recurring discussion topic to keep momentum.
+
+3. **[#34 Demo a Multisig Transaction](https://github.com/blockchain-working-group/agendas/issues/34)** *(Technical Demos)*
+   Concrete, actionable demo task. Multisig is a foundational blockchain concept with direct government applications (e.g., multi-party approvals). The group should assign an owner and set a target date.
+
+4. **[#32 Create a ZKP Demo](https://github.com/blockchain-working-group/agendas/issues/32)** *(Technical Demos)*
+   Zero-knowledge proofs are increasingly relevant to privacy-preserving government identity and data systems. Resources are already identified; the group should assign an owner and agree on a simple first example.
+
+5. **[#27 Blockchain × AI Working Group Collaboration](https://github.com/blockchain-working-group/agendas/issues/27)** *(Working Group Governance & Collaboration)*
+   The blockchain-AI intersection is a current priority across government. The joint meeting idea was positively received in 2024 but has stalled. The group should confirm current status with the AI WG and propose a concrete next step (e.g., a shared meeting date).
 
 ---
 
