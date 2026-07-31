@@ -78,6 +78,49 @@
         "meta": "Transportation Security Administration",
         "summary": "TSA's program for accepting mobile driver's licenses and digital IDs at airport checkpoints. Covers supported wallets, participating states, privacy protections, and REAL ID compliance.",
         "url": "https://www.tsa.gov/digital-id"
+      },
+      {
+        "title": "Federal Register — Digital Identity Notice (2024-03772)",
+        "meta": "PDF · Federal Register · 2024",
+        "url": "https://public-inspection.federalregister.gov/2024-03772.pdf"
+      },
+      {
+        "title": "W3C — A Primer for Decentralized Identifiers",
+        "meta": "W3C Credentials Community Group",
+        "url": "https://w3c-ccg.github.io/did-primer/"
+      },
+      {
+        "title": "IDManagement.gov",
+        "meta": "GSA",
+        "summary": "Federal identity, credential, and access management (FICAM) resources.",
+        "url": "https://www.idmanagement.gov/"
+      },
+      {
+        "title": "GSA — Federal Identity, Credential, and Access Management",
+        "meta": "U.S. General Services Administration",
+        "url": "https://www.gsa.gov/technology/government-it-initiatives/federal-identity-credential-and-access-management"
+      },
+      {
+        "title": "FICAM Playbooks (idmanagement.gov source)",
+        "meta": "GitHub · GSA",
+        "url": "https://github.com/GSA/idmanagement.gov"
+      },
+      {
+        "title": "FSMB — Blockchain",
+        "meta": "Federation of State Medical Boards",
+        "summary": "The Federation of State Medical Boards' blockchain page — may be looking into similar credentialing issues.",
+        "url": "https://www.fsmb.org/blockchain/"
+      },
+      {
+        "title": "NIST Releases Second Public Draft of Digital Identity Guidelines for Final Review",
+        "meta": "NIST · August 2024",
+        "summary": "NIST call for comments on its Digital Identity Guidelines (SP 800-63) draft.",
+        "url": "https://www.nist.gov/news-events/news/2024/08/nist-releases-second-public-draft-digital-identity-guidelines-final-review"
+      },
+      {
+        "title": "Utah SB0275 — State-Endorsed Digital Identity",
+        "meta": "PDF · Utah Legislature · 2026",
+        "url": "https://le.utah.gov/Session/2026/bills/introduced/SB0275.pdf"
       }
     ]
   },
@@ -115,10 +158,32 @@
         "url": "https://csrc.nist.gov/pubs/ir/8202/final"
       },
       {
+        "title": "NISTIR 8301 — Blockchain Networks: Token Design and Management Overview",
+        "meta": "NIST · 2021",
+        "summary": "Overview of how tokens are designed, issued, and managed on blockchain networks, covering fungible and non-fungible tokens, token standards, custody and key management, and the security and governance considerations relevant to deployments.",
+        "url": "https://csrc.nist.gov/pubs/ir/8301/final"
+      },
+      {
         "title": "GBA — Blockchain Maturity Model Gaming Supplement",
         "meta": "PDF · Government Blockchain Association · v1.4 · 2024",
         "summary": "Industry-specific supplement to the Blockchain Maturity Model (BMM) for the gaming sector, extending the BMM's 11-element assessment framework with gaming-specific criteria for evaluating blockchain solution trustworthiness.",
         "url": "https://gbaglobal.org/wp-content/uploads/2024/04/BMM-Gaming-Supplement-v1.4.pdf"
+      },
+      {
+        "title": "W3C — Decentralized Identifiers (DIDs) Core Spec",
+        "meta": "W3C · did-core",
+        "url": "https://www.w3.org/TR/did-core/"
+      },
+      {
+        "title": "W3C — Verifiable Credential Rendering Methods",
+        "meta": "W3C Credentials Community Group Report · 2025",
+        "summary": "Community group final report on methods for rendering verifiable credentials for human presentation.",
+        "url": "https://www.w3.org/community/reports/credentials/CG-FINAL-vc-render-method-20250831/"
+      },
+      {
+        "title": "Utah HB0260 — IDs and Credentials",
+        "meta": "Utah Legislature · 2025",
+        "url": "https://le.utah.gov/~2025/bills/static/HB0260.html"
       }
     ]
   },
@@ -154,6 +219,163 @@
         "meta": "Publication · PDF · EU Expert Group on Blockchain Ethics · 2024",
         "summary": "The full guidelines document covering fairness, privacy, security, economic accountability, and societal responsibility for blockchain deployments within the EU framework.",
         "url": "https://ec.europa.eu/digital-building-blocks/sites/download/attachments/674507497/Ethical_Guidelines_for_Blockchain_Systems_compressed.pdf"
+      },
+      {
+        "title": "SEC Release No. 33-11412 — Fact Sheet",
+        "meta": "PDF · U.S. Securities and Exchange Commission",
+        "url": "https://www.sec.gov/files/33-11412-fact-sheet.pdf"
+      },
+      {
+        "title": "SEC Release No. 33-11412 — Interpretive Guidance",
+        "meta": "PDF · U.S. Securities and Exchange Commission · 2026",
+        "url": "https://www.sec.gov/files/rules/interp/2026/33-11412.pdf"
+      },
+      {
+        "title": "CLARITY Act (H.R. 3633)",
+        "meta": "PDF · 119th Congress · 257 pages",
+        "url": "https://www.congress.gov/119/bills/hr3633/BILLS-119hr3633rfs.pdf"
+      },
+      {
+        "title": "GAO — Crypto Assets in Retirement Plans (GAO-25-106161)",
+        "meta": "U.S. Government Accountability Office",
+        "url": "https://www.gao.gov/products/gao-25-106161"
+      },
+      {
+        "title": "OMB M-25-05 — Open Government Data Access and Management Guidance",
+        "meta": "PDF · White House / OMB · January 2025",
+        "summary": "Phase 2 implementation of the Foundations for Evidence-Based Policymaking Act of 2018 (Open Government Data Act).",
+        "url": "https://www.whitehouse.gov/wp-content/uploads/2025/01/M-25-05-Phase-2-Implementation-of-the-Foundations-for-Evidence-Based-Policymaking-Act-of-2018-Open-Government-Data-Access-and-Management-Guidance.pdf"
+      },
+      {
+        "title": "CBP — Intellectual Property Rights: Proof of Concept Report",
+        "meta": "PDF · U.S. Customs and Border Protection · 2020",
+        "url": "https://www.cbp.gov/sites/default/files/assets/documents/2020-Mar/IPR%20POC%20Report%20-%20Final%20V2.pdf"
+      },
+      {
+        "title": "OMB M-21-31 — Improving the Federal Government's Cybersecurity Incident Capabilities",
+        "meta": "White House / OMB · August 2021",
+        "url": "https://www.whitehouse.gov/wp-content/uploads/2021/08"
+      }
+    ]
+  },
+  {
+    "section": "Topics & Further Reading",
+    "items": [
+      {
+        "title": "Ian Grigg — Triple Entry Accounting",
+        "meta": "iang.org · 2005",
+        "url": "https://iang.org/papers/triple_entry.html"
+      },
+      {
+        "title": "Triple-Entry Accounting (JRFM)",
+        "meta": "MDPI · Journal of Risk and Financial Management",
+        "url": "https://www.mdpi.com/1911-8074/17/2/76"
+      },
+      {
+        "title": "2023 TEA Conference Papers (Triple-Entry Accounting)",
+        "meta": "MDPI · JRFM Special Issue",
+        "url": "https://www.mdpi.com/journal/jrfm/special_issues/S0ZR60SZUX"
+      },
+      {
+        "title": "AI Implementations on the Blockchain: Use Cases and Future Applications",
+        "meta": "MDPI · Future Internet",
+        "url": "https://www.mdpi.com/1999-5903/11/8/170"
+      },
+      {
+        "title": "A Survey of Blockchain and AI for 6G Wireless Communications",
+        "meta": "PDF · arXiv",
+        "url": "https://arxiv.org/pdf/2305.08604.pdf"
+      },
+      {
+        "title": "AI-Powered Blockchain in Industry 4.0",
+        "meta": "ScienceDirect",
+        "url": "https://www.sciencedirect.com/science/article/pii/S2949948824000015"
+      },
+      {
+        "title": "Collaborative Role of Blockchain, AI, and IoT in SME Digitalization",
+        "meta": "Nature · Scientific Reports",
+        "url": "https://www.nature.com/articles/s41598-023-28707-9"
+      },
+      {
+        "title": "AI-Powered Blockchain for Public Health Applications",
+        "meta": "NIH · PMC",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9819078/"
+      },
+      {
+        "title": "Blockchain in Healthcare Today (Journal)",
+        "meta": "Journal",
+        "url": "https://blockchainhealthcaretoday.com/index.php/journal/index"
+      },
+      {
+        "title": "BIS — Basel Framework SCO60 (Cryptoasset Exposures)",
+        "meta": "Bank for International Settlements · in force 2026",
+        "url": "https://www.bis.org/basel_framework/chapter/SCO/60.htm?inforce=20260101&published=20241127"
+      },
+      {
+        "title": "Cadasta — Bitcoin, Blockchain, and Land",
+        "meta": "White Paper · Cadasta",
+        "url": "https://cadasta.org/resources/white-papers/bitcoin-blockchain-land/"
+      },
+      {
+        "title": "The BlockTitle Revolution: Are Land Titles Moving to the Blockchain?",
+        "meta": "USC Law for Business",
+        "url": "https://lawforbusiness.usc.edu/the-blocktitle-revolution-are-land-titles-moving-to-the-blockchain/"
+      },
+      {
+        "title": "Mattereum",
+        "meta": "Project",
+        "url": "https://mattereum.com/"
+      },
+      {
+        "title": "GBA — BMM Land Titling Supplement",
+        "meta": "PDF · Government Blockchain Association · v1 · 2024",
+        "url": "https://gbaglobal.org/wp-content/uploads/2024/07/BMM-Land-Titling-Supplement-v1.pdf"
+      },
+      {
+        "title": "Secure Land Titles in the Digital Era: The Promise of Blockchain",
+        "meta": "LinkedIn",
+        "url": "https://www.linkedin.com/pulse/secure-land-titles-digital-era-promise-blockchain-technology-muoka/"
+      },
+      {
+        "title": "Toyota Blockchain Lab — Introducing Mobility into the Public Blockchain",
+        "meta": "Toyota Blockchain Lab",
+        "url": "https://www.toyota-blockchain-lab.org/library/how-to-introduce-mobility-into-the-public-blockchain"
+      },
+      {
+        "title": "Role of Blockchain Technology in Autonomous Vehicles",
+        "meta": "Blockedge",
+        "url": "https://www.blockedge.io/blog/role-of-blockchain-technology-in-autonomous-vehicles/"
+      },
+      {
+        "title": "Hemi Network — EVM Execution on Bitcoin",
+        "meta": "The Defiant",
+        "url": "https://thedefiant.io/news/blockchains/jeff-garzik-s-hemi-network-brings-evm-execution-to-bitcoin"
+      },
+      {
+        "title": "SoftWar: A Novel Theory on the National Strategic Significance of Bitcoin",
+        "meta": "Internet Archive",
+        "url": "https://archive.org/details/softwar-theory"
+      },
+      {
+        "title": "California DFPI — Crypto Scams",
+        "meta": "California Department of Financial Protection and Innovation",
+        "summary": "Consumer-protection resources on cryptocurrency scams.",
+        "url": "https://dfpi.ca.gov/crypto-scams/"
+      },
+      {
+        "title": "NY AG — Lawsuit Against Cryptocurrency Company (Press Release)",
+        "meta": "New York Attorney General · 2024",
+        "url": "https://ag.ny.gov/press-release/2024/attorney-general-james-expands-lawsuit-against-cryptocurrency-company-digital"
+      },
+      {
+        "title": "Security and Provenance of Data and Publications (Use Case)",
+        "meta": "ScienceDirect",
+        "url": "https://www.sciencedirect.com/science/article/pii/S2665963823000118"
+      },
+      {
+        "title": "Strengthening American Leadership",
+        "meta": "Substack · Anna Iversen",
+        "url": "https://annaiversen.substack.com/p/strengthening-american-leadership"
       }
     ]
   }
