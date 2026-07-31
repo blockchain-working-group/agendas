@@ -19,8 +19,8 @@ nav_id: resources
       class="block rounded-xl border border-slate-200 bg-white p-5 hover:border-indigo-400"
     >
       <div class="font-semibold">{{ item.title }}</div>
-      <div class="mt-1 text-xs text-slate-500">{{ item.meta }}</div>
-      <p class="mt-2 text-sm text-slate-700">{{ item.summary }}</p>
+      {% if item.meta %}<div class="mt-1 text-xs text-slate-500">{{ item.meta }}</div>{% endif %}
+      {% if item.summary %}<p class="mt-2 text-sm text-slate-700">{{ item.summary }}</p>{% endif %}
     </a>
     {% endfor %}
   </div>

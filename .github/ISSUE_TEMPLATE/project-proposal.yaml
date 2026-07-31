@@ -1,21 +1,22 @@
 name: "Propose a Project (Public Tech Lab)"
 description: "Suggest a new project, prototype, or pilot to run through a public tech lab"
 title: "Project Proposal: [short name]"
-labels: ["type:project", "proposal", "needs:review"]
+labels: ["type:project", "status:triage"]
 body:
   - type: markdown
     attributes:
       value: |
-        ## 🚀 Project Proposal (Public Tech Lab)
-        Use this template to propose an open, collaborative project to be piloted in the Blockchain Group’s Public Tech Lab.
+        ## Propose a Project (Public Tech Lab)
+        Use this template to propose an open, collaborative project to be piloted in the Blockchain Group's Public Tech Lab.
+
   - type: input
-    id: project_title
+    id: title
     attributes:
       label: "Project Title"
-      description: "What is the name or working title of your project?"
       placeholder: "e.g. Blockchain-anchored Public Notices"
     validations:
       required: true
+
   - type: textarea
     id: summary
     attributes:
@@ -24,41 +25,30 @@ body:
       placeholder: "e.g. Enable verifiable publishing of city ordinances on-chain."
     validations:
       required: true
+
   - type: dropdown
-    id: project_type
+    id: category
     attributes:
-      label: "Project Type"
-      description: "Select the project’s intended focus."
+      label: "Category"
       options:
         - Pilot with a public partner
         - Open-source prototype / repo
-        - Publish learnings & metrics
+        - Publish learnings and metrics
+
   - type: textarea
-    id: outcomes
+    id: context
     attributes:
-      label: "Expected Outcomes"
-      description: "What tangible outcomes or outputs do you expect?"
-      placeholder: "e.g. Working demo, repo, presentation, open data"
+      label: "Context"
+      description: "Expected outcomes, timeline, collaborators, and any risks or dependencies."
+
   - type: textarea
-    id: collaboration
+    id: links
     attributes:
-      label: "Potential Collaborators or Stakeholders"
-      description: "Mention anyone you hope to involve (agencies, developers, civic partners)."
-  - type: textarea
-    id: timeline
-    attributes:
-      label: "Proposed Timeline"
-      description: "Rough timing or milestones."
-  - type: textarea
-    id: risks
-    attributes:
-      label: "Risks, Ethics, or Dependencies"
-      description: "What dependencies, ethical considerations, or blockers should we be aware of?"
+      label: "Links or References"
+      description: "Link to related issues, RFCs, repos, or prior art."
+
   - type: markdown
     attributes:
       value: |
         ---
-        **Next steps:**
-        - Label with `type:project`
-        - Add to upcoming Lab session agenda if ready for review
-        - Link any related issues or RFCs
+        **Action:** Review proposal. If accepted, add to the Public Tech Lab backlog and schedule for an upcoming session.

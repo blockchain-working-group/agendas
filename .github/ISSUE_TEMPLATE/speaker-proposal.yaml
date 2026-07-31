@@ -1,65 +1,57 @@
-name: "Propose to be a Speaker 🎤"
+name: "Propose a Speaker"
 description: "Volunteer to share your expertise, experience, or a story at an upcoming session"
 title: "Speaker Proposal: [topic or title]"
-labels: ["type:talk", "proposal", "needs:scheduling"]
+labels: ["type:speaker", "status:triage"]
 body:
   - type: markdown
     attributes:
       value: |
-        ## 🎤 Speaker Proposal
-        Use this form to propose yourself (or another) as a speaker for a Blockchain Group session.
+        ## Propose a Speaker
+        Use this form to propose yourself (or another person) as a speaker for a Blockchain Group session.
+
   - type: input
-    id: speaker_name
+    id: title
     attributes:
-      label: "Your Name"
-      description: "Who will be speaking?"
-      placeholder: "Jane Doe"
+      label: "Talk Title or Topic"
+      placeholder: "e.g. Civic identity through blockchain registries"
     validations:
       required: true
-  - type: input
-    id: affiliation
-    attributes:
-      label: "Affiliation / Organization"
-      description: "Optional, for context or introduction."
-  - type: dropdown
-    id: format
-    attributes:
-      label: "Preferred Format"
-      options:
-        - Lightning talk (5–10 min)
-        - Feature talk (20–30 min)
-        - Panel / fireside chat
-    validations:
-      required: true
-  - type: input
-    id: topic
-    attributes:
-      label: "Talk Title / Topic"
-      placeholder: "Example: Civic identity through blockchain registries"
-    validations:
-      required: true
+
   - type: textarea
     id: summary
     attributes:
-      label: "Summary / Abstract"
-      description: "Briefly describe what you’ll cover and what participants can learn."
+      label: "Summary"
+      description: "Briefly describe what will be covered and what participants can learn."
     validations:
       required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: "Category"
+      options:
+        - Lightning talk (5-10 min)
+        - Feature talk (20-30 min)
+        - Panel / fireside chat
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: "Speaker Details"
+      description: "Speaker name, affiliation, and availability."
+    validations:
+      required: true
+
   - type: textarea
     id: links
     attributes:
       label: "Links or References"
-      description: "Optionally link slides, repos, or related material."
-  - type: textarea
-    id: availability
-    attributes:
-      label: "Availability"
-      description: "When are you available to present?"
+      description: "Link to slides, repos, or related material."
+
   - type: markdown
     attributes:
       value: |
         ---
-        **Next steps:**
-        - Label with `type:talk`
-        - Add to Speaker queue for scheduling
-        - Coordinator will confirm timing & format
+        **Action:** Add to speaker queue. Confirm timing and format, then schedule on an upcoming agenda.

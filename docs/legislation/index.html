@@ -31,6 +31,11 @@ nav_id: legislation
     data-filter="introduced"
     class="rounded-full bg-slate-100 text-slate-600 px-2.5 py-0.5 font-medium cursor-pointer ring-2 ring-transparent hover:ring-slate-400 transition-all"
   >Introduced</button>
+  <button
+    type="button"
+    data-filter="failed"
+    class="rounded-full bg-rose-100 text-rose-800 px-2.5 py-0.5 font-medium cursor-pointer ring-2 ring-transparent hover:ring-rose-400 transition-all"
+  >Failed</button>
 </div>
 
 <div class="mt-4">
@@ -69,6 +74,8 @@ nav_id: legislation
           <span class="rounded-full bg-sky-100 text-sky-800 px-2.5 py-0.5 text-xs font-medium">Pending</span>
         {% elsif item.status == "introduced" %}
           <span class="rounded-full bg-slate-100 text-slate-600 px-2.5 py-0.5 text-xs font-medium">Introduced</span>
+        {% elsif item.status == "failed" %}
+          <span class="rounded-full bg-rose-100 text-rose-800 px-2.5 py-0.5 text-xs font-medium">Failed</span>
         {% endif %}
       </div>
       <div class="mt-1 text-xs text-slate-500">{{ item.jurisdiction }} · {{ item.year }}</div>
@@ -103,6 +110,8 @@ nav_id: legislation
           <span class="rounded-full bg-sky-100 text-sky-800 px-2.5 py-0.5 text-xs font-medium">Pending</span>
         {% elsif item.status == "introduced" %}
           <span class="rounded-full bg-slate-100 text-slate-600 px-2.5 py-0.5 text-xs font-medium">Introduced</span>
+        {% elsif item.status == "failed" %}
+          <span class="rounded-full bg-rose-100 text-rose-800 px-2.5 py-0.5 text-xs font-medium">Failed</span>
         {% endif %}
       </div>
       <div class="mt-1 text-xs text-slate-500">{{ item.jurisdiction }} · {{ item.year }}</div>
@@ -137,6 +146,8 @@ nav_id: legislation
           <span class="rounded-full bg-sky-100 text-sky-800 px-2.5 py-0.5 text-xs font-medium">Pending</span>
         {% elsif item.status == "introduced" %}
           <span class="rounded-full bg-slate-100 text-slate-600 px-2.5 py-0.5 text-xs font-medium">Introduced</span>
+        {% elsif item.status == "failed" %}
+          <span class="rounded-full bg-rose-100 text-rose-800 px-2.5 py-0.5 text-xs font-medium">Failed</span>
         {% endif %}
       </div>
       <div class="mt-1 text-xs text-slate-500">{{ item.jurisdiction }} · {{ item.year }}</div>
@@ -156,7 +167,8 @@ nav_id: legislation
       enacted: 'ring-emerald-400',
       passed: 'ring-amber-400',
       pending: 'ring-sky-400',
-      introduced: 'ring-slate-400'
+      introduced: 'ring-slate-400',
+      failed: 'ring-rose-400'
     };
 
     function updateSections() {

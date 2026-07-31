@@ -1,0 +1,55 @@
+name: "Share an Event or Resource"
+description: "Share a relevant event, article, tool, or resource with the group"
+title: "Resource: [title]"
+labels: ["type:resource", "status:triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Share an Event or Resource
+        Share something the working group should know about — a conference, article, tool, report, or other resource.
+
+  - type: input
+    id: title
+    attributes:
+      label: "Title"
+      placeholder: "e.g. NIST Blockchain Workshop — June 2026"
+    validations:
+      required: true
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: "Summary"
+      description: "Briefly explain what this is and why the group should know about it."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: "Category"
+      options:
+        - Event or conference
+        - Article or report
+        - Tool or software
+        - Standard or specification
+        - Other
+
+  - type: textarea
+    id: context
+    attributes:
+      label: "Context"
+      description: "Date, deadline, or other time-sensitive details."
+
+  - type: textarea
+    id: links
+    attributes:
+      label: "Links or References"
+      description: "URL to the resource, event page, or related material."
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        **Action:** Add to the resources page. If time-sensitive, add to the next agenda.

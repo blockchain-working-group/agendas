@@ -1,0 +1,128 @@
+{% comment %}
+  Mini calendar sidebar. Pass `active_date` to highlight a specific meeting date.
+  Shows upcoming meetings list + a visual month grid for the active month.
+{% endcomment %}
+
+{% assign all_meetings = site.meetings | sort: "date" | reverse %}
+
+{% if include.active_date %}
+  {% assign cal_date = include.active_date %}
+{% else %}
+  {% assign upcoming = all_meetings | where: "status", "upcoming" %}
+  {% if upcoming.size > 0 %}
+    {% assign next = upcoming | last %}
+    {% assign cal_date = next.date %}
+  {% else %}
+    {% assign cal_date = all_meetings.first.date %}
+  {% endif %}
+{% endif %}
+
+{% assign cal_month = cal_date | date: "%-m" | plus: 0 %}
+{% assign cal_year = cal_date | date: "%Y" | plus: 0 %}
+{% assign cal_month_name = cal_date | date: "%B %Y" %}
+{% assign cal_day = cal_date | date: "%-d" | plus: 0 %}
+
+<aside class="space-y-6">
+  <div class="rounded-xl border border-slate-200 bg-white p-4">
+    <p class="text-sm font-semibold text-slate-900 mb-3">
+      {{ cal_month_name }}
+    </p>
+    <div class="grid grid-cols-7 gap-0 text-center text-xs">
+      <span class="py-1 font-medium text-slate-400">Su</span>
+      <span class="py-1 font-medium text-slate-400">Mo</span>
+      <span class="py-1 font-medium text-slate-400">Tu</span>
+      <span class="py-1 font-medium text-slate-400">We</span>
+      <span class="py-1 font-medium text-slate-400">Th</span>
+      <span class="py-1 font-medium text-slate-400">Fr</span>
+      <span class="py-1 font-medium text-slate-400">Sa</span>
+
+      {% comment %} Compute day-of-week for the 1st of the month {% endcomment %}
+      {% assign first_of_month = cal_date | date: "%Y" | append: "-" %}
+      {% if cal_month < 10 %}
+        {% assign first_of_month = first_of_month | append: "0" %}
+      {% endif %}
+      {% assign first_of_month = first_of_month | append: cal_month | append: "-01" %}
+      {% assign first_dow = first_of_month | date: "%w" | plus: 0 %}
+
+      {% comment %} Days in month {% endcomment %}
+      {% assign days_in_month = 31 %}
+      {% if cal_month == 4 or cal_month == 6 or cal_month == 9 or cal_month == 11 %}
+        {% assign days_in_month = 30 %}
+      {% elsif cal_month == 2 %}
+        {% assign days_in_month = 28 %}
+        {% assign y4 = cal_year | modulo: 4 %}
+        {% if y4 == 0 %}
+          {% assign days_in_month = 29 %}
+        {% endif %}
+      {% endif %}
+
+      {% comment %} Blank cells before day 1 {% endcomment %}
+      {% for i in (1..7) %}
+        {% if i <= first_dow %}
+          <span class="py-1"></span>
+        {% endif %}
+      {% endfor %}
+
+      {% comment %} Day cells {% endcomment %}
+      {% for d in (1..31) %}
+        {% if d <= days_in_month %}
+          {% comment %} Check if this day has a meeting {% endcomment %}
+          {% assign day_str = cal_date | date: "%Y" | append: "-" %}
+          {% if cal_month < 10 %}
+            {% assign day_str = day_str | append: "0" %}
+          {% endif %}
+          {% assign day_str = day_str | append: cal_month | append: "-" %}
+          {% if d < 10 %}
+            {% assign day_str = day_str | append: "0" %}
+          {% endif %}
+          {% assign day_str = day_str | append: d %}
+
+          {% assign has_meeting = false %}
+          {% assign meeting_url = nil %}
+          {% for m in all_meetings %}
+            {% assign m_date_str = m.date | date: "%Y-%m-%d" %}
+            {% if m_date_str == day_str %}
+              {% assign has_meeting = true %}
+              {% assign meeting_url = m.url %}
+            {% endif %}
+          {% endfor %}
+
+          {% if d == cal_day %}
+            <a
+              href="{{ meeting_url | default: '#' | relative_url }}"
+              class="py-1 rounded-full bg-indigo-600 text-white font-semibold"
+            >{{ d }}</a>
+          {% elsif has_meeting %}
+            <a
+              href="{{ meeting_url | relative_url }}"
+              class="py-1 rounded-full bg-indigo-100 text-indigo-700 font-medium hover:bg-indigo-200"
+            >{{ d }}</a>
+          {% else %}
+            <span class="py-1 text-slate-400">{{ d }}</span>
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+
+  <div class="rounded-xl border border-slate-200 bg-white p-4">
+    <p class="text-sm font-semibold text-slate-900 mb-3">
+      Upcoming
+    </p>
+    {% assign upcoming_list = all_meetings | where: "status", "upcoming" | sort: "date" %}
+    {% if upcoming_list.size > 0 %}
+      <ul class="space-y-2">
+        {% for m in upcoming_list %}
+          <li>
+            <a
+              href="{{ m.url | relative_url }}"
+              class="text-sm text-indigo-600 hover:text-indigo-500"
+            >{{ m.date | date: "%b %-d" }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    {% else %}
+      <p class="text-sm text-slate-400">None scheduled</p>
+    {% endif %}
+  </div>
+</aside>
