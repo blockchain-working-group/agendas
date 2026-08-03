@@ -1,19 +1,21 @@
-# Blockchain Risk and Adoption in the Public Sector
-## A Role-Based Guide Structured on the NIST Risk Management Framework
-
 **Status: working draft — open for contribution.**
 Tracked in [issue #50](https://github.com/blockchain-working-group/agendas/issues/50).
 Timely context and motivating events are kept separate in the [scoping proposal](2026-07-10-cfo-publication-proposal.md) and the group's weekly updates, so this document can stay evergreen.
 Open questions are marked throughout — they are invitations, not gaps.
 If one speaks to your experience, claim it in the issue.
 
+---
+
+# Blockchain Risk and Adoption in the Public Sector
+## A Role-Based Guide Structured on the NIST Risk Management Framework
+
 **Who this is for.**
 Blockchain adoption in a public-sector body is not one person's decision — it moves through a chain of roles, each carrying a different piece of the same lifecycle.
-This guide is written for that whole chain: Deputy Secretaries and Administrators who authorize; CFOs, CIOs, and Directors who own risk, systems, and programs; Project Managers and Directors who build; and the Analysts, Specialists, and Technicians who inventory, assess, and operate.
+This guide is written for that whole chain: Deputy Secretaries and Administrators who authorize; CFOs, CIOs, and Directors who own risk, systems, and programs; Project Managers and Directors who plan, coordinate, and oversee delivery; and the Analysts, Specialists, and Technicians who inventory, build, test, assess, and operate.
 Part II maps each role to the steps it owns. No reader needs to read as though they were someone else — find your role, and the lifecycle tells you your part in it.
 
 **Why NIST RMF.**
-Public-sector agencies already work inside a risk vocabulary they know: the NIST Risk Management Framework (SP 800-37 Rev. 2).
+Public-sector agencies already work inside a risk vocabulary they know: the NIST Risk Management Framework (SP 800-37 Rev. 2).[^sp800-37]
 Rather than invent a parallel framework for digital assets and blockchain systems, this guide runs the question through the RMF lifecycle these agencies already run for their information systems.
 The payoff is shared language across roles: the exposure or use-case inventory becomes a *categorization* input, custody, counterparty, and security diligence become *control selection*, the "do no harm" memo becomes part of the *authorization* package, and the oversight cadence becomes *continuous monitoring*.
 It also gives distinct roles a common map — a CFO, a CIO, and an authorizing Deputy Secretary can each find their step and see how their work hands off to the next.
@@ -65,10 +67,10 @@ The table below assigns each role its center of gravity in the lifecycle. Roles 
 | **CFOs** | Prepare · Categorize · Authorize | Financial-exposure inventory, risk tolerance, fiduciary sign-off, total cost of ownership. |
 | **CIOs** | Prepare · Select · Monitor | System ownership, control selection, security posture, continuous monitoring. |
 | **Directors** (program/business) | Prepare · Monitor | Purpose and foundation, oversight cadence, organizational-change ownership. |
-| **Project Managers / Directors** | Implement | Building and deploying the solution; delivery, devops, schedule, and dependencies. |
-| **Analysts** | Categorize · Assess | Exposure and use-case inventory, impact/risk-tier rating, evaluation of findings. |
-| **Specialists** (security, compliance, legal) | Select · Assess | Control design, regulatory mapping, independent assessment, formal verification. |
-| **Technicians** | Implement · Monitor | Operating the system — key ceremonies, node ops, upgrades, monitoring instrumentation. |
+| **Project Managers / Directors** | Implement (coordinate) | Planning, coordinating, and overseeing delivery — schedule, dependencies, and hand-offs; they steward the build, they do not build it. |
+| **Analysts** | Categorize · Assess | Exposure and use-case inventory, impact/risk-tier rating, evaluation of findings; contribute to build and test. |
+| **Specialists** (security, compliance, legal) | Select · Implement · Assess | Control design, regulatory mapping, development, independent assessment, formal verification. |
+| **Technicians** | Implement · Monitor | Building, testing, and operating the system — development, key ceremonies, node ops, upgrades, monitoring instrumentation. |
 
 Two things to notice.
 First, **the same document serves every role** because they share one spine: a CFO reads Categorize as an exposure inventory, an analyst reads it as a risk-tiering task, and a Deputy Secretary reads its output as an input to Authorize.
@@ -77,6 +79,27 @@ Each RMF step in Part III opens with a **"Who owns this step"** line so you can 
 
 > **Open question (for contributors):** Does this role-to-step mapping match how real agencies actually distribute this work? Corrections from practitioners — especially where a role we placed is wrong for your jurisdiction — would sharpen this table.
 
+## Purpose and product goals
+
+This document is a product — the multiplied result of contributors' attention, resources, and intent — and it holds itself to product goals so that many hands produce one coherent artifact rather than an anthology.
+Every contribution can be checked against these three goals; the "how we'll know" line after each is the test.
+
+1. **Provide clarity around adoption.**
+   A reader should come away understanding the path — the lifecycle, the roles, the decisions — not just the vocabulary.
+   *How we'll know:* a reader new to the topic can state, in their own words, what their next step is.
+
+2. **Reduce the perceived barriers to adoption — honestly.**
+   Barriers are real: risk, limited organizational talent or capacity, and the up-front cost of overcoming inertia.
+   This guide lowers the *perceived* barrier by making the real one legible and navigable — including by articulating the opportunity on the far side, so the reader can weigh total cost against total benefit rather than only counting the cost of moving.
+   It does not lower the barrier by understating risk or overselling the technology; a barrier hidden is a barrier a reader trips over later.
+   *How we'll know:* a reader can name both what adoption would cost them and what it could earn them, and make a decision they can defend either way.
+
+3. **Be enjoyable to read and share.**
+   A document that is a chore to read does not get read, and one no one is proud to share does not spread.
+   We want contributors and readers to share this because it is genuinely useful — a small form of social currency, where passing it along reflects well on the sender.
+   *How we'll know:* people cite or forward it unprompted, and contributors put their names on it willingly.
+
+> **Open question (for contributors):** These goals are the document's alignment charter (fuller version in [issue #50](https://github.com/blockchain-working-group/agendas/issues/50)). Are they the right three? Is anything essential missing — accessibility across reading levels, translation, a machine-readable companion?
 
 ## Why this is a duty matter, not a technology matter
 
@@ -254,7 +277,7 @@ Every categorized exposure has a selected control set across all three families,
 ## Step 3 — Implement: Are the controls actually in place?
 
 *Risk surfaces: Custody, Counterparty, Compliance (as executed).*
-**Who owns this step:** Project Managers / Directors lead delivery; Technicians execute (key ceremonies, node ops, configuration); Specialists confirm each control is deployed as designed.
+**Who owns this step:** Technicians and Specialists do the building and testing (development, key ceremonies, node ops, configuration); Analysts contribute to test and validation; Project Managers / Directors plan, coordinate, and oversee the delivery rather than perform it.
 
 **Why a fiduciary must answer it.**
 Selecting a control and implementing it are different things, and the gap between them is where real losses live.
@@ -423,13 +446,40 @@ Testing is where the adoption outline and the risk lifecycle share a step most c
 
 ## 9. Cost of operations — Total cost of ownership
 
-The number that decides most adoptions and is estimated least well: node infrastructure, key-management and HSM costs, transaction/gas costs where applicable, audit and assessment recurring costs, specialized staffing, and the cost of *exiting* or migrating off the platform.
-A blockchain solution that is cheaper to build and ruinous to operate is a fiduciary trap.
-*Maps to: Authorize (Step 5) — TCO is part of the residual-risk package the accepting official signs.*
+The number that decides most adoptions and is estimated least well — the running cost of the system itself, distinct from its wider economic effects (dimension 10).
+Itemize it: node infrastructure, key-management and HSM costs, transaction/gas costs where applicable, audit and assessment recurring costs, specialized staffing, and the cost of *exiting* or migrating off the platform later.
+This is the budgetable, line-item view — the one that belongs in a spreadsheet and a delivery plan — and it is tightly coupled to the DevOps dimension (7): the way the system is operated *is* most of what it costs to operate.
+A model that prices the new system but treats the current process as free is not neutral; even at this concrete level, the cost of the status quo (reconciliation labor, intermediary fees, error and fraud handling) belongs in the comparison.
+*Maps to: Implement and Monitor (Steps 3, 6) for the operational reality; Authorize (Step 5), where total cost of ownership is part of the residual-risk package the accepting official signs.*
 
-> **Open question (for contributors):** What does a realistic multi-year TCO model look like for a moderate-tier public-sector ledger? A worked model would be high-value.
+> **Open question (for contributors):** What does a realistic multi-year TCO model look like for a moderate-tier public-sector ledger — counting both the new system's cost and the quantified cost of the status quo it replaces?
 
-## 10. Organizational change — Will the institution actually adopt it?
+## 10. Economic considerations — The system beyond the budget line
+
+A different altitude from cost of operations.
+Dimension 9 asks "what will running this cost us?"; this one asks "what does this change about the economic system we operate inside?"
+These considerations are often **not directly actionable** in a single procurement — but awareness of them is decisive, because they are the considerations a line-item budget cannot see, and what a budget cannot see, an organization cannot choose.
+
+The territory includes:
+
+- **Accounting itself** — what becomes recordable, reconcilable, and auditable when the ledger is shared rather than each party keeping its own books (the reconciliation cost that vanishes is an economic effect, not a line item).
+- **Cost of reconciliation across organizations** — the inter-agency and inter-jurisdictional labor that shared state can collapse, which no single agency's budget captures because no single agency pays all of it.
+- **Economic development** — the second-order effects of interoperable public infrastructure: lower friction for the entities the agency serves, new services that become feasible, markets that a shared rail can support.
+- **Macro-scale interoperability** — where the value is systemic rather than local. Grants use cases (a grant that carries its own conditions, reporting, and traceability across every downstream recipient) and colored-coin / asset-tagging use cases (value that stays attributable and constrained as it moves) are examples where the payoff appears at the level of the *whole flow*, not the single node that adopts.
+
+Why this matters even when it is not directly actionable: an organization reasoning only from its own budget line is optimizing within a boundary that the economics do not respect.
+The activation cost of adoption is paid locally; much of the benefit accrues systemically — to the flow, the counterparties, the citizens downstream.
+A **local optimum** looks efficient precisely because the organization already paid to reach it and now counts only marginal cost.
+A **non-local optimum** — a materially better position on total cost *and* capability — is reachable only by paying a high activation cost to leave the local one, and it is often invisible until someone names the systemic economics that a budget line omits.
+This guide's job here is awareness: to make the systemic picture legible, so an agency can at least *see* the optimum it is not currently reaching, and weigh the activation cost against a benefit that its own budget line was never going to show it.
+
+*Maps to: Prepare and Categorize (Steps 0–1) — the economic case shapes purpose and risk tolerance before controls are ever selected; it is context for the decision, not a control in it.*
+
+> **Open questions (for contributors):**
+> - How should a public entity legitimately account for systemic value — economic development, reconciliation savings borne across agencies, interoperability benefits — given budgeting and appropriations rules that favor near-term, itemizable costs? This is the hardest and most valuable open question in this section.
+> - Which macro-scale use cases (grants, colored coins / asset tagging, others) best illustrate value that appears at the level of the flow rather than the adopting node? Worked examples would anchor this dimension.
+
+## 11. Organizational change — Will the institution actually adopt it?
 
 The dimension that sinks technically sound projects: workflow redesign, role and skill changes, training, stakeholder buy-in across agencies, and the political economy of moving authority into a shared ledger.
 Blockchain's core proposition — reducing reliance on a single trusted intermediary — is an organizational change before it is a technical one, and it threatens whoever *was* that intermediary.
@@ -496,4 +546,6 @@ A one-page crosswalk: each of the seven RMF steps, its SP 800-37 purpose, the fi
 
 ## Appendix E: Sources and further reading
 
-Standing references (NIST SP 800-37 Rev. 2, regulator portals, standards bodies, NCSL trackers) rather than news items.
+Standing references (NIST SP 800-37 Rev. 2,[^sp800-37] regulator portals, standards bodies, NCSL trackers) rather than news items.
+
+[^sp800-37]: NIST Special Publication 800-37 Revision 2, *Risk Management Framework for Information Systems and Organizations: A System Life Cycle Approach for Security and Privacy.* <https://csrc.nist.gov/pubs/sp/800/37/r2/final>
