@@ -20,7 +20,8 @@ Video call link: https://meet.google.com/iyg-zqve-wne
 
 * 10:00am to 10:05am - Welcome
 * 10:05am to 10:10am - Community updates
-* 10:10am to 10:45am - Discussion
+* 10:10am to 10:20am - NIST CAISI
+* 10:20am to 10:45am - Surfacing blockchain risks & objections
 
 ---
 
