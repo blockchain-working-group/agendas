@@ -14,7 +14,7 @@ Here's an optional, [short form](https://docs.google.com/forms/d/e/1FAIpQLSd-Q2D
 
 ## Upcoming Agendas
 
-### Friday 09/04/2026 · 10:00 – 10:45am EST
+### Friday 09/11/2026 · 10:00 – 10:45am EST
 
 Video call link: https://meet.google.com/iyg-zqve-wne
 
