@@ -191,6 +191,18 @@
     "section": "Federal Blockchain Reports",
     "items": [
       {
+        "title": "OMB — 2025 Federal Agency AI Use Case Inventory",
+        "meta": "GitHub · Office of Management and Budget · 2026",
+        "summary": "The 2025 consolidation of AI use case inventories across U.S. federal agencies, published as open CSV/XLSX data with a data dictionary, validation reports, and reporting instructions. 3,611 individually reported use cases across 36 fields, plus a separate consolidated COTS inventory. A working model for publishing an interagency inventory in the open.",
+        "url": "https://github.com/ombegov/2025-Federal-Agency-AI-Use-Case-Inventory"
+      },
+      {
+        "title": "OMB — 2024 Federal AI Use Case Inventory",
+        "meta": "GitHub · Office of Management and Budget · 2025",
+        "summary": "The 2024 consolidation of agency AI use case inventories, with the 2023 raw inventory included for comparison. 2,133 use cases across 62 fields and a YAML data dictionary. Comparing 2024 to 2025 shows both the growth in reported use cases and a substantial simplification of the reporting schema.",
+        "url": "https://github.com/ombegov/2024-Federal-AI-Use-Case-Inventory"
+      },
+      {
         "title": "DHS S&T — Blockchain Portfolio (SVIP)",
         "meta": "DHS Science & Technology",
         "summary": "Overview of DHS Silicon Valley Innovation Program's blockchain investments, including supply chain traceability, verifiable credentials, and interoperability testing.",
