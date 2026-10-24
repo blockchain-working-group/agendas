@@ -170,6 +170,18 @@
         "url": "https://gbaglobal.org/wp-content/uploads/2024/04/BMM-Gaming-Supplement-v1.4.pdf"
       },
       {
+        "title": "BSSC — Key Management Standard, v1",
+        "meta": "Blockchain Security Standards Council · 2025",
+        "summary": "Requirements for blockchain operators to protect private keys and key material according to industry best practices, guarding the network and themselves against malicious attacks or errors. Cited in NIST's 2026 blockchain and DLT workshop read-ahead.",
+        "url": "https://specs.blockchainssc.org/kms/"
+      },
+      {
+        "title": "BSSC — Token Integration Standard, v1",
+        "meta": "Blockchain Security Standards Council · 2025",
+        "summary": "Security requirements to help identify and avoid tokens with unacceptable integration risks. Cited in NIST's 2026 blockchain and DLT workshop read-ahead.",
+        "url": "https://specs.blockchainssc.org/tis/"
+      },
+      {
         "title": "W3C — Decentralized Identifiers (DIDs) Core Spec",
         "meta": "W3C · did-core",
         "url": "https://www.w3.org/TR/did-core/"
@@ -201,6 +213,12 @@
         "meta": "GitHub · Office of Management and Budget · 2025",
         "summary": "The 2024 consolidation of agency AI use case inventories, with the 2023 raw inventory included for comparison. 2,133 use cases across 62 fields and a YAML data dictionary. Comparing 2024 to 2025 shows both the growth in reported use cases and a substantial simplification of the reporting schema.",
         "url": "https://github.com/ombegov/2024-Federal-AI-Use-Case-Inventory"
+      },
+      {
+        "title": "NIST — Read-Ahead for the Workshop on Blockchain and DLT",
+        "meta": "PDF · NIST NCCoE · April 7, 2026",
+        "summary": "Pre-reading for NIST's April 16, 2026 public workshop on technical architectures, interoperability, risk management, and security in real-world blockchain and DLT deployments. Its reference list (p. 18) collects the relevant standards, including W3C, FIDO, OpenID, the GBA Blockchain Maturity Model, and the BSSC security standards.",
+        "url": "https://www.nccoe.nist.gov/sites/default/files/2026-04/Read-Ahead_NIST%20Workshop%20on%20Blockchain%20and%20DLT_16%20Apr%202026.pdf#page=18"
       },
       {
         "title": "DHS S&T — Blockchain Portfolio (SVIP)",
@@ -267,6 +285,41 @@
         "title": "OMB M-21-31 — Improving the Federal Government's Cybersecurity Incident Capabilities",
         "meta": "White House / OMB · August 2021",
         "url": "https://www.whitehouse.gov/wp-content/uploads/2021/08"
+      }
+    ]
+  },
+  {
+    "section": "Working in the Open",
+    "items": [
+      {
+        "title": "GSA — Open Source Code",
+        "meta": "Tech at GSA · Archived 2024",
+        "summary": "GSA's guide to open-sourcing government code: policy, licensing, and how the agency publishes and reuses source code in the open.",
+        "url": "https://web.archive.org/web/20240516062610/https://tech.gsa.gov/guides/opensource/"
+      },
+      {
+        "title": "Ben Balter — The Revolution Will Be Forked",
+        "meta": "ben.balter.com · Archived 2024",
+        "summary": "How open collaboration is helping to reimagine the way government works, from a former GitHub government evangelist.",
+        "url": "https://web.archive.org/web/20241220200622/https://ben.balter.com/open-sourcing-government/"
+      },
+      {
+        "title": "Department of Commerce — Source Code Policy",
+        "meta": "U.S. Department of Commerce",
+        "summary": "Commerce's policy for making custom-developed federal source code available for reuse across the department, to other federal agencies, and to the public.",
+        "url": "https://www.commerce.gov/about/policies/source-code"
+      },
+      {
+        "title": "DoD CIO — Open Source Software FAQ",
+        "meta": "Department of Defense CIO",
+        "summary": "Answers to common questions about using, releasing, and contributing to open source software within the Department of Defense.",
+        "url": "https://dodcio.defense.gov/Open-Source-Software-FAQ/"
+      },
+      {
+        "title": "GitHub — Hello World",
+        "meta": "GitHub Docs",
+        "summary": "A short, no-code tutorial covering repositories, branches, edits, and pull requests. A good first step for working-group members new to GitHub.",
+        "url": "https://docs.github.com/en/get-started/start-your-journey/hello-world"
       }
     ]
   },
