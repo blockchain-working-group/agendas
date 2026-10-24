@@ -1,0 +1,181 @@
+[
+  {
+    "section": "Core Concepts",
+    "terms": [
+      {
+        "term": "Blockchain",
+        "definition": "An append-only data structure in which records (\"blocks\") are cryptographically chained together. Once written, data is extremely difficult to alter, providing a tamper-evident audit trail.",
+        "gov": "Immutability can conflict with data-correction mandates (e.g., Privacy Act amendments). Agencies should evaluate whether corrective mechanisms exist in a given implementation."
+      },
+      {
+        "term": "Distributed Ledger Technology (DLT)",
+        "definition": "A broader category of databases replicated across multiple nodes without a single administrator. Blockchains are one type of DLT, but not all DLTs use blocks or chains."
+      },
+      {
+        "term": "Node",
+        "definition": "A computer that maintains a copy of the ledger and participates in validating transactions. More nodes generally means greater resilience and decentralization."
+      },
+      {
+        "term": "Consensus Mechanism",
+        "definition": "The protocol by which nodes agree on the current state of the ledger. Common mechanisms include Proof of Work, Proof of Stake, and Byzantine Fault Tolerance variants.",
+        "gov": "Energy-intensive mechanisms (e.g., Proof of Work) may conflict with federal sustainability goals. Agencies often favor lower-energy alternatives."
+      },
+      {
+        "term": "Smart Contract",
+        "definition": "Self-executing code stored on a blockchain that runs automatically when predefined conditions are met. Despite the name, smart contracts are neither \"smart\" nor legal contracts—they are deterministic programs.",
+        "gov": "Federal acquisition rules (FAR/DFARS) still govern procurement even when a smart contract automates payment logic. Legal review is essential."
+      },
+      {
+        "term": "Hash",
+        "definition": "A fixed-length digital fingerprint produced by a cryptographic function. Any change to the input—even a single character—produces a completely different hash, making tampering detectable."
+      },
+      {
+        "term": "Immutability",
+        "definition": "The property often claimed for blockchain records once they are committed. In practice, public chains are better described as tamper-evident and tamper-resistant: recent blocks can be reorganized, and sufficiently powerful collusion or governance action can alter history."
+      }
+    ]
+  },
+  {
+    "section": "Network Types",
+    "terms": [
+      {
+        "term": "Public (Permissionless) Network",
+        "definition": "A blockchain anyone can join, read, and write to without approval (e.g., Bitcoin, Ethereum). Offers maximum transparency but limited control over participants.",
+        "gov": "Public networks raise questions about data sovereignty, FISMA compliance, audit finality, and the ability to meet FedRAMP requirements for infrastructure the agency does not operate."
+      },
+      {
+        "term": "Private (Permissioned) Network",
+        "definition": "A blockchain where participation is restricted to approved entities. An operating authority controls who can join, read, or validate transactions (e.g., Hyperledger Fabric).",
+        "gov": "More compatible with existing compliance frameworks (FedRAMP, FISMA) because the operating environment can be controlled and audited."
+      },
+      {
+        "term": "Consortium Network",
+        "definition": "A permissioned network governed by a group of organizations rather than a single entity. Common in cross-agency or public-private partnerships where shared governance is needed."
+      }
+    ]
+  },
+  {
+    "section": "Identity & Credentials",
+    "terms": [
+      {
+        "term": "Decentralized Identifier (DID)",
+        "definition": "A globally unique identifier that the subject (person, organization, or device) creates and controls, independent of any central registry. Defined by W3C standards."
+      },
+      {
+        "term": "Verifiable Credential (VC)",
+        "definition": "A tamper-evident digital credential (e.g., license, clearance, certification) that can be cryptographically verified without contacting the issuer in real time.",
+        "gov": "VCs are being explored for cross-border identity, workforce credentialing, and benefit delivery where real-time issuer availability cannot be guaranteed."
+      },
+      {
+        "term": "Self-Sovereign Identity (SSI)",
+        "definition": "A model where individuals hold and control their own identity data rather than relying on a central authority. DIDs and VCs are the technical building blocks of SSI."
+      },
+      {
+        "term": "Zero-Knowledge Proof (ZKP)",
+        "definition": "A cryptographic method that lets one party prove a statement is true (e.g., \"I am over 21\") without revealing the underlying data (e.g., date of birth).",
+        "gov": "ZKPs support privacy-preserving compliance checks—verifying eligibility without collecting or storing sensitive PII."
+      }
+    ]
+  },
+  {
+    "section": "Tokens & Digital Assets",
+    "terms": [
+      {
+        "term": "Token",
+        "definition": "A digital unit recorded on a blockchain that can represent value, access rights, or ownership. Tokens are either fungible (interchangeable, like currency) or non-fungible (unique, like a deed)."
+      },
+      {
+        "term": "Non-Fungible Token (NFT)",
+        "definition": "A token that represents a unique asset or record. Beyond art and collectibles, NFTs can represent government-issued documents, permits, or serialized equipment records."
+      },
+      {
+        "term": "Stablecoin",
+        "definition": "A cryptocurrency designed to maintain a stable value, usually pegged to a fiat currency like the U.S. dollar. Used to reduce volatility in blockchain-based payment flows."
+      },
+      {
+        "term": "Central Bank Digital Currency (CBDC)",
+        "definition": "A digital form of a country's sovereign currency issued and backed by its central bank. Unlike cryptocurrencies, CBDCs carry the full faith and credit of the issuing government."
+      },
+      {
+        "term": "Tokenization",
+        "definition": "The process of representing a real-world asset (property, bond, permit) as a digital token on a blockchain, enabling programmable transfer and fractional ownership."
+      }
+    ]
+  },
+  {
+    "section": "Security & Compliance",
+    "terms": [
+      {
+        "term": "Public Key / Private Key",
+        "definition": "A cryptographic key pair used to sign and verify transactions. The private key must remain secret; the public key can be shared freely. Losing a private key means losing access to associated assets.",
+        "gov": "Key management must align with NIST SP 800-57 guidelines. Hardware security modules (HSMs) are typically required for production deployments."
+      },
+      {
+        "term": "Wallet",
+        "definition": "Software or hardware that stores private keys and lets users sign transactions. Wallets do not store tokens themselves—tokens remain on the blockchain."
+      },
+      {
+        "term": "51% Attack",
+        "definition": "A scenario where a single entity controls more than half of a network's validating power, enabling it to manipulate transaction history. More relevant to smaller public networks than large or permissioned ones."
+      },
+      {
+        "term": "NIST SP 800-53",
+        "definition": "The catalog of security and privacy controls for federal information systems. Blockchain deployments must map to applicable 800-53 controls just like any other system.",
+        "gov": "Blockchain can support evidence for AU controls such as event logging, audit record protection, non-repudiation, and retention. It does not by itself satisfy those controls: agencies still need defined event types, protected off-chain logs, identity and key binding, retention policy, review workflows, and privacy safeguards."
+      },
+      {
+        "term": "Event Log Anchoring",
+        "definition": "A pattern where an agency keeps detailed logs in an authorized off-chain log store and periodically publishes a cryptographic hash or Merkle root to a blockchain for later verification.",
+        "gov": "Anchoring can strengthen tamper-evidence for AU-9 and non-repudiation evidence for AU-10, but raw security logs and PII should generally stay off public chains."
+      },
+      {
+        "term": "FedRAMP / FISMA",
+        "definition": "Federal frameworks for authorizing and monitoring the security of information systems. Any blockchain service handling federal data must meet applicable FedRAMP or FISMA requirements."
+      },
+      {
+        "term": "Authority to Operate (ATO)",
+        "definition": "A formal authorization from an agency official that a system meets security requirements and can process federal data. Blockchain deployments require an ATO like any other federal system."
+      }
+    ]
+  },
+  {
+    "section": "Interoperability & Standards",
+    "terms": [
+      {
+        "term": "Interoperability",
+        "definition": "The ability of different blockchain networks or systems to exchange and use data across boundaries. Critical for cross-agency and cross-border scenarios."
+      },
+      {
+        "term": "Oracle",
+        "definition": "A service that feeds external, real-world data (e.g., weather, market prices, identity checks) into a smart contract. Oracles are a trust boundary—the blockchain is only as reliable as its data sources."
+      },
+      {
+        "term": "On-Chain vs. Off-Chain",
+        "definition": "On-chain data is stored directly on the blockchain; off-chain data is stored externally with only a hash or reference on-chain. Large or sensitive datasets are typically kept off-chain.",
+        "gov": "Storing PII on-chain is generally inadvisable due to immutability and FOIA/Privacy Act implications. Hash-on-chain, data-off-chain is a common federal pattern."
+      },
+      {
+        "term": "API / Gateway",
+        "definition": "An interface that lets traditional applications interact with a blockchain without directly managing keys or consensus. Gateways simplify integration with existing agency systems."
+      }
+    ]
+  },
+  {
+    "section": "Governance",
+    "terms": [
+      {
+        "term": "Governance Framework",
+        "definition": "The rules, roles, and decision-making processes that control how a blockchain network operates, upgrades, and resolves disputes. Technology alone does not replace the need for governance."
+      },
+      {
+        "term": "Decentralized Autonomous Organization (DAO)",
+        "definition": "An organization whose rules and treasury are managed through smart contracts, with decisions made by token-holder votes rather than traditional management structures.",
+        "gov": "DAOs raise open questions about legal standing, accountability, and compliance with the Federal Advisory Committee Act (FACA) when advising agencies."
+      },
+      {
+        "term": "Fork",
+        "definition": "A divergence in a blockchain's protocol or transaction history. A \"hard fork\" creates two incompatible chains; a \"soft fork\" is backward-compatible. Forks can result from governance disagreements or planned upgrades."
+      }
+    ]
+  }
+]

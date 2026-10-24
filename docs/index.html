@@ -55,42 +55,100 @@ main_class: space-y-14
 
 <section>
   <h2 class="text-xl font-semibold mb-4">Working Group Products</h2>
-  <div class="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
-    <a
-      href="https://github.com/blockchain-working-group/blockchain-playbook"
-      target="_blank"
-      rel="noopener"
-      class="group rounded-xl border border-slate-200 bg-white p-4 hover:border-indigo-400"
-    >
-      <div class="text-sm text-indigo-600">Playbook</div>
-      <div class="text-lg font-semibold">Blockchain Playbook</div>
-      <p class="mt-2 text-sm text-slate-600">Step-by-step guidance for evaluating, piloting, and scaling blockchain in government — published by the working group.</p>
-    </a>
-    <a
-      href="{{ '/use-cases/' | relative_url }}"
-      class="group rounded-xl border border-slate-200 bg-white p-4 hover:border-indigo-400"
-    >
-      <div class="text-sm text-indigo-600">Use Cases</div>
-      <div class="text-lg font-semibold">Blockchain pilots and proposals</div>
-      <p class="mt-2 text-sm text-slate-600">Real-world case studies, success criteria, and lessons learned from public-sector blockchain projects.</p>
-    </a>
-    <a
-      href="{{ '/legislation/' | relative_url }}"
-      class="group rounded-xl border border-slate-200 bg-white p-4 hover:border-indigo-400"
-    >
-      <div class="text-sm text-indigo-600">Legislation</div>
-      <div class="text-lg font-semibold">Legislation watchlist</div>
-      <p class="mt-2 text-sm text-slate-600">Track bills and regulatory actions affecting blockchain adoption in government.</p>
-    </a>
-    <a
-      href="{{ '/sandbox/' | relative_url }}"
-      class="group rounded-xl border border-slate-200 bg-white p-4 hover:border-indigo-400"
-    >
-      <div class="text-sm text-indigo-600">Sandbox</div>
-      <div class="text-lg font-semibold">Technologies and demo projects</div>
-      <p class="mt-2 text-sm text-slate-600">Hands-on demos, proof-of-concept tools, and technology explorations from the working group.</p>
-    </a>
-  </div>
+  <ul class="divide-y divide-slate-200 overflow-hidden rounded-xl border border-slate-200 bg-white">
+    <li>
+      <a
+        href="{{ '/resources/' | relative_url }}"
+        class="group flex flex-col gap-1 p-4 hover:bg-slate-50 sm:flex-row sm:items-baseline sm:gap-6"
+      >
+        <span class="text-sm text-indigo-600 sm:w-28 sm:shrink-0">Resources</span>
+        <span class="flex-1">
+          <span class="block font-semibold group-hover:text-indigo-700">Publications and standards</span>
+          <span class="mt-1 block text-sm text-slate-600">
+            Government publications, standards, and reference materials for blockchain and digital identity in the public sector.
+          </span>
+        </span>
+        <span
+          aria-hidden="true"
+          class="hidden text-slate-400 group-hover:text-indigo-600 sm:block"
+        >→</span>
+      </a>
+    </li>
+    <li>
+      <a
+        href="{{ '/use-cases/' | relative_url }}"
+        class="group flex flex-col gap-1 p-4 hover:bg-slate-50 sm:flex-row sm:items-baseline sm:gap-6"
+      >
+        <span class="text-sm text-indigo-600 sm:w-28 sm:shrink-0">Use Cases</span>
+        <span class="flex-1">
+          <span class="block font-semibold group-hover:text-indigo-700">Blockchain pilots and proposals</span>
+          <span class="mt-1 block text-sm text-slate-600">
+            Real-world case studies, success criteria, and lessons learned from public-sector blockchain projects.
+          </span>
+        </span>
+        <span
+          aria-hidden="true"
+          class="hidden text-slate-400 group-hover:text-indigo-600 sm:block"
+        >→</span>
+      </a>
+    </li>
+    <li>
+      <a
+        href="{{ '/sandbox/' | relative_url }}"
+        class="group flex flex-col gap-1 p-4 hover:bg-slate-50 sm:flex-row sm:items-baseline sm:gap-6"
+      >
+        <span class="text-sm text-indigo-600 sm:w-28 sm:shrink-0">Sandbox</span>
+        <span class="flex-1">
+          <span class="block font-semibold group-hover:text-indigo-700">Technologies and demo projects</span>
+          <span class="mt-1 block text-sm text-slate-600">
+            Hands-on demos, proof-of-concept tools, and technology explorations from the working group.
+          </span>
+        </span>
+        <span
+          aria-hidden="true"
+          class="hidden text-slate-400 group-hover:text-indigo-600 sm:block"
+        >→</span>
+      </a>
+    </li>
+    <li>
+      <a
+        href="{{ '/legislation/' | relative_url }}"
+        class="group flex flex-col gap-1 p-4 hover:bg-slate-50 sm:flex-row sm:items-baseline sm:gap-6"
+      >
+        <span class="text-sm text-indigo-600 sm:w-28 sm:shrink-0">Legislation</span>
+        <span class="flex-1">
+          <span class="block font-semibold group-hover:text-indigo-700">Legislation watchlist</span>
+          <span class="mt-1 block text-sm text-slate-600">
+            Track bills and regulatory actions affecting blockchain adoption in government.
+          </span>
+        </span>
+        <span
+          aria-hidden="true"
+          class="hidden text-slate-400 group-hover:text-indigo-600 sm:block"
+        >→</span>
+      </a>
+    </li>
+    <li>
+      <a
+        href="https://github.com/blockchain-working-group/blockchain-playbook"
+        target="_blank"
+        rel="noopener"
+        class="group flex flex-col gap-1 p-4 hover:bg-slate-50 sm:flex-row sm:items-baseline sm:gap-6"
+      >
+        <span class="text-sm text-indigo-600 sm:w-28 sm:shrink-0">Playbook</span>
+        <span class="flex-1">
+          <span class="block font-semibold group-hover:text-indigo-700">Blockchain Playbook</span>
+          <span class="mt-1 block text-sm text-slate-600">
+            Step-by-step guidance for evaluating, piloting, and scaling blockchain in government — published by the working group.
+          </span>
+        </span>
+        <span
+          aria-hidden="true"
+          class="hidden text-slate-400 group-hover:text-indigo-600 sm:block"
+        >↗</span>
+      </a>
+    </li>
+  </ul>
 </section>
 
 <section class="grid gap-8 lg:grid-cols-2">
