@@ -10,3 +10,8 @@ Keeping a single source of truth avoids two lists drifting apart.
 - Open a [New Issue](https://github.com/blockchain-working-group/agendas/issues/new) or submit a Pull Request, and a group member can add it.
 
 Each entry supports a `title`, an optional `meta` (source and date), an optional `summary`, and a `url`.
+
+## Links from closed issues
+
+Links shared in GitHub issues, organized by issue, are archived in [ISSUE_REFERENCES.md](ISSUE_REFERENCES.md).
+Promote any that belong on the Resources page into `resources.json`.

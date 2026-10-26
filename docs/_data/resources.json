@@ -146,6 +146,12 @@
         "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"
       },
       {
+        "title": "NIST — Open Security Controls Assessment Language (OSCAL)",
+        "meta": "NIST",
+        "summary": "Machine-readable formats (JSON, XML, YAML) for control catalogs, baselines, component definitions, and system security plans. NIST publishes SP 800-53 itself in OSCAL, so a reusable blockchain control mapping or overlay can be shared as data instead of prose.",
+        "url": "https://pages.nist.gov/OSCAL/"
+      },
+      {
         "title": "NIST SP 800-92 — Guide to Computer Security Log Management",
         "meta": "NIST · 2006",
         "summary": "Practical guidance for enterprise log management, including log generation, transmission, storage, analysis, retention, and protection.",
