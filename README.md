@@ -12,7 +12,9 @@ Here's an optional, [short form](https://docs.google.com/forms/d/e/1FAIpQLSd-Q2D
 
 ## Upcoming Agendas
 
-### Friday 11/13/2026 · 10:00 – 10:55am EST
+No meeting on Friday, November 27, for the Thanksgiving break. Meetings resume December 4.
+
+### Friday 12/04/2026 · 10:00 – 10:55am EST
 
 Video call link: https://meet.google.com/iyg-zqve-wne
 
@@ -20,7 +22,7 @@ Video call link: https://meet.google.com/iyg-zqve-wne
 * 10:05am to 10:10am - Community updates
 * 10:10am to 10:55am - Discussion
 
-Read the [November 13 weekly update](write-ups/2026-11-13-weekly-update.md) for community news and source links.
+Latest available community news: [November 13 weekly update](write-ups/2026-11-13-weekly-update.md).
 
 ### New to GitHub?
 
